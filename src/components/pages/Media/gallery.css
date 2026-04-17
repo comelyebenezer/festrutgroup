@@ -1,0 +1,82 @@
+.gallery-section {
+    padding: 60px 0;
+}
+
+.gallery-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.filter-btn {
+    padding: 10px 22px;
+    border: 1px solid #eee;
+    background: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background: #0056b3;
+    color: #fff;
+    border-color: #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 86, 179, 0.2);
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 0 15px;
+}
+
+.gallery-item {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+    background: #fff;
+    transition: all 0.4s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.gallery-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+}
+
+.media-wrapper {
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+    background: #f9f9f9;
+}
+
+.media-wrapper img, .media-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-info {
+    padding: 18px;
+}
+
+.gallery-info h4 {
+    margin: 5px 0 0;
+    font-size: 1rem;
+    color: #222;
+}
+
+.gallery-info span {
+    font-size: 0.75rem;
+    color: #0056b3;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+}

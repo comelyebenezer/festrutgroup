@@ -27,13 +27,19 @@ const OurTeam = () => {
       title: 'President/Group CEO',
       description: (() => {
         const fullDescription =
-          `I am Paul Smith, a highly accomplished visionary leader, an empathetic entrepreneur, and a technological innovator. With a robust academic foundation that includes a B.Sc. in Business Administration, a B.Sc. in Accounting, and an M.Sc. in both Business Administration and Banking & Financial Support Services, I have built a career over the past two decades that blends strategic insight, empathy, and discipline to drive success across multiple industries.
+          `Festus Uwakhemen Asikhia is the visionary Founder and Chief Executive Officer of Festrut Group, a diversified conglomerate with interests spanning real estate, construction, oil and gas, healthcare, logistics, transport, security, education, consulting, and humanitarian development.
 
-          My entrepreneurial journey began in 2007, when I took on the role of Managing Director at a Microfinance institution because of my problem-solving and result-driven persona. It was there that I honed my leadership skills, learned the intricacies of business management, and laid the groundwork for my future ventures. By 2012, I had a vision to create something transformative – Smash Group. However, recognizing the importance of continuous growth, I made the strategic decision to refine my abilities further, which led me to become the Management Executive at Business Network Worldwide in 2020. Over the next five years, I gained invaluable expertise in leadership, technology, and entrepreneurship, enriching my experience and expanding my vision.
+He hails from Uzebba in Owan West Local Government Area of Edo State, Nigeria, and has built a strong academic and professional foundation across sociology, social work, human resource management, governance, and leadership. His academic journey includes a Bachelor of Science in Sociology, a Master’s in Social Work (Health Care specialization), a Master’s in Business Administration (Human Resource Management), and advanced doctoral studies in management and psychology across institutions in Nigeria, the United Kingdom, the United States, and Central America.
 
-          Armed with a wealth of knowledge and practical insight, I returned to my initial vision with renewed vigor, relaunching Smash Group as Smash Technology. My focus on integrating cutting-edge technology into daily operations has allowed us to solve real-world problems on both a local and global scale. Today, Smash Technology is a pioneering force, with 13 subsidiaries across industries such as e-hailing, e-commerce, travel, real estate, transportation, and entrepreneur empowerment. Our flagship brands such as RideSmash, SmashWise, SmashTravels, SmashApartments, SmashHire, Qiimeet, SmashBuy, SmashFood247, SmashOffice are driving impactful change across their respective markets.
+Dr. Asikhia began his professional career in education and public service, where he developed a deep commitment to knowledge transfer, governance, and institutional development. His career progressed into academia, consultancy, and leadership roles across multiple sectors, strengthening his expertise in organizational management and strategic development.
 
-          As a compassionate leader, I believe in leading with heart and by example. My commitment to integrity, consistency, hard work and empowering my team defines my approach. I strive to create a culture of innovation, collaboration, and growth. With an unwavering dedication to transforming industries and improving lives, I continue to drive Smash Technology toward new heights by delivering excellent and valuable solutions to our esteemed clients locally and globally.`;
+In 2010, he founded Festrut Group, with a vision to build a globally recognized conglomerate delivering sustainable solutions and high-impact developments. Under his leadership, the Group has expanded into multiple subsidiaries, including real estate development, construction services, transport solutions, healthcare services, logistics, security, and social impact initiatives.
+
+He is also actively involved in academic leadership and institutional development, contributing to research, entrepreneurship education, and leadership training across various platforms. His work reflects a strong commitment to innovation, capacity building, and sustainable development across Africa and beyond.
+
+Dr. Asikhia is a recipient of multiple national and international recognitions for leadership, peacebuilding, humanitarian service, entrepreneurship, and community development. These honors reflect his contributions across governance, education, business development, and social impact initiatives.
+
+As a transformational leader, he is driven by integrity, excellence, and service. His vision for Festrut Group is to build a legacy of trust, innovation, and sustainable development that impacts lives globally.`;
 
         return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
       })(),
@@ -161,131 +167,7 @@ const OurTeam = () => {
     //   image: hr,
     //   slug: 'grp_hrm',
     // },
-    {
-      title: 'Head of Finance',
-      description: (() => {
-        const fullDescription =
-          `Aribamikan Akinlolu's career journey. 
-
-          I have worked with several organizations as a professional accountant for so many years which I have gained a lot of experience on Financial Management, Resources Management and Auditing. In my Career so far, I have worked in an enabling and challenging environment where the best of in me utilized optimally for the advancement of the Organization and my fulfilment.
-
-          A brief of how I joined Smash Technology Limited.
-          On one faithful day I saw the advert online for the position of an Accountant and after reading the job descriptions instantaneously I became scheming and more interested to visited the company sites and Instagram for more information after reading the company profile, value and brands, then I industrialized more interest and eager to work and contributed to the continued success in Smash Technology Limited. 
-
-          Contributions to Smash Technology Limited
-          Since joining, I have helped streamline financial management processes, improve budgeting and cost control, enhance internal auditing practices, and optimize resource allocation. Additionally, I have fostered collaboration across departments to ensure financial policies align with organizational goals, contributing to the company's financial stability and growth.e`;
-
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: finance,
-      slug: 'head_of_finance',
-    },
-    {
-      title: 'Group Head, Media & I.T. Communications',
-      description: (() => {
-        const fullDescription =
-          `I am Gracious Onyeahialam and I'm passionate about Cybersecurity. I started my career in 2018 after acquiring a B.Sc in Biotechnology, as a Confidential Secretary to the Director of Health in the Federal Ministry of Science, Technology and Innovation, Abuja overseeing a range of parastatals. During this time, I developed strong analytical, communication, and organizational skills that set the foundation for my future endeavors.
-
-          Thereafter, I took on the role of Operations Manager in a computing firm, where my attention to the sensitivity of customer and employee data led me to explore the world of cybersecurity. My transition into the tech landscape opened my eyes to crucial areas such as network security, risk management, ethical hacking, data protection, security compliance, cryptography, cloud security.
-
-          When I joined Smash Technology as a Cybersecurity Analyst, I gained hands-on experience by working on real-time projects and collaborating closely with development teams for web and mobile applications security. I have now been promoted to Head of Media and I.T Communications, where I now lead an 8-man team of talented IT professionals who are very diligent in their roles and always seeking to learn and grow in this ever-evolving tech field.
-
-          I believe in the power of relationships, zero-trust model and kindness, with an understanding that they are key to creating a safer, secured, and more connected digital world.`;
-
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: gracious,
-      slug: 'grp_head_media_it_communications',
-    },
-    {
-      title: 'Head, Admin Operations',
-      description: (() => {
-        const fullDescription =
-          `My name is Paul Alex Abiche a dedicated and highly motivated administrative professional currently serving as the Admin Manager at Smash Technology. With a proven track record of excellence in administrative management, I plays a pivotal role in ensuring the smooth and efficient operation of the organization.
-
-          Driven by a deep passion for administration, I excels at streamlining processes, enhancing organizational efficiency, and fostering collaboration among teams. My proactive approach to problem-solving and attention to detail have made me a cornerstone in maintaining the operational integrity of Smash Technology.
-
-          Beyond my administrative expertise, I am fueled by a profound interest in technology and innovation. I envisions a future where technology serves as a catalyst for growth, transforming businesses and society. This vision inspires me to stay ahead of industry trends and leverage cutting-edge tools to drive impactful change within the organization.
-
-          My quest for innovation is evident in my commitment to integrating modern solutions into administrative practices. I believes that technology and creativity go hand in hand in shaping a sustainable and progressive workplace culture.
-
-          With a focus on continuous learning and improvement, I remains an advocate for adopting forward-thinking strategies that align with the ever-evolving tech landscape. My passion for administration and innovation makes me a valuable leader in Smash Technology's mission to push the boundaries of what’s possible.`;
-
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: admin,
-      slug: 'head_admin_operations',
-    },
-    {
-      title: 'Team Lead, Ridesmash',
-      description: (() => {
-        const fullDescription =
-          `My Name is Favour Jipson.
-
-          My Journey with Smash Technology
-          A graduate of Business Education from Alvan Ikoku Federal University Owerri.
-          Am Married.
-
-          My journey with Smash Technology began on June 6th, 2024, when I join the company as a customer support executive for Ridesmash. At a time, I was still a timid person, and lacking confidence to truly step into a leadership role although still  believing In my self, however, joining Smash Technology quickly changed all of that.
-
-          From day one, I was trained to handle customer inquiries with professionalism and poise, handle pressure and stay connected in difficult situation.Although my major work then was to Onboard drivers into our platform. In a short time, I was honored to be promoted to Team Lead for Ridesmash, a role that allowed me to further smothen my leadership skills. The experience of leading a team and over seeing customer operations helped me build my confidence and leadership stature. I went from being someone who doubted myself to becoming a confident and assertive leader, ready to face any challenge that came my way.
-          There were moments of tough scoldings, moments when I felt like I wasn't good enough but those moments helped shape me into the person I am today. Smash Technology never gave up on me, and their feedback pushed me to be better each day.
-
-          Today, I can proudly say that Smash Technology has completely rebranded me. I am no longer the timid person I once was. I am now confident, capable, and assertive. I am grateful for the opportunity to be part of such a remarkable company that has played a huge role in shaping my career and leadership journey.
-
-          In the coming future with Smash, I will make sure that our clients get seamless experience with our hire purchase plan by helping them acquire their dream car.
-          
-          All thanks to Smash Technology for believing in me and helping me reach new heights.
-        `;
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: favour,
-      slug: 'team_lead_ridesmash',
-    },
-    {
-      title: 'Team Lead, Smashwise',
-      description: (() => {
-        const fullDescription =
-          `I joined Smash Technology on 5th June, 2024 as a Customer Support Executive. I still laugh when I think about how I came straight from my previous job, dressed in a suit, for the interview. The CEO, a compassionate man, saw something in me and offered me the position.
-
-          When I resumed duties on June 6th, 2024, I remember staring at my desktop for two whole days, unsure of what to do next. If you know e-commerce, you understand that setting up a successful platform is no easy feat. I quickly realized that this role was more than just answering customer inquiries – it was about proactively reaching out to vendors and driving results.
-
-          The turning point came when the CEO asked for the leads I had generated. That’s when it truly hit me – I needed to focus on vendor acquisition, not just customer support. So, I took it upon myself to learn. I started researching, attending online seminars and absorbing everything I could to improve my skills. With constant encouragement from the CEO, I quickly found my foot.
-
-          From starting as a customer support executive to becoming the team lead of Smashwise, it has been a journey of hard work, dedication, and growth. Setting up an e-commerce platform from scratch is challenging, and there were moments when I felt like giving up. But with God’s guidance, the support of our CEO, and the amazing colleagues I have in Charity John and Favour Jipson – who are truly angels sent from above – I pushed through. May God bless you both abundantly. Amen!
-
-          I’m proud to share that I single-handedly grew our vendor list from 12 to 200 between June and August, before team members were assigned to me.
-
-          Smash Technology has truly transformed me. It has built my confidence, sharpened my intellect and enhanced my leadership skills. I’m still growing, and I’m excited for the future.
-
-          Thank you, Smash Technology. Thank you, CEO – you are a blessing sent to me by God.
-          `;
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: precious,
-      slug: 'team_lead_smashwise',
-    },
-    {
-      title: 'Team Lead, SmashTravels',
-      description: (() => {
-        const fullDescription =
-          `My name is Ajodo Evelyn Edebo, and I am the Team Lead at Smash Travels, a division of Smash Technology. Customer service is more than just a role for me, it’s a passion.
-
-          My love for helping people and solving problems inspired me to pursue this field as a career.
-
-          I joined Smash Technology in August 2024 as a Customer Service and was promoted to Team Lead in January 2025 This role has allowed me to refine my leadership skills, enhance communication, and contribute meaningfully to the company’s growth.
-
-          Since I joined till date, my amazing team and I have achieved significant milestones, including converting leads into paying clients and boosting customer satisfaction by 80%. Through proactive engagement and streamlined processes, we’ve built stronger connections with clients and enhanced their overall experience.
-
-          I’m motivated by a desire to help people overcome challenges and achieve their goals. Every interaction is an opportunity to create value, whether for clients or my team.
-
-          I aim to help Smash Technology double its achievements, grow its client base, and set new benchmarks for customer satisfaction. With focused strategies and teamwork, I believe we can elevate the company to even greater heights.
-          `;
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: evelyn,
-      slug: 'team_lead_smashtravels',
-    },
+   
     {
       title: 'Lead Designer',
       description: (() => {
@@ -309,74 +191,7 @@ const OurTeam = () => {
       image: val,
       slug: 'product_designer',
     },
-    
-    {
-      title: 'Team Lead, Social Media/Content Creation',
-      description: (() => {
-        const fullDescription =
-          `My name is Ezeonwuka Greatness Vivian - Team Lead, Social Media/Content Creation at Smash Technology.
-          I still vividly remember the thrill of receiving my offer letter from Smash Technology. It marked the beginning of an extraordinary chapter in my career as a social media influencer and content creator. From that moment on, I knew I was in for an exciting ride.
-
-          Fast-forward to today, and I can confidently say that my journey at Smash Technology has been nothing short of remarkable. It's been a rollercoaster of challenges, growth, and impact. I've had the privilege of working with an exceptional team, collaborating on innovative projects, and pushing the boundaries of creative storytelling.`;
-
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: vivian,
-      slug: 'social_media',
-    },
-    {
-      title: 'Graphic Designer',
-      description: (() => {
-        const fullDescription =
-          `My name is Christogonus Chiboka. I am a Certified Brand Identity Designer with a strong passion for creativity. My interest in graphic design started when I discovered CorelDRAW. I enjoyed exploring the software and giving myself tasks to create different designs, which sparked my love for design. 
-
-          When I got into school, I started practicing graphic design more seriously. This gave me the chance to improve my skills, especially in brand identity design. I focused on creating unique designs that help brands tell their stories.  
-          After finishing school, I joined Smash Technology in September 2024 as a Graphic Designer. I work on designs for all the company’s sub-brands, including RideSmash, Smash Travels, SmashWise, Smash Apartments, and others. At first, it was challenging to meet the design needs of each brand, but with time and practice, I got better at my work and gained confidence in my skills.  
-
-          Working at Smash Technology has also taught me more than just design. I have learned about marketing, teamwork, and other important skills that have helped me grow as a professional.  
-
-          I am passionate about using my designs to bring ideas to life.`;
-
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: chris,
-      slug: 'graphic_designer',
-    },
-    {
-      title: 'Frontend Developer 1 & IT Support',
-      description: (() => {
-        const fullDescription =
-          `My name is Obike Victor Emeka. Since after my secondary school, my passion for technology and computers only grew stronger. Although I explored other industries, including healthcare, my love for tech remained unwavering. I took a proactive approach to learning, starting with the basics and progressively expanding my skills across various areas, including software and hardware training, coding, computer programming, and graphics design.
-
-          My time in Smash Technology has been a transformative experience, offering invaluable opportunities for growth, learning, and development. Joining as an IT Support Executive, I've had the privilege of collaborating with a talented team of innovative and forward-thinking professionals. This exposure has significantly contributed to my career advancement in tech and has enabled me to enhance my skills and expertise.
-
-          As an IT Support Executive, I encounter a wide range of software and hardware challenges on a daily basis. From familiar issues to novel ones, I leverage my broad IT expertise to provide timely and effective support to my colleagues. I deliver technical assistance, troubleshoot problems, and resolve issues within tight deadlines, all while maintaining workflow efficiency and minimizing downtime.
-          
-          Smash Technology's commitment to excellence and perfection serves as a powerful motivator for me. I strive to embody this organizational mindset by staying up-to-date with the latest trends and advancements in the tech world. I am dedicated to delivering high-quality results, ensuring that all tasks are completed on time and to the highest standards of perfection.
-          
-          My aspiration is to continue growing and learning, and I envision a future where I transition into a full-stack mobile app developer role. I am committed to expanding my skill set and expertise to achieve this goal.`;
-
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: obike,
-      slug: 'it_support',
-    },
-    {
-      title: 'Software Engineer',
-      description: (() => {
-        const fullDescription =
-          `I'm Omogbehinmi Olusegun E. 
-
-          I'm a dedicated software engineer with over 3 years of experience in the tech industry, specializing in developing scalable applications and robust API solutions. My work focuses on building user-centric tools that streamline workflows, boost productivity, and drive innovation.
-
-          With a strong commitment to delivering high-quality, scalable solutions, I’m continuously honing my technical expertise to stay at the forefront of industry advancements. I’m passionate about using technology to create meaningful impact and to solve real-world problems.
-          `;
-
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: segun,
-      slug: 'software_engineer',
-    },
+       
     {
       title: 'Lead Full Stack Engineer',
       description: (() => {

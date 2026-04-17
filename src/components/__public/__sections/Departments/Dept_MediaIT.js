@@ -14,7 +14,7 @@ import { UilArrowRight, UilBookMedical, UilLinkedin } from '@iconscout/react-uni
 
 import { Link } from 'react-router-dom';
 
-const Dept_MediaIT = (props) => {
+const DeptMediaIT = (props) => {
     const [activeTab, setActiveTab] = useState('Gracious');
     
     const tabContent = {
@@ -87,4 +87,4 @@ const Dept_MediaIT = (props) => {
     </>
   )
 }
-export default Dept_MediaIT
+export default DeptMediaIT

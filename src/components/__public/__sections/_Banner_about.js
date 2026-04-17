@@ -1,6 +1,6 @@
 import about_page from '../../../assets/images/_about/about.jpg';
 
-const Banner_about = () => {
+const BannerAbout = () => {
     return (
         <>
         <div className="banner_otherpages" style={{ backgroundImage: `url(${about_page})` }}>
@@ -9,4 +9,4 @@ const Banner_about = () => {
         </>
     )
 }
-export default Banner_about;
+export default BannerAbout;

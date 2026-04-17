@@ -12,7 +12,7 @@ import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
-const Corporate_Docs = (props) => {
+const CorporateDocs = (props) => {
   useEffect(() => {
     document.title = `${props.company} — Corporate Documents`;
   }, []);
@@ -101,4 +101,4 @@ const Corporate_Docs = (props) => {
     </>
   );
 }
-export default Corporate_Docs;
+export default CorporateDocs;

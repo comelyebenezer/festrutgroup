@@ -10,7 +10,7 @@ import { UilInfoCircle, UilArrowRight } from '@iconscout/react-unicons';
 
 import { Link } from 'react-router-dom';
 
-const Dept_SmashTravels = (props) => {
+const DeptSmashTravels = (props) => {
     const [activeTab, setActiveTab] = useState('Charity');
     
     const tabContent = {
@@ -76,4 +76,4 @@ const Dept_SmashTravels = (props) => {
     </>
   )
 }
-export default Dept_SmashTravels
+export default DeptSmashTravels

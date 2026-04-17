@@ -1,61 +1,81 @@
-import { UilFacebook, UilInstagram, UilWhatsapp, UilEnvelope, UilPhone, UilTwitter } from '@iconscout/react-unicons';
+import { UilFacebook, UilInstagram, UilWhatsapp, UilEnvelope, UilPhone, UilYoutube } from '@iconscout/react-unicons';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/images/logo/footer-logo.png';
 
 const Footer = () => {
   const categories = [
     {
-      title: 'Ridesmash',
-      slug: 'ridesmash',
-    },
-    {
-      title: 'Smashfood',
-      slug: 'smashfood',
-    },
-    {
-      title: 'Smash Travels',
-      slug: 'smashtravels',
-    },
-    {
-      title: 'Smash Bookings',
-      slug: 'smashbookings',
-    },
-    {
-      title: 'Smashwise',
-      slug: 'smashwise',
-    },
-    {
-      title: 'Smashbuy247',
-      slug: 'smashbuy247',
+      title: 'Festrut Oil and Gas',
+      slug: 'festrut Oil and Gas',
     },                  ,
     {
-      title: 'Smash Apartments',
-      slug: 'smashapartments',
-    },                 ,
+      title: 'Festrut Communication Limited',
+      slug: 'festrut Communication Limited',
+    },                  ,
     {
-      title: 'Smashproperties',
-      slug: 'smashproperties',
-    },                 
+      title: 'Festrut Transport Nig Ltd',
+      slug: 'Festrut travel',
+    },                  ,
     {
-      title: 'Smash Hire',
-      slug: 'smashhire',
-    },                 
+      title: 'Festrut African Talent Hunt',
+      slug: 'festrut african talent hunt',
+    },                  ,
     {
-      title: 'Smash Logistics',
-      slug: 'smashlogistics',
-    },                 
+      title: 'Festrut Shopping Mall',
+      slug: 'Festrut Shopping Mall',
+    },                  ,
     {
-      title: 'Smash Laundry',
-      slug: 'smashlaundry',
-    },                 
+      title: 'Festrut Apartments',
+      slug: 'festrutapartments',
+    },                  ,
     {
-      title: 'Owenas',
-      slug: 'owenas',
-    },                 
+      title: ' Festrut Security Guards Limited',
+      slug: 'festrutsecurityguardslimited',
+    },                  ,
     {
-      title: 'Qiimeet',
-      slug: 'qiimeet',
+      title: 'Festrut Construction Ltd',
+      slug: 'festrutconstructionltd',
+    },                  ,
+    {
+      title: 'Festrut Facility and Development Firm Ltd',
+      slug: 'festrutfacilityanddevelopmentfirmltd',
+    },                  ,
+    {
+      title: 'Festrut Consultant Ltd',
+      slug: 'festrutconsultantltd',
+    },                  ,
+    {
+      title: 'Festrut Klass Hospital and Laboratory Services',
+      slug: 'festrutklasshospitalandlaboratoryservices',
+    },                  ,
+    {
+      title: 'Festrut Charity Foundation',
+      slug: 'festrutcharityfoundation',
     },
+    {
+      title: 'Festrut Courier Services Limited',
+      slug: 'festrutcourierserviceslimited',
+    },                  ,
+    {
+      title: 'Festrut Hospital and Laboratory Service',
+      slug: 'festruthospitalandlaboratoryservice',
+    },                  ,
+    {
+      title: 'Festrut Lead University Foundation',
+      slug: 'festrutleaduniversityfoundation',
+    },                  ,
+    {
+      title: 'Festrut International Manager Institute',
+      slug: 'festrutinternationalmanagerinstitute',
+    },                  ,
+    {
+      title: 'Prestigious Elites Organization',
+      slug: 'prestigiouselitesorganization',
+    },
+    {
+      title: 'Festrut Food and Drink International Ltd',
+      slug: 'festrutfoodanddrinkinternationalltd',
+    },                  ,
   ];
 
   return (
@@ -66,10 +86,10 @@ const Footer = () => {
               <div className="footer-about">
                 <h2 className="p-0">Location</h2>
                 <h5 style={{ color: '#eee' }}>Corporate Headquarters, <br />Abuja</h5>
-                <p className="mt-2">2 King Jaja Street, Works &amp; Housing, <br />3rd Avenue, Gwarinpa, <br />Abuja, Nigeria.</p>
+                <p className="mt-2">Plot 2311, Festrut Corporate Headquaters, <br />Festrut Estate, Katampe, <br />Abuja, Nigeria.</p>
               
-                <h5 style={{ color: '#eee' }}>Lagos Office</h5>
-                <p className="mt-2 mb-2">Suit 103/104, Workcentral, 5 Alhaji Tokan Street, Alaka Estate, Surulere<br />Lagos, Nigeria. </p>
+                <h5 style={{ color: '#eee' }}>Nasarawa Office</h5>
+                <p className="mt-2 mb-2">Site Office ,Festrut Street, Festrut Kingdom Estate, Badna Orozo<br />Nasarawa, Nigeria. </p>
               </div>
           </div>
           <div className="col-md-6 col-lg-9">
@@ -80,15 +100,15 @@ const Footer = () => {
                           <Link to="/">Home</Link>
                           <Link to="/about">About Us</Link>
                           <a href="/all-businesses">Our Businesses</a>
-                          <Link to="/buy-shares">Buy Shares</Link>
-                          <Link to="/investment-with-roi">Investment Opportunities</Link>
-                          <Link to="/press-release">Latest News</Link>
+                          <Link to="/buy-shares">Career</Link>
+                          <Link to="/gallery">Media</Link>
+                          <Link to="/press-release">Earn with us</Link>
                           <Link to="/blog">Blog</Link>
-                          <Link to="/careers">Careers</Link>
+                          <Link to="/#faq">FAQ</Link>
                           
                           <div className="footer-link">
                             <p style={{ lineHeight: '40px'}}><a href="tel:+23409169740288" title="Call our Hotline" className="_070smash mb-0"><span>OUR HOTLINE</span><br />
-                            <UilPhone /> 0916-974-0288</a></p>
+                            <UilPhone /> 0809-176-9651</a></p>
                           </div>
                           {/* </div> */}
                       </div>
@@ -109,30 +129,31 @@ const Footer = () => {
                       <div className="footer-link">
                           <h2>Contact Us</h2>                         
                           
-                          <a href="tel:+234916-974-0288" title="Click to call" className="_070smash mb-0">070<span>SMASHTECH</span></a>
+                          <a href="tel:+234809-176-9651" title="Click to call" className="0809-176-9651 mb-0">080<span>FESTRUT</span></a>
 
                           <p className="branch-labels">Corporate Head Office</p>
 
-                          {/* <a href="tel:+2349097403297" title="Call"><UilPhone />  */}
-                          <a href="tel:+2342013303315" title="Call Us"><UilPhone /> +234 2013303315</a>
+                          {/* <a href="tel:+234809-176-9651" title="Call"><UilPhone />  */}
+                          <a href="tel:+234809-176-9651" title="Call Us"><UilPhone /> +234 809-176-9651</a>
 
-                          <a href="https://wa.me/2349169740288" title="Chat Smash Travels on WhatsApp"><UilWhatsapp /> +234 9097403297 (Smash Travels)</a>
+                          <a href="https://wa.me/2348091769651" title="Chat Festrut Group on WhatsApp"><UilWhatsapp /> +234 8091769651 (Festrut Group)</a>
                           
-                          <a href="https://wa.me/+2348100693634" title="Chat Ridesmash on WhatsApp"><UilWhatsapp /> +234 8100693634 (Ridesmash)</a>
+                          <a href="https://wa.me/+2348090222043" title="Chat Festrut Group on WhatsApp"><UilWhatsapp /> +234 8090222043 (Festrut Group)</a>
 
-                          <a href="https://wa.me/+2347054881783" title="Chat Smashwise on WhatsApp"><UilWhatsapp /> +234 7054881783 (Smashwise)</a>
+                          <a href="https://wa.me/+2348188881854" title="Chat Festrut Customercare line on WhatsApp"><UilWhatsapp /> +234 8188881854 (Festrut Customercare line)</a>
                           
-                          <p className="branch-labels">Lagos Business Office</p>
-                          <a href="tel:+2348144824339" title="Call Lagos Office"> <UilPhone /> +234 8144824339</a><br />
+                          <p className="branch-labels">Nasarawa Business Office</p>
+                          <a href="tel:+2348188881852" title="Call Nasarawa Office"> <UilPhone /> +234 8188881852</a><br />
 
-                          <a href="mailto:info@smashtechgroup.com" title="Email us - Info"><UilEnvelope /> info@smashtechgroup.com</a>
-                          <a href="mailto:support@smashtechgroup.com" title="Email us - Support"><UilEnvelope /> support@smashtechgroup.com</a>
+                          <a href="mailto:info@festrutgroup.com" title="Email us - Info"><UilEnvelope /> info@festrutgroup.com</a>
+                          <a href="mailto:support@festrutgroup.com" title="Email us - Support"><UilEnvelope /> support@festrutgroup.com</a>
                           
-                          <div style={{ display: 'flex', gap: '1rem' }}>
-                            <a href="https://x.com/smashtechnology"><UilTwitter /></a>
-                            <a href="https://web.facebook.com/smashtechnology"><UilFacebook /></a>
-                            <a href="https://www.instagram.com/smashtechnology"><UilInstagram /></a>
-                            <a href="https://wa.me/+2349097403297" title="Click to chat on WhatsApp"><UilWhatsapp /></a>
+                          <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                            <a href="https://www.tiktok.com/@festrutgroup" title="Follow us on TikTok" style={{ fontSize: '20px' }}>TikTok</a>
+                            <a href="https://web.facebook.com/festrutgroup"><UilFacebook /></a>
+                            <a href="https://www.instagram.com/festrut_group"><UilInstagram /></a>
+                            <a href="https://www.youtube.com/@festrutgroupltd" title="Subscribe to our YouTube channel"><UilYoutube /></a>
+                            <a href="https://wa.me/+2348091769651" title="Click to chat on WhatsApp"><UilWhatsapp /></a>
                           </div>
                       </div>
                   </div>
@@ -148,7 +169,7 @@ const Footer = () => {
             <Link to="/" id="logo">
               <img src={logo} style={{width: '50px', height: '50px' }} title="Logo" alt="Logo" />
             </Link>
-            Copyright &copy; Smash Technology Ltd. All Rights Reserved. 
+            Copyright &copy; Festrut Group. All Rights Reserved. 
           </div>
           <div className="col-md-6 footer-menu">
             <div className="f-menu">

@@ -10,7 +10,7 @@ import { UilInfoCircle, UilArrowRight, UilBookMedical } from '@iconscout/react-u
 
 import { Link } from 'react-router-dom';
 
-const Dept_SalesMarketing = (props) => {
+const DeptSalesMarketing = (props) => {
     const [activeTab, setActiveTab] = useState('Mariam');
     
     const tabContent = {
@@ -75,4 +75,4 @@ const Dept_SalesMarketing = (props) => {
     </>
   )
 }
-export default Dept_SalesMarketing;
+export default DeptSalesMarketing;

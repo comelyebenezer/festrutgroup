@@ -6,6 +6,26 @@ import 'swiper/css';
 import missionvision from './../../../assets/images/logo/missionvision.png';
 
 const MissionVision = () => {
+  const missionStatements = [
+  { text: "To become a world-leading conglomerate delivering innovative, high-quality projects and services that consistently meet international standards.", image: missionvision },
+  { text: "To provide affordable, sustainable, and value-driven real estate solutions that improve lives and build thriving communities.", image: missionvision },
+  { text: "To deliver excellence across all our subsidiaries through professionalism, integrity, and customer-focused service delivery.", image: missionvision },
+  { text: "To drive economic growth and development by creating opportunities in real estate, construction, healthcare, logistics, and related sectors.", image: missionvision },
+  { text: "To continuously innovate and adopt modern technologies that enhance efficiency, quality, and long-term value for our clients.", image: missionvision },
+  { text: "To build lasting relationships with clients, partners, and stakeholders based on trust, transparency, and reliability.", image: missionvision },
+  { text: "To empower our workforce and create an environment that fosters growth, leadership, and professional excellence.", image: missionvision },
+  { text: "To contribute meaningfully to society through sustainable development, community impact, and humanitarian initiatives.", image: missionvision },
+]
+
+  const visionStatements = [
+  { text: "To provide accessible, high-quality shelter and real estate solutions that deliver value at every level of society.", image: missionvision },
+  { text: "To be a globally recognized conglomerate known for excellence in real estate, infrastructure, and service delivery.", image: missionvision },
+  { text: "To build sustainable communities and developments that enhance lives and create long-term impact.", image: missionvision },
+  { text: "To be the preferred partner in property development, investment, and essential services across industries.", image: missionvision },
+  { text: "To uphold our belief in trust, integrity, and quality as the foundation of everything we build and deliver.", image: missionvision },
+  { text: "To continuously expand our reach while maintaining world-class standards in all our projects and services.", image: missionvision },
+]
+
   return (
     <>
     <div className="sections mission-desktop" id="missionvision">
@@ -43,70 +63,16 @@ const MissionVision = () => {
           modules={[Autoplay]}
         >
 
-        <div id="mission-desktop">
-          <SwiperSlide>
+        {missionStatements.map((mission, index) => (
+          <SwiperSlide key={index}>
             <Link to="">              
               <div className="swipe">
-                <p>To provide essential products and services to meet the needs of our clients and deliver superior returns.</p>
-                <img src={missionvision} title="" alt="" />
+                <p>{mission.text}</p>
+                <img src={mission.image} title="" alt="" />
               </div>
             </Link>
           </SwiperSlide>
-
-          <SwiperSlide>
-            <Link to="">            
-              <div className="swipe">
-                <p>To change and improve the lives of our customers by simplifying their daily activities.</p>
-                <img src={missionvision} title="" alt="" />
-              </div>
-            </Link>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Link to="">               
-              <div className="swipe">
-                <p>To create a hassle-free home and office environment for our customers through our easy-to-use and easy-to-access services.</p>
-                <img src={missionvision} title="" alt="" />
-              </div>
-            </Link>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Link to="">               
-              <div className="swipe">
-                <p>To ensure that optimum results are achieved for our brand and its stakeholders.</p>
-                <img src={missionvision} title="" alt="" />
-              </div>
-            </Link>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Link to="">               
-              <div className="swipe">
-                <p>To ensure that the goals and aspirations of our employees are realized.</p>
-                <img src={missionvision} title="" alt="" />
-              </div>
-            </Link>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Link to="">               
-              <div className="swipe">
-                <p>To provide first-rate services and on-time delivery to our customers.</p>
-                <img src={missionvision} title="" alt="" />
-              </div>
-            </Link>
-          </SwiperSlide>
-          
-          <SwiperSlide>
-            <Link to="">               
-              <div className="swipe">
-                <p>To give our clients the best customer experience.</p>
-                <img src={missionvision} title="" alt="" />
-              </div>
-            </Link>
-          </SwiperSlide>
-        </div>
+        ))}
       </Swiper>
       </div>
 
@@ -115,40 +81,17 @@ const MissionVision = () => {
       <h2 className="missionvision" id="mission-mobile">Mission Statement</h2>
 
       <div id="mission-mobile">
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To provide essential products and services to meet the needs of our clients and deliver superior returns.</p>
-        </div>
-
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To change and improve the lives of our customers by simplifying their daily activities.</p>
-        </div>
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To create a hassle-free home and office environment for our customers through our easy-to-use and easy-to-access services.</p>
-        </div>
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To ensure that optimum results are achieved for our brand and its stakeholders.</p>
-        </div>
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To ensure that the goals and aspirations of our employees are realized.</p>
-        </div>
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To provide first-rate services and on-time delivery to our customers.</p>
-        </div>
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To give our clients the best customer experience.</p>
-        </div>
+        {missionStatements.map((mission, index) => (
+          <div key={index}>
+            <UilCheck className="icon" /> 
+            <p>{mission.text}</p>
+          </div>
+        ))}
       </div>
 
       {/* Vision */}
 
-      <div className="sections mission-desktop" id="missionvision">
+      <div className="sections mission-desktop" id="vision-section">
       <h2>Vision Statement</h2>
 
       <Swiper 
@@ -184,53 +127,16 @@ const MissionVision = () => {
           modules={[Autoplay]}
         >
 
-        <div>
-          <SwiperSlide>
+        {visionStatements.map((vision, index) => (
+          <SwiperSlide key={index}>
             <Link to="">              
               <div className="swipe">
-                <p>To remain a company with a motivated, creative, dedicated, and professional human resource.</p>
-                <img src={missionvision} title="" alt="" />
+                <p>{vision.text}</p>
+                <img src={vision.image} title="" alt="" />
               </div>
             </Link>
           </SwiperSlide>
-
-          <SwiperSlide>
-            <Link to="">            
-              <div className="swipe">
-                <p>To become a top-rated innovative company using modern technological infrastructures and tools to better our community.</p>
-                <img src={missionvision} title="" alt="" />
-              </div>
-            </Link>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Link to="">               
-              <div className="swipe">
-                <p>To be a globally recognized and impactful brand</p>
-                <img src={missionvision} title="" alt="" />
-              </div>
-            </Link>
-          </SwiperSlide>
-
-
-          <SwiperSlide>
-            <Link to="">               
-              <div className="swipe">
-                <p>To be our client's best partner through our unrivaled customer service</p>
-                <img src={missionvision} title="" alt="" />
-              </div>
-            </Link>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Link to="">               
-              <div className="swipe">
-                <p>To be our clients’ most preferred service provider</p>
-                <img src={missionvision} title="" alt="" />
-              </div>
-            </Link>
-          </SwiperSlide>
-        </div>
+        ))}
       </Swiper>
 
       </div>
@@ -238,27 +144,12 @@ const MissionVision = () => {
       {/* vision - mobile */}
       <h2 className="missionvision" id="mission-mobile">Vision Statement</h2>
       <div id="vision-mobile">
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To remain a company with a motivated, creative, dedicated, and professional human resource.</p>
-        </div>
-
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To become a top-rated innovative company using modern technological infrastructures and tools to better our community.</p>
-        </div>
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To be a globally recognized and impactful brand</p>
-        </div>
-        <div>
-          <UilCheck className="icon" /> 
-          <p>To be our client's best partner through our unrivaled customer service</p>
-        </div>
-        <div>
-          <UilCheck className="icon" />
-          <p>To be our clients’ most preferred service provider</p> 
-        </div>
+        {visionStatements.map((vision, index) => (
+          <div key={index}>
+            <UilCheck className="icon" /> 
+            <p>{vision.text}</p>
+          </div>
+        ))}
       </div>
     </>
   )

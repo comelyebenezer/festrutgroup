@@ -1,195 +1,109 @@
-import { useEffect } from 'react';
-import { Helmet } from 'react-helmet';
-import Banner_otherpages from '../../__public/__sections/_Banner_otherpages';
-import image from '../../../assets/images/otherpages/faq.jpg';
-import Header from '../../__public/__layouts/Header';
-import Map from '../../__public/__sections/_Map';
 
-const Faq = (props) => {
-    useEffect(() => {
-        document.title = `${props.company} — FAQ`;
-    }, []);
+import { useState } from 'react';
+import { UilAngleDown, UilAngleUp } from '@iconscout/react-unicons';
 
-    return (
-    <>  
-    <Helmet>
-      <script src="/js/bootstrap.min.js"></script>
-    </Helmet>
-    
-    <Header />
-    <Banner_otherpages title="FAQs" image={image} />
-    
-    <div className="sections c2_1 c1-sm c1-xs faq" id="careers">
-        <div>
-            <h2 style={{ lineHeight: '120%' }}>Frequently Asked Questions</h2>
-            <p>Everything you need to know about Smash Technology</p>
+const FAQ = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
 
-            <div className="accordion" id="accordionExample">
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Is Smash Technology Registered?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                            Yes, Smash Technology Limited is a fully registered company in Nigeria. All of our subsidiaries and brands are also registered with CAC of the Federal Republic of Nigeria
-                        </div>
-                    </div>
-                </div>
+  const faqs = [
+   
+  {
+    question: "What services does Festrut Group offer?",
+    answer: "Festrut Group operates as a diversified conglomerate providing services across real estate development, construction, oil and gas, healthcare, transportation, logistics, security, consulting, and education, delivering value-driven solutions across multiple sectors."
+  },
+  {
+    question: "How can I invest in Festrut Group?",
+    answer: "You can invest in Festrut Group through our real estate projects, development partnerships, and other investment opportunities. Kindly contact our team or visit the investment section on our platform for more details."
+  },
+  {
+    question: "Where are your offices located?",
+    answer: "Festrut Group operates across multiple locations in Nigeria, with a strong presence in Abuja and other key regions. For specific office addresses, please refer to the contact section on our website."
+  },
+  {
+    question: "How can I become a client or partner?",
+    answer: "Becoming a client or partner is simple. You can reach out through our website, contact channels, or visit any of our offices to explore available opportunities and services tailored to your needs."
+  },
+  {
+    question: "Do you offer customer support?",
+    answer: "Yes, our dedicated customer service team is always available to attend to your inquiries, provide guidance, and ensure a seamless experience across all our services."
+  },
+  {
+    question: "What is Festrut Apartments?",
+    answer: "Festrut Apartments is the residential development arm of Festrut Group, focused on providing modern, secure, and affordable housing solutions that promote comfort, convenience, and quality living."
+  }
+  ];
 
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                            How do I book a ride with Smash Technology?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                            Booking a ride is easy! Simply open the Ride Smash app, enter your pickup location, choose your destination, and select the type of ride you prefer. 
-                            You’ll be matched with a nearby driver in minutes.
-                        </div>
-                    </div>
-                </div>
+  const toggleFAQ = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
 
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                            How does the Hire Purchase option work?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                            Our Hire Purchase service allows you to purchase items through affordable 
-                            installment plans. You can select the product you'd like to buy, agree on 
-                            payment terms, and make monthly payments until the item is fully paid off. 
-                            Learn more through our Hire Purchase section on the app or website.
-                        </div>
-                    </div>
-                </div>
+  return (
+    <div className="sections faq-section" id="faq">
+      <div className="text-center">
+        <h2 style={{ marginBottom: '1rem' }}>Frequently Asked <span>Questions</span></h2>
+        <p style={{ maxWidth: '700px', margin: '0 auto', color: '#666' }}>
+          Have questions about our projects, real estate developments, or services?
+We’ve compiled answers to some of the most common inquiries to help you better understand how Festrut Group operates and delivers value across its diverse sectors.
+        </p>
+      </div>
 
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                        How much does it cost to start investing with Smash Technology?
-                    </button>
-                    </h2>
-                    <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div className="accordion-body">
-                        It costs as low as a minimum of N150,000 to start investing with smash Technology. 
-                        We have the <b>Micro Investment</b> which spans from <b>N150,000 - N450,000</b>, 
-                        <b>Macro Investment</b> which spans from <b>N500,000 - N5,000,000</b> and finally the <b>Platinum Investment</b> which spans 
-                        from <b>N5,000,000 and above</b>.
-                    </div>
-                    </div>
-                </div>
-
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                        How can I use Smash Technology’s services?
-                    </button>
-                    </h2>
-                    <div id="collapseFive" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                            To use any of our services, simply download our app or visit our website. Each service is designed with simplicity in mind:
-                            <p><strong>For E-hailing & Ride Sharing: </strong>Sign up, choose your ride, and track your driver.</p>
-
-                            <p><strong>For E-commerce & Food Delivery: </strong>Browse through a wide range of products or restaurants, place your order, and enjoy hassle-free delivery.</p>
-                            <p><strong>For Hire Purchase & Rentals: </strong>Choose your product, apply for financing or book a rental, and enjoy the flexibility we offer.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                        How can I stay updated on new services or offers from Smash Technology?
-                    </button>
-                    </h2>
-                    <div id="collapseSix" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                        You can stay updated by subscribing to our newsletter, following us on social media, or checking our blog for the latest news, service updates, and special promotions.
-                        </div>
-                    </div>
-                </div>
-
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                        What happens if I have a problem with my order or service?
-                    </button>
-                    </h2>
-                    <div id="collapseSeven" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                            If you experience any issues with your order or service, please contact our support team immediately. We are committed to 
-                            resolving your concerns and ensuring your satisfaction with our products and services.
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
-
-{/* ==== */}
-                
-                
-                {/* <div className="accordion-item">
-                    <h2 className="accordion-header">
-                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Does Smashwise charge vendors for item upload?
-                    </button>
-                    </h2>
-                    <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                    <div className="accordion-body">
-                        The answer here
-                    </div>
-                    </div>
-                </div>
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        What is the process for the Ridesmash hire purchase?
-                    </button>
-                    </h2>
-                    <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                            Answer 3 here
-                        </div>
-                    </div>
-                </div>
-
-                <div className="accordion-item">
-                    <h2 className="accordion-header">
-                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        What countries does Smash Travels process work visas to?
-                    </button>
-                    </h2>
-                    <div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div className="accordion-body">
-                            Answer 4 here
-                        </div>
-                    </div>
-                </div> */}
-
-            </div>        
-        </div>
-
-        <div className="pie-div">
-            <div className="pie"></div>
-            <div className="pie"></div>
-            <div className="pie"></div>
-            <div className="pie"></div>
-            <div className="pie"></div>
-            <div className="pie"></div>
-        </div>
+      <div className="faq-container" style={{ maxWidth: '900px', margin: '3rem auto 0' }}>
+        {faqs.map((faq, index) => (
+          <div 
+            key={index} 
+            className={`faq-item ${activeIndex === index ? 'active' : ''}`}
+            style={{ 
+              backgroundColor: '#fff', 
+              marginBottom: '1rem', 
+              borderRadius: '12px', 
+              boxShadow: activeIndex === index ? '0 10px 25px rgba(0,0,0,0.08)' : '0 2px 15px rgba(0,0,0,0.04)',
+              overflow: 'hidden',
+              transition: 'all 0.3s ease',
+              border: activeIndex === index ? '1px solid #0056b3' : '1px solid transparent'
+            }}
+          >
+            <div 
+              className="faq-question" 
+              onClick={() => toggleFAQ(index)}
+              style={{ 
+                padding: '1.2rem 1.8rem', 
+                display: 'flex', 
+                justifyContent: 'space-between', 
+                alignItems: 'center',
+                cursor: 'pointer',
+                backgroundColor: activeIndex === index ? '#f8fbff' : '#fff'
+              }}
+            >
+              <h3 style={{ 
+                fontSize: '1.1rem', 
+                margin: 0, 
+                color: activeIndex === index ? '#0056b3' : '#222', 
+                fontWeight: '600' 
+              }}>
+                {faq.question}
+              </h3>
+              <span style={{ color: activeIndex === index ? '#0056b3' : '#999', transition: 'transform 0.3s ease' }}>
+                {activeIndex === index ? <UilAngleUp /> : <UilAngleDown />}
+              </span>
+            </div>
+            
+            <div 
+              className="faq-answer" 
+              style={{ 
+                maxHeight: activeIndex === index ? '500px' : '0',
+                overflow: 'hidden',
+                transition: 'max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
+              }}
+            >
+              <div style={{ padding: '0 1.8rem 1.5rem', color: '#555', lineHeight: '1.8' }}>
+                <p style={{ margin: 0 }}>{faq.answer}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
+  );
+};
 
-    <Map />
-    </>
-  )
-}
-export default Faq;
+export default FAQ;

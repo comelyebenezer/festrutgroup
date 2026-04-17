@@ -10,7 +10,7 @@ import { UilInfoCircle, UilArrowRight } from '@iconscout/react-unicons';
 
 import { Link } from 'react-router-dom';
 
-const Dept_Ridesmash = (props) => {
+const DeptRidesmash = (props) => {
     const [activeTab, setActiveTab] = useState('Favour');
     
     const tabContent = {
@@ -77,4 +77,4 @@ const Dept_Ridesmash = (props) => {
     </>
   )
 }
-export default Dept_Ridesmash;
+export default DeptRidesmash;

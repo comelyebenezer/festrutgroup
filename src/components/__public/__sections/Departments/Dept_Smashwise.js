@@ -10,7 +10,7 @@ import { UilInfoCircle, UilArrowRight, UilBookMedical } from '@iconscout/react-u
 
 import { Link } from 'react-router-dom';
 
-const Dept_Smashwise = (props) => {
+const DeptSmashwise = (props) => {
     const [activeTab, setActiveTab] = useState('Precious');
     
     const tabContent = {
@@ -76,4 +76,4 @@ const Dept_Smashwise = (props) => {
     </>
   )
 }
-export default Dept_Smashwise;
+export default DeptSmashwise;

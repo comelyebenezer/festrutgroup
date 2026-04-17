@@ -39,7 +39,7 @@ const Banner = () => {
                 <button id="play-button" className="play-button">&#9658;</button>
                 <div className="banner-content"> 
                     <h1> 
-                        <small>Welcome to </small><br /> <span>Smash</span> Technology 
+                        <small>Welcome to </small><br /> <span>Festrut</span> Group 
                     </h1> 
                 </div>
             </div>
@@ -47,10 +47,10 @@ const Banner = () => {
                 id="video-iframe"
                 width="100%"
                 height="100%"
-                src="https://www.youtube.com/embed/BpIK7Cl4B50?enablejsapi=1"
-                title="SmashTech Company"
+                src="https://www.youtube.com/embed/NuoWOZRfENc?si=Qlj_5XSyGJn7zGGq"
+                title="Festrut Group"
                 frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allow="accelerometer; autoplay loop; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen>
             </iframe>    

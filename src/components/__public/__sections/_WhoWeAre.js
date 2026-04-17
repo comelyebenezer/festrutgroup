@@ -26,13 +26,11 @@ const WhoWeAre = () => {
         <div>
           <h2 className="desktop"><span>Who </span>we are</h2>
 
-          <p><b>Smash Technology</b> is a tech group of companies focused on employing technology to service its clients locally and globally. Initially, the brand focused on Transport Investment 
-          across the country and beyond before pivoting into other viable sectors such as E-hailing, E-commerce, Food delivery, Booking platform, Virtual Office platforms, Travels, Real Estate, Social Networking among others.</p>
+          <p><b>Festrut Group</b> Festrut Group is a forward-thinking real estate and development company committed to creating value through strategic property development, land acquisition, and infrastructure growth. With a vision centered on innovation, integrity, and long-term impact, we are dedicated to building sustainable communities and providing secure investment opportunities.</p>
 
-          <p><b>Smash Technology</b> is a combination of almost a decade of visionary leadership, hard work, and dedication from many experienced and committed men and women 
-            who are aligned with the core purpose and goal of the brand.</p>
+          <p><b>Festrut Group</b> Driven by strong leadership and a passion for excellence, Festrut Group focuses on transforming ideas into thriving developments while empowering individuals and families to own a future built on solid ground.</p>
 
-            <Link to="/about" className="smashtech-button swipe-button">Learn More</Link>
+            <Link to="/about" className="smashtech-button swipe-button">Book Inspection</Link>
         </div>
       </div>
 

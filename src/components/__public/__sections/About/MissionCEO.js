@@ -6,14 +6,14 @@ import vivian from './../../../../assets/images/_about/Vivian.png';
 
 const MissionCEO = () => {
   // State to track the active tab
-  const [activeTab, setActiveTab] = useState('Integrity');
+  const [activeTab, setActiveTab] = useState('Trust');
 
   // Tab content data
   const tabContent = {
-    Integrity: "At the heart of Smash Technology Limited is a relentless drive to innovate and push the boundaries of what's possible. We constantly seek new and creative ways to solve problems and deliver cutting-edge solutions that set us apart from the competition.",
-    Innovation: "Innovation drives progress. We challenge norms and explore uncharted territories to bring value to our clients and industry.",
-    Excellence: "We strive for excellence in everything we do, ensuring quality, precision, and impact in every deliverable.",
-    Collaboration: "Collaboration is key to our success. We work closely with our clients, partners, and team to achieve shared goals.",
+    Trust: "We build lasting relationships through reliability and consistency. By keeping our word and delivering on our promises, we earn the confidence of our clients, partners, and communities.",
+    Innovation: "We embrace innovation by continuously seeking smarter, more efficient ways to develop and deliver real estate solutions. Our forward-thinking approach allows us to create modern, sustainable properties that meet the needs of today and tomorrow.",
+    Excellence: "We are driven by a passion for excellence in every project we undertake. From planning to delivery, we maintain superior standards, ensuring quality, durability, and satisfaction that consistently exceed expectations.",
+    Integrity: "At the heart of Festrut Group Limited is an unwavering commitment to integrity. We uphold the highest standards of honesty, transparency, and accountability in every transaction, ensuring that our clients and partners can trust us to deliver on our promis",
   };
   
   return (
@@ -22,9 +22,7 @@ const MissionCEO = () => {
         <h2>Our Mission &amp; Vision</h2>
         
         <div className="zy-c1 zy-c1-sm zy-c1-xs text-center">
-          <p>Smash Technology's aims at revolutionizing the tech industry by delivering innovative, user-centric solutions that transform everyday experiences 
-            across e-commerce, transport, real estate, food delivery, and investment, with a vision to be a global leader in technology, driving progress 
-            and redefining industries through sustainable innovations that inspire connectivity, growth, and a tech-savvy future.</p>
+          <p>To become a globally recognized real estate conglomerate by delivering high-quality projects and services that meet international standards, while providing accessible, value-driven shelter across all levels because we believe in building trust, excellence, and lasting communities.</p>
         </div>
     </div>
 
@@ -32,16 +30,20 @@ const MissionCEO = () => {
         <img src={ceo} title="" alt="" />
         
         <div>
-            <h2>Paul Eigbefoh</h2>
-            <h4>Chief Executive Officer (CEO), Smash Technology</h4>
+            <h2>Festus Uwakhemen A. PhDs</h2>
+            <h4>Chief Executive Officer (CEO), Festrut group</h4>
             <hr />
             
-            <p>Paul Eigbefoh is the visionary CEO of Smash Technology, a trailblazing company at the forefront of innovation in e-commerce, transport, 
-            travels, real estate, food delivery, and investment solutions. With a passion for technology and a keen eye for transformative opportunities, 
-            Paul has spearheaded the development of user-centric platforms that redefine convenience and connectivity. </p>
+            <p>Dr. Festus Uwakhemen Asikhia is the visionary CEO of Festrut Group, 
+                a dynamic and diversified conglomerate with interests spanning real estate, 
+                construction, oil and gas, healthcare, logistics, security, and investment 
+                services. With a strong foundation in academia and leadership, he brings a 
+                unique blend of intellectual depth and strategic insight to business development.
+
+Driven by excellence and a passion for sustainable growth, Dr. Asikhia has led the expansion of Festrut Group into multiple subsidiaries, delivering innovative, value-driven solutions across various sectors. His commitment to development, quality service, and societal impact continues to position Festrut Group as a trusted name in Nigeria and beyond. </p>
             
             <p>Under his leadership, 
-            Smash Technology has grown into a dynamic force in the tech industry, driven by a commitment to sustainability, innovation, and empowering 
+            Festrut group has grown into a dynamic force in the tech industry, driven by a commitment to sustainability, innovation, and empowering 
             individuals and businesses worldwide.</p>
 
             <p><Link to="/about" className="smashtech-button swipe-button">Read more <UilArrowRight /></Link></p>
@@ -74,37 +76,35 @@ const MissionCEO = () => {
 
     <div class="grey" id="commitment_to_sustainability">
         <div className="sections" id="about_missionceo">
-            <h2>Commitment to Sustainability</h2>
+            <h2>Sustainability</h2>
             
             <div className="zy-c1 zy-c1-sm zy-c1-xs text-center">
-            <p>Smash Technology is committed to sustainability by integrating eco-friendly practices and innovative solutions across our platforms. We strive 
-                to minimize environmental impact, optimize resource use, and drive progress that benefits both people and the planet, shaping a future where 
-                technology and sustainability work hand in hand.</p>
+            <p>We are committed to developing properties that support long term environmental 
+                and social well being, 
+                creating communities that are not only livable today but sustainable for future 
+                generations.</p>
             </div>
         </div>
 
         <div className="sections commitment-quality" id="about_missionceo">
             {/* Commitment to Quality */}
-            <h2 id="commitment_to_quality">Commitment to Quality</h2>
+            <h2 id="commitment_to_quality">Built on Excellence</h2>
         </div>
 
         <div className="c3 c1-sm c1-xs text-center commitment-quality">
             <div>
-                <h4>Rigorous Testing</h4>
-                <p>At Smash Technology Limited, we are dedicated to delivering products and services of the highest quality. Our development process includes 
-                extensive testing to identify and address any issues before release, ensuring our solutions meet the most stringent quality standards.</p>
+                <h4>Excellence in Execution</h4>
+                <p>At Festrut Group, we are committed to delivering high-quality real estate developments and services with precision and excellence. Every project is carefully planned and executed to meet the highest standards of safety, durability, and value.</p>
             </div>
 
             <div>
                 <h4>Continuous Improvement</h4>
-                <p>We are constantly seeking ways to enhance our offerings and refine our processes. Our teams actively monitor customer feedback and industry trends, 
-                using that insight to drive continuous improvements that keep our solutions ahead of the curve.</p>
+                <p>We are constantly improving our systems, processes, and services to stay ahead of industry demands. By embracing feedback, innovation, and modern practices, we ensure continuous growth and better value delivery to our clients.</p>
             </div>
 
             <div>
-                <h4>Quality Certifications</h4>
-                <p>To demonstrate our commitment to quality, we have aligned our practices and policies with frameworks such as ISO 9001, CMMI, NIST, and 
-                ISO 27001, which is an indication of our dedication to consistent, secure and reliable service delivery.</p>
+                <h4>Trusted Standards</h4>
+                <p>Our operations are guided by strong professional standards and best practices that ensure reliability, consistency, and transparency. We are committed to delivering services that clients can trust across all our subsidiaries.</p>
             </div>
         </div>
 
@@ -117,12 +117,17 @@ const MissionCEO = () => {
             <img src={vivian} title="" alt="" />
         
             <div>
-                <p>Our dedicated customer service team is always available to promptly address any inquiries or issues you may have. We pride ourselves on our 
-                quick response times and our ability to provide personalized solutions to meet your unique needs. </p><br />
+                <p>At Festrut Group, our customers are at the heart of everything we do. 
+                    Our dedicated customer service team is always available to respond promptly to inquiries, provide guidance, and ensure a 
+                    seamless experience at every stage of your journey with us. </p><br />
                 
-                <p>We understand that every business is 
-                different, which is why we take the time to understand your specific challenges and requirements. Our team will work closely with you to 
-                develop custom-tailored solutions that deliver maximum value and efficiency.</p>
+                <p>We take pride in delivering personalized solutions, understanding that each client has unique needs whether in property acquisition, 
+                    investment, or development. By listening closely and working collaboratively, 
+                    we provide tailored services that guarantee value, efficiency, and long-term 
+                    satisfaction.
+
+Our commitment is not just to serve, but to build lasting relationships founded on 
+trust, reliability, and exceptional service delivery.</p>
             </div>
         </div>
     </div>

@@ -7,32 +7,31 @@ import biz3 from './../../../assets/images/ourbusiness/Travels.jpg';
 const OurBusiness = () => {
   const categories = [
     {
-      title: 'Ridesmash',
-      description: 'Get a safe and affordable ride anytime, anywhere with our user-friendly ride-hailing platform.',
-      image: biz1,
-      slug: 'ridesmash',
-    },
-    {
-      title: 'Smashfood',
-      description: 'Delicious meals, delivered fast. Order your favorites and enjoy culinary delights at your doorstep.',
-      image: biz2,
-      slug: 'smashfood',
-    },
-    {
-      title: 'Smash Travels',
-      description: 'Effortless bookings and memorable journeys await. Let us handle the details — your adventure starts here.',
-      image: biz3,
-      slug: 'smashtravels',
-    },
+  title: 'Festrut Global Shelter Nig Ltd',
+  description: 'Providing safe, affordable, and premium housing solutions designed for modern living and long-term investment.',
+  image: biz1,
+  slug: 'festrut-global-shelter',
+},
+{
+  title: 'Festrut Communication Ltd',
+  description: 'Delivering reliable communication and media solutions that connect businesses and communities effectively.',
+  image: biz2,
+  slug: 'festrut-communication',
+},
+{
+  title: 'Festrut Oil & Gas Ltd',
+  description: 'Driving sustainable energy solutions through efficient exploration, supply, and distribution services.',
+  image: biz3,
+  slug: 'festrut-oil-gas',
+},
+    
   ];
 
   return (
     <>
     <div className="sections" id="ourbusiness">
         <h2>Our Business</h2>
-        <p>Smash Technology is a group of innovative app-based subsidiaries designed to simplify and enhance your daily life. 
-            We've transformed our services from manual operations to a tech-driven experience, offering a variety of essential 
-            apps for both local and international users.
+        <p>Festrut Group is a dynamic network of diversified subsidiaries committed to improving everyday life through innovative and value-driven services. We have evolved from traditional operations into a modern, structured enterprise, delivering essential solutions across real estate, construction, healthcare, logistics, energy, and social development for both local and international communities.
         </p>
         
       <div className="c3 c2-sm c1-xs" id="cover">
