@@ -195,7 +195,7 @@ const Navbar = () => {
               <div className="dropdown-content">
                 <ul>
                   <li><Link to="/footer" onClick={() => { setIsOpen(false); setOpenDropdown(null); }}>Blog</Link></li>
-                  <li><Link to="/faq" onClick={() => { setIsOpen(false); setOpenDropdown(null); }}>FAQ</Link></li>
+                  <li><Link to="/faq#faq" onClick={() => { setIsOpen(false); setOpenDropdown(null); }}>FAQ</Link></li>
                   <li><Link to="/gallery" onClick={() => { setIsOpen(false); setOpenDropdown(null); }}>Gallery</Link></li>
                 </ul>
               </div>

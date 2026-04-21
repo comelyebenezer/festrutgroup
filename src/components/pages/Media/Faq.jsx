@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { UilPlus, UilMinus } from '@iconscout/react-unicons';
-import './../../styles/App.css';
+import '../../../styles/App.css';
 
 const faqData = [
   {
@@ -49,9 +49,15 @@ const FAQ = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8">
-            <div className="text-center mb-5">
-              <h2 className="mb-3">Frequently Asked Questions</h2>
-              <p className="text-muted">Got you — here's everything you need to know about Festrut Group</p>
+            <div className="text-center mb-5" style={{ margin: '0 auto' }}>
+              <h2 style={{ 
+                fontWeight: 600, 
+                fontSize: '48px', 
+                lineHeight: '58.5px', 
+                color: '#1E60AA',
+                marginBottom: '1rem'
+              }}>Frequently Asked Questions</h2>
+              <p className="text-muted" style={{ maxWidth: '600px', margin: '0 auto' }}>Discover everything you need to know about our mission, services, and how we are shaping the future.</p>
             </div>
 
             <div className="faq-wrapper">
@@ -62,15 +68,21 @@ const FAQ = () => {
                 >
                   <button 
                     className="faq-question"
+                    type="button"
+                    aria-expanded={activeIndex === index}
+                    aria-controls={`faq-answer-${index}`}
                     onClick={() => toggleFaq(index)}
                   >
-                    <span className="faq-number">0{index + 1}</span>
                     <span className="faq-text">{item.question}</span>
                     <span className="faq-icon">
-                      {activeIndex === index ? <UilMinus size="20" /> : <UilPlus size="20" />}
+                      {activeIndex === index ? <UilMinus size="24" /> : <UilPlus size="24" />}
                     </span>
                   </button>
-                  <div className={`faq-answer ${activeIndex === index ? 'open' : ''}`}>
+                  <div 
+                    id={`faq-answer-${index}`}
+                    className={`faq-answer ${activeIndex === index ? 'open' : ''}`}
+                    role="region"
+                  >
                     <p>{item.answer}</p>
                   </div>
                 </div>
