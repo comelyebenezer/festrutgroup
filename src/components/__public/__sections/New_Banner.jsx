@@ -91,17 +91,28 @@ const New_Banner = () => {
 
           </SwiperSlide>
           
-          {/* Slide 4 */}
+{/* Slide 4 */}
           <SwiperSlide>
 
             <h1>Simplified business solution</h1>
             <p>Our apps simplify the workflow of teams in organizations. Users can
-              accomplish their tasks seamlessly and more efficiently.
-            </p>
+              accomplish their tasks seamlessly and more efficiently.</p>
               {/* We create robust software that helps teams and organizations to collaborate, 
               work seamlessly, and complete their tasks more efficiently.</p> */}
 
             <p><Link to="/" className="zyzics-btn button__header">See our apps 
+            <UilArrowRight /></Link></p>
+
+          </SwiperSlide>
+
+          {/* Slide 5 */}
+          <SwiperSlide>
+
+            <h1>Transform your business digital</h1>
+            <p>Take your business to the next level with our digital solutions. 
+              We help you reach more customers and grow your revenue.</p>
+
+            <p><Link to="/" className="zyzics-btn button__header">Get started 
             <UilArrowRight /></Link></p>
 
           </SwiperSlide>
