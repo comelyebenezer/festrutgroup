@@ -428,22 +428,26 @@ p{
 
 /* MISSIONVISION */
 #missionvision h2, #vision-section h2{
-  margin-bottom: 21px;
+  margin-bottom: 2rem;
 }
 #missionvision p, #vision-section p{
-  font-size: 1.3rem;
-  line-height: 2.5rem;
-  padding-bottom: 12rem;
-  height: 3rem;
-  /* background-color: yellow; */
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0;
+  height: auto;
 }
 #missionvision .swipe, #vision-section .swipe{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-shadow: 0 2px 1px 1px #888;
   border-radius: 20px;
-  margin: 23px;
+  margin: 10px 0;
   padding-inline: 24px;
   padding-block: 1.6rem;
-  /* background-color: red; */
+  min-height: 260px;
 }
 #missionvision div div:hover > h3, #vision-section div div:hover > h3{
   color: var(--smashtech-color);
@@ -895,19 +899,20 @@ iframe{
 
 /* ABOUT - MISSION/VISION */
 #about_missionceo h2, #about_people h2, #about_investorrelations h2{ /* reusable section title */
-  width: 640px;
+  max-width: 640px;
+  width: 100%;
   text-align: center;
   align-items: center;
   justify-content: center;
   margin: auto;
   border: none !important;
   margin-bottom: 64px;
-  width: 1000px;
 }
 #about_missionceo p, #about_people p, #about_investorrelations p{
   margin-top: 0;
   color: #393838;
-  width: 1000px;
+  max-width: 1000px;
+  width: 100%;
   margin: auto
 }
 .ceo-div{
@@ -1734,5 +1739,24 @@ p.partner{
   }
   .faq-text {
     font-size: 1rem;
+  }
+  .sections {
+    padding: 0 1.5rem;
+    padding-block: 3rem;
+  }
+  h2 {
+    font-size: 2rem !important;
+    line-height: 1.2 !important;
+  }
+  #whoweare {
+    margin-top: 4rem;
+  }
+  #missionvision .swipe, #vision-section .swipe {
+    min-height: 200px;
+    padding-inline: 1.2rem;
+    padding-block: 1.2rem;
+  }
+  #missionvision img, #vision-section img {
+    width: 140px;
   }
 }

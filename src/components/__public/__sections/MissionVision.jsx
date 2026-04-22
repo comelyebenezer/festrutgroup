@@ -31,26 +31,23 @@ const MissionVision = () => {
       <h2>Mission Statement</h2>
 
       <Swiper 
-        spaceBetween={1} 
+        spaceBetween={10} 
         breakpoints={{
           1206: {
-              slidesPerView: 3, /* 5. NORMAL LAPTOPS (E.G MY OWN) TO LARGE @media screen and (min-width: 1207px)*/
+              slidesPerView: 3, spaceBetween: 30
           },
           1024: {
-            slidesPerView: 3, /* 4. SMALL LAPTOP SCREENS @media screen and (min-width: 1025px) and (max-width: 1206px) */
+            slidesPerView: 3, spaceBetween: 20
           },
           767: {
-              slidesPerView: 2, /* 3. MEDIUM SCREENS @media screen and (min-width: 768px) and (max-width: 1024px) */
+              slidesPerView: 2, spaceBetween: 20
           },
           576: {
-          slidesPerView: 2, /* 2. TABLETS @media screen and (min-width: 577px) and (max-width: 767px) */
+          slidesPerView: 1.5, spaceBetween: 15
           },
-          350: {
-              slidesPerView: 1, /* 1. SMALL/MOBILE @media screen and (min-width: 351px) and (max-width: 576px) */
-          },
-          // when window width is >= 0px (default for all sizes)
           0: {
             slidesPerView: 1,
+            spaceBetween: 10,
           },
         }}
         autoplay={{
@@ -81,26 +78,23 @@ const MissionVision = () => {
       <h2>Vision Statement</h2>
 
       <Swiper 
-        spaceBetween={1}
+        spaceBetween={10}
         breakpoints={{
           1206: {
-              slidesPerView: 3, /* 5. NORMAL LAPTOPS (E.G MY OWN) TO LARGE @media screen and (min-width: 1207px)*/
+              slidesPerView: 3, spaceBetween: 30
           },
           1024: {
-            slidesPerView: 3, /* 4. SMALL LAPTOP SCREENS @media screen and (min-width: 1025px) and (max-width: 1206px) */
+            slidesPerView: 3, spaceBetween: 20
           },
           767: {
-              slidesPerView: 2, /* 3. MEDIUM SCREENS @media screen and (min-width: 768px) and (max-width: 1024px) */
+              slidesPerView: 2, spaceBetween: 20
           },
           576: {
-          slidesPerView: 2, /* 2. TABLETS @media screen and (min-width: 577px) and (max-width: 767px) */
+          slidesPerView: 1.5, spaceBetween: 15
           },
-          350: {
-              slidesPerView: 1.3, /* 1. SMALL/MOBILE @media screen and (min-width: 351px) and (max-width: 576px) */
-          },
-          // when window width is >= 0px (default for all sizes)
           0: {
-            slidesPerView: 1.3,
+            slidesPerView: 1,
+            spaceBetween: 10,
           },
         }}
         autoplay={{
