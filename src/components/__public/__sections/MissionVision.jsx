@@ -1,4 +1,3 @@
-import { UilCheck } from '@iconscout/react-unicons';
 import { Link } from 'react-router-dom';
 import { Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -28,7 +27,7 @@ const MissionVision = () => {
 
   return (
     <>
-    <div className="sections mission-desktop" id="missionvision">
+    <div className="sections" id="missionvision">
       <h2>Mission Statement</h2>
 
       <Swiper 
@@ -76,22 +75,9 @@ const MissionVision = () => {
       </Swiper>
       </div>
 
-
-      {/* mission - mobile */}
-      <h2 className="missionvision" id="mission-mobile">Mission Statement</h2>
-
-      <div id="mission-mobile">
-        {missionStatements.map((mission, index) => (
-          <div key={index}>
-            <UilCheck className="icon" /> 
-            <p>{mission.text}</p>
-          </div>
-        ))}
-      </div>
-
       {/* Vision */}
 
-      <div className="sections mission-desktop" id="vision-section">
+      <div className="sections" id="vision-section">
       <h2>Vision Statement</h2>
 
       <Swiper 
@@ -139,17 +125,6 @@ const MissionVision = () => {
         ))}
       </Swiper>
 
-      </div>
-
-      {/* vision - mobile */}
-      <h2 className="missionvision" id="mission-mobile">Vision Statement</h2>
-      <div id="vision-mobile">
-        {visionStatements.map((vision, index) => (
-          <div key={index}>
-            <UilCheck className="icon" /> 
-            <p>{vision.text}</p>
-          </div>
-        ))}
       </div>
     </>
   )
