@@ -314,13 +314,11 @@ through effecve management and strategic financial oversight.`;
     setVisibleProfiles((prev) => prev + 6);  // Load 6 more profiles
   };
 
-  return (
+   return (
     <>
     <div className="sections meetourteam" id="ourbusiness">
-      <h2>Meet Our Team</h2>I'm Yahaya Shedrack Abdulkadir, the General Manager Smash Technology. My desire for sales and business development for about 2 decades, grew when i found out that i had a deposit of leadership, skills and idea, and what it takes to meet the needs of clients/customer's at every given point in time. Am a graduate of BSc Economics from a reputable Nigerian university, MBA in marketing, Chartered in Project management, Professional Diploma in Operations management from Blessed cosmopolitan college UK and Chartered in Operations management from the American institute of oil and Gas USA.
+      <h2>Meet Our Team</h2>
 
-          I started my career as a young sales officer in kano that was pass
-        
       <div className="c2 c2-sm c1-xs">
 
         {/* {team.map((categ, index) => ( */}
