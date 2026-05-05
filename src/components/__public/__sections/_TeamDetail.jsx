@@ -20,7 +20,6 @@ import val from './../../../assets/images/ourteam/Val.jpg';
 import chris from './../../../assets/images/ourteam/Chris 1.jpg';
 import obike from './../../../assets/images/ourteam/Obike 1.jpg';
 import lagos_branch_mgr from './../../../assets/images/ourteam/lagos_branch_manager.jpg';
-import evelyn from './../../../assets/images/ourteam/Evelyn.jpg';
 import segun from './../../../assets/images/ourteam/Segun.jpg';
 import { UilArrowLeft } from '@iconscout/react-unicons';
     
@@ -207,19 +206,15 @@ through effecve management and strategic financial oversight.
       image: lagos_branch_mgr,
     },
     branchmgr_abuja: {
-      title: 'Branch Manager, Abuja',
+      title: 'PA / Media Team Lead',
       description: [
-        `My name is Charity John, and I am the Business Operations Manager, Abuja. Customer service is more than just a role for me, it’s a passion.`,
+        `Comely Ebenezer is a highly skilled technology professional and strategic operations specialist with a Bachelor of Science (B.Sc.) degree in Computer Science from Nasarawa State University. He possesses advanced certifications in Software Engineering, Full Stack Development, and Artificial Intelligence, reflecting a strong foundation in modern software technologies and emerging digital solutions.
 
-        `My love for helping people and solving problems inspired me to pursue this field as a career.`,
+With a solid background in web and application development, Comely has expertise in building scalable, user-centric systems, integrating intelligent solutions, and leveraging technology to solve complex business challenges. His proficiency spans front-end and back-end development, system optimization, and digital innovation, positioning him as a forward-thinking contributor in today’s tech-driven landscape.
 
-        `I joined Smash Technology in June 2024 as a Customer Service Executive and was promoted to Team Lead within three months. This role has allowed me to refine my leadership skills, enhance communication, and contribute meaningfully to the company’s growth.`,
+He currently serves as the Personal Assistant to the CEO of Festrut Group, where he provides high-level executive support, drives strategic initiatives, and ensures operational efficiency across key business functions. In addition, he leads the Media Team, overseeing digital strategy, brand positioning, and multimedia communications to strengthen the company’s market presence.
 
-        `Since I joined till date, my amazing team and I have achieved significant milestones, including converting leads into paying clients and boosting customer satisfaction by 80%. Through proactive engagement and streamlined processes, we’ve built stronger connections with clients and enhanced their overall experience.`,
-
-        `I’m motivated by a desire to help people overcome challenges and achieve their goals. Every interaction is an opportunity to create value, whether for clients or my team.`,
-
-        `I aim to help Smash Technology double its achievements, grow its client base, and set new benchmarks for customer satisfaction. With focused strategies and teamwork, I believe we can elevate the company to even greater heights.`,
+Comely combines technical expertise with strong leadership and organizational capabilities, enabling him to bridge the gap between technology and business. He is committed to delivering impactful solutions, driving digital transformation, and contributing to sustainable organizational growth.`,
       ],
       image: charity,
     },
@@ -239,20 +234,7 @@ through effecve management and strategic financial oversight.
     //   ],
     //   image: hr,
     // },
-    head_of_finance: {
-      title: 'Head of Finance',
-      description: [
-        `Aribamikan Akinlolu's career journey.`,
-        `I have worked with several organizations as a professional accountant for so many years which I have gained a lot of experience on Financial Management, Resources Management and Auditing. In my Career so far, I have worked in an enabling and challenging environment where the best of in me utilized optimally for the advancement of the Organization and my fulfilment.`,
 
-        `A brief of how I joined Smash Technology Limited.`,
-        `On one faithful day I saw the advert online for the position of an Accountant and after reading the job descriptions instantaneously I became scheming and more interested to visited the company sites and Instagram for more information after reading the company profile, value and brands, then I industrialized more interest and eager to work and contributed to the continued success in Smash Technology Limited.`,
-
-        `Contributions to Smash Technology Limited`,
-        `Since joining, I have helped streamline financial management processes, improve budgeting and cost control, enhance internal auditing practices, and optimize resource allocation. Additionally, I have fostered collaboration across departments to ensure financial policies align with organizational goals, contributing to the company's financial stability and growth.`,
-      ],
-      image: finance,
-    },
 
 
     grp_head_media_it_communications: {
@@ -267,43 +249,6 @@ through effecve management and strategic financial oversight.
         `I believe in the power of relationships, zero-trust model and kindness, with an understanding that they are key to creating a safer, secured, and more connected digital world.`,
       ],
       image: gracious,
-    },
-    head_admin_operations: {
-      title: 'Head, Admin Operations',
-      description: [
-        `My name is Paul Alex Abiche a dedicated and highly motivated administrative professional currently serving as the Admin Manager at Smash Technology. With a proven track record of excellence in administrative management, I plays a pivotal role in ensuring the smooth and efficient operation of the organization.`,
-
-        `Driven by a deep passion for administration, I excels at streamlining processes, enhancing organizational efficiency, and fostering collaboration among teams. My proactive approach to problem-solving and attention to detail have made me a cornerstone in maintaining the operational integrity of Smash Technology.`,
-
-        `Beyond my administrative expertise, I am fueled by a profound interest in technology and innovation. I envisions a future where technology serves as a catalyst for growth, transforming businesses and society. This vision inspires me to stay ahead of industry trends and leverage cutting-edge tools to drive impactful change within the organization.`,
-
-        `My quest for innovation is evident in my commitment to integrating modern solutions into administrative practices. I believes that technology and creativity go hand in hand in shaping a sustainable and progressive workplace culture.`,
-
-        `With a focus on continuous learning and improvement, I remains an advocate for adopting forward-thinking strategies that align with the ever-evolving tech landscape. My passion for administration and innovation makes me a valuable leader in Smash Technology's mission to push the boundaries of what’s possible.`,
-      ],
-      image: admin,
-    },
-
-    team_lead_ridesmash: {
-      title: 'Team Lead for Ridesmash',
-      description: [
-        `My Name is Favour Jipson.`,
-
-        `My Journey with Smash Technology`,
-        `A graduate of Business Education from Alvan Ikoku Federal University Owerri.`,
-
-        `My journey with Smash Technology began on June 6th, 2024, when I join the company as a customer support executive for Ridesmash. At a time, I was still a timid person, and lacking confidence to truly step into a leadership role although still  believing In my self, however, joining Smash Technology quickly changed all of that.`,
-
-        `From day one, I was trained to handle customer inquiries with professionalism and poise, handle pressure and stay connected in difficult situation.Although my major work then was to Onboard drivers into our platform. In a short time, I was honored to be promoted to Team Lead for Ridesmash, a role that allowed me to further smothen my leadership skills. The experience of leading a team and over seeing customer operations helped me build my confidence and leadership stature. I went from being someone who doubted myself to becoming a confident and assertive leader, ready to face any challenge that came my way.`,
-        `There were moments of tough scoldings, moments when I felt like I wasn't good enough but those moments helped shape me into the person I am today. Smash Technology never gave up on me, and their feedback pushed me to be better each day.`,
-
-        `Today, I can proudly say that Smash Technology has completely rebranded me. I am no longer the timid person I once was. I am now confident, capable, and assertive. I am grateful for the opportunity to be part of such a remarkable company that has played a huge role in shaping my career and leadership journey.`,
-
-        `In the coming future with Smash, I will make sure that our clients get seamless experience with our hire purchase plan by helping them acquire their dream car.`,
-        
-        `All thanks to Smash Technology for believing in me and helping me reach new heights.`,
-      ],
-      image: favour,
     },
 
     team_lead_smashwise: {
@@ -327,23 +272,6 @@ through effecve management and strategic financial oversight.
       image: precious,
     },
 
-    team_lead_smashtravels: {
-      title: 'Team Lead for Smash Travels',
-      description: [
-        `My name is Ajodo Evelyn Edebo, and I am the Team Lead at Smash Travels, a division of Smash Technology. Customer service is more than just a role for me, it’s a passion.`,
-
-        `My love for helping people and solving problems inspired me to pursue this field as a career.`,
-
-        `I joined Smash Technology in August 2024 as a Customer Service and was promoted to Team Lead in January 2025 This role has allowed me to refine my leadership skills, enhance communication, and contribute meaningfully to the company’s growth.`,
-
-        `Since I joined till date, my amazing team and I have achieved significant milestones, including converting leads into paying clients and boosting customer satisfaction by 80%. Through proactive engagement and streamlined processes, we’ve built stronger connections with clients and enhanced their overall experience.`,
-
-        `I’m motivated by a desire to help people overcome challenges and achieve their goals. Every interaction is an opportunity to create value, whether for clients or my team.`,
-
-        `I aim to help Smash Technology double its achievements, grow its client base, and set new benchmarks for customer satisfaction. With focused strategies and teamwork, I believe we can elevate the company to even greater heights.`,
-      ],
-      image: evelyn,
-    },
 
     product_designer: {
       title: 'Lead Designer',
@@ -365,73 +293,25 @@ through effecve management and strategic financial oversight.
         `These experiences at Smash Technology have allowed me to become a more well-rounded product designer, capable of contributing to projects from multiple angles. I’m grateful for the growth I’ve experienced here, and I continue to strive for excellence in every project I take on. My journey at Smash Technology has not only shaped me as a designer but also as a versatile professional who understands the full scope of what it takes to create successful, user-centered products.`,
       ],
       image: val,
+    
+    
     },
-    social_media: {
-      title: 'Team Lead, Social Media/Content Creation',
+
+    company_secretary: {
+      title: 'Secretary',
       description: [
-        `My name is Ezeonwuka Greatness Vivian - Team Lead, Social Media/Content Creation at Smash Technology.`,
-        `I still vividly remember the thrill of receiving my offer letter from Smash Technology. It marked the beginning of an extraordinary chapter in my career as a social media influencer and content creator. From that moment on, I knew I was in for an exciting ride.`,
+        `Marvellous Kas-Nwogu is an accomplished legal practitioner with extensive experience in corporate law, real estate compliance, and dispute resolution. He currently serves as Company Secretary at FESTRUT Group Ltd, Abuja, where he oversees legal and administrative functions, drafts agreements and legal opinions, ensures regulatory compliance with FCDA, AGIS, and NERC, and represents the Group in court, arbitration, and mediation. He also leads negotiations between subsidiaries, contractors, and third parties, with a strong focus on risk assessment and liability prevention.`,
 
-        `Fast-forward to today, and I can confidently say that my journey at Smash Technology has been nothing short of remarkable. It's been a rollercoaster of challenges, growth, and impact. I've had the privilege of working with an exceptional team, collaborating on innovative projects, and pushing the boundaries of creative storytelling.`,
+        `Prior to this role, Marvellous worked as a Senior Associate at Crest and Waterfalls Consulting, specializing in litigation, arbitration, mediation, and energy law. He has also served as Head of Legal and Admin at Colossian Mega Universal Limited, and contributed to legislative drafting during his internship at the National Institute for Legislative and Democratic Studies. His career includes impactful volunteer work with the Triple Justice Foundation (Abuja) and the Legal Aid Council (Kano), where he represented indigent Nigerians and promoted human rights awareness.`,
+
+        `Marvellous holds a Bachelor of Laws (LLB) from Rivers State University and a Barrister-at-Law degree from the Nigerian Law School, both with Second Class Upper honors. He has served as a resource personnel for the Nigerian Airforce (Lagos) and the Army (Abuja) legal studies training.`,
+
+        `With proven expertise in regulatory compliance, contract negotiation, and client representation, Marvellous brings a wealth of legal and administrative knowledge to the real estate sector, ensuring that corporate transactions and property dealings are conducted with precision, transparency, and strategic foresight.`,
       ],
-      image: vivian,
-    },
-    graphic_designer: {
-      title: 'Graphic Designer',
-      description: [
-        `I am a Certified Brand Identity Designer with a strong passion for creativity. My interest in graphic design started when I discovered CorelDRAW. I enjoyed exploring the software and giving myself tasks to create different designs, which sparked my love for design.`,
-
-        `When I got into school, I started practicing graphic design more seriously. This gave me the chance to improve my skills, especially in brand identity design. I focused on creating unique designs that help brands tell their stories.`,  
-        `After finishing school, I joined Smash Technology in September 2024 as a Graphic Designer. I work on designs for all the company’s sub-brands, including RideSmash, Smash Travels, SmashWise, Smash Apartments, and others. At first, it was challenging to meet the design needs of each brand, but with time and practice, I got better at my work and gained confidence in my skills.`,  
-
-        `Working at Smash Technology has also taught me more than just design. I have learned about marketing, teamwork, and other important skills that have helped me grow as a professional.`,  
-
-        `I am passionate about using my designs to bring ideas to life.`,
-      ],
-      image: chris,
+      image: val,
     },
 
-    it_support: {
-      title: 'Frontend Developer 1 & IT Support',
-      description: [
-        `My name is Obike Victor Emeka. Since after my secondary school, my passion for technology and computers only grew stronger. Although I explored other industries, including healthcare, my love for tech remained unwavering. I took a proactive approach to learning, starting with the basics and progressively expanding my skills across various areas, including software and hardware training, coding, computer programming, and graphics design.`,
 
-        `My time in Smash Technology has been a transformative experience, offering invaluable opportunities for growth, learning, and development. Joining as an IT Support Executive, I've had the privilege of collaborating with a talented team of innovative and forward-thinking professionals. This exposure has significantly contributed to my career advancement in tech and has enabled me to enhance my skills and expertise.`,
-
-        `As an IT Support Executive, I encounter a wide range of software and hardware challenges on a daily basis. From familiar issues to novel ones, I leverage my broad IT expertise to provide timely and effective support to my colleagues. I deliver technical assistance, troubleshoot problems, and resolve issues within tight deadlines, all while maintaining workflow efficiency and minimizing downtime.`,
-          
-        `Smash Technology's commitment to excellence and perfection serves as a powerful motivator for me. I strive to embody this organizational mindset by staying up-to-date with the latest trends and advancements in the tech world. I am dedicated to delivering high-quality results, ensuring that all tasks are completed on time and to the highest standards of perfection.`,
-          
-        `My aspiration is to continue growing and learning, and I envision a future where I transition into a full-stack mobile app developer role. I am committed to expanding my skill set and expertise to achieve this goal.`,
-      ],
-      image: obike,
-    },
-
-    software_engineer: {
-      title: 'Software Engineer',
-      description: [
-        `I'm Omogbehinmi Olusegun E. `,
-        `I'm a dedicated software engineer with over 3 years of experience in the tech industry, specializing in developing scalable applications and robust API solutions. My work focuses on building user-centric tools that streamline workflows, boost productivity, and drive innovation.`,
-        `With a strong commitment to delivering high-quality, scalable solutions, I’m continuously honing my technical expertise to stay at the forefront of industry advancements. I’m passionate about using technology to create meaningful impact and to solve real-world problems.`,
-      ],
-      image: segun,
-    },
-    leadfs: {
-      title: 'Lead Full Stack Engineer',
-      description: [
-        `I am Uwem Akpabot. I emphasize that software should be created in a way that it is easy to maintain in the long run. 
-        Engineering and proper Architecture should be applied to software to make it easy to use, easy to reuse or modify, and perform flawlessly over 
-        a long period of time and continue to meet users' needs.`,
-
-        `In 2013, I earned a Master's Degree with Merit in Software Engineering in the UK - University of Greenwich, London, I am a Microsoft Certified Professional 
-        with progressive professional experience working with several technologies for over a decade. FHI 360 Abuja, Luday AB Nigeria/Sweden, Zyzics, and Tasty Foods Belvedere, UK
-        are just few of the organizations that my productivity was showcased with good leadership quality.`,
-
-        `Joining Smash Technology is a dream come true; a vision that aligns with mine. Vibrant, innovative, and smart place to work in. 
-        A visionary CEO and intelligent teams across brands; they push my drive even further. `,
-      ],
-      image: biz2,
-    },
   };
 
   // Fetch the details for the specific slug

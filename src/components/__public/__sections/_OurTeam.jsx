@@ -17,7 +17,6 @@ import chris from './../../../assets/images/ourteam/Chris 1.jpg';
 import obike from './../../../assets/images/ourteam/Obike 1.jpg';
 import favour from './../../../assets/images/ourteam/Favour1.jpg';
 import lagos_branch_mgr from './../../../assets/images/ourteam/lagos_branch_manager.jpg';
-import evelyn from './../../../assets/images/ourteam/Evelyn.jpg';
 import segun from './../../../assets/images/ourteam/Segun.jpg';
 import biz2 from './../../../assets/images/ourbusiness/Food.jpg';
 
@@ -220,20 +219,17 @@ through effecve management and strategic financial oversight.`;
       slug: 'biz_operations_mgr_lag',
     },
     {
-      title: 'Branch Manager, Abuja',
+      title: 'PA / Media Team Lead',
       description: (() => {
         const fullDescription =
-          `My name is Charity John, and I am the Business Operations Manager, Abuja. Customer service is more than just a role for me, it’s a passion. 
+          ` 
+      Comely Ebenezer is a highly skilled technology professional and strategic operations specialist with a Bachelor of Science (B.Sc.) degree in Computer Science from Nasarawa State University. He possesses advanced certifications in Software Engineering, Full Stack Development, and Artificial Intelligence, reflecting a strong foundation in modern software technologies and emerging digital solutions.
 
-          My love for helping people and solving problems inspired me to pursue this field as a career.
+With a solid background in web and application development, Comely has expertise in building scalable, user-centric systems, integrating intelligent solutions, and leveraging technology to solve complex business challenges. His proficiency spans front-end and back-end development, system optimization, and digital innovation, positioning him as a forward-thinking contributor in today’s tech-driven landscape.
 
-          I joined Smash Technology in June 2024 as a Customer Service Executive and was promoted to Team Lead within three months. This role has allowed me to refine my leadership skills, enhance communication, and contribute meaningfully to the company’s growth.
+He currently serves as the Personal Assistant to the CEO of Festrut Group, where he provides high-level executive support, drives strategic initiatives, and ensures operational efficiency across key business functions. In addition, he leads the Media Team, overseeing digital strategy, brand positioning, and multimedia communications to strengthen the company’s market presence.
 
-          Since I joined till date, my amazing team and I have achieved significant milestones, including converting leads into paying clients and boosting customer satisfaction by 80%. Through proactive engagement and streamlined processes, we’ve built stronger connections with clients and enhanced their overall experience.
-
-          I’m motivated by a desire to help people overcome challenges and achieve their goals. Every interaction is an opportunity to create value, whether for clients or my team.
-
-          I aim to help Smash Technology double its achievements, grow its client base, and set new benchmarks for customer satisfaction. With focused strategies and teamwork, I believe we can elevate the company to even greater heights.
+Comely combines technical expertise with strong leadership and organizational capabilities, enabling him to bridge the gap between technology and business. He is committed to delivering impactful solutions, driving digital transformation, and contributing to sustainable organizational growth.
           `;
         return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
       })(),
@@ -263,49 +259,21 @@ through effecve management and strategic financial oversight.`;
     // },
    
     {
-      title: 'Lead Designer',
+      title: 'Secretary',
       description: (() => {
         const fullDescription =
-          `My name is Mamah Valentine Obumneme, a Lead Designer at Smash Technology, where I have had the privilege of working on a variety of innovative and user-centered products. My passion lies in transforming complex problems into seamless, intuitive designs that enhance user experiences. Over the years, I have honed my skills in areas such as user research, UI/UX design, prototyping, and usability testing, always striving to create solutions that not only look great but also function smoothly.
-
-          At Smash Technology, I have had the opportunity to work on projects that push the boundaries of design, collaborating with talented teams to deliver cutting-edge solutions. My work is deeply rooted in a user-first approach, ensuring that every design decision is made with the user’s needs in mind.
-
-          Working at Smash Technology has been instrumental in shaping my career and expanding my skill set in ways that go beyond design. The company has provided me with invaluable experiences that have allowed me to grow both professionally and personally.
-          Being part of cross-functional teams has given me hands-on experience in managing design projects from start to finish. I’ve learned to balance creative goals with business objectives, ensuring that we meet deadlines while delivering high-quality results. Collaborating with developers, project managers, and stakeholders has taught me how to effectively manage resources and keep projects on track.                                                              
-          At Smash Technology, I have worked closely with the QA team, helping to ensure that the products we design meet rigorous quality standards. This experience has sharpened my ability to identify potential issues early in the process, iterate quickly, and maintain a focus on user experience throughout the testing phase.
-
-          My role has also involved collaborating with the marketing team to ensure that our product designs align with the brand’s messaging and target audience. Working alongside marketers, I’ve gained a deeper understanding of how design connects with broader market strategies and how to create visually compelling products that resonate with users.
-
-          One of the most rewarding aspects of my time at Smash Technology has been the relationships I’ve built with colleagues across different departments. I’ve had the chance to collaborate closely with engineers, product managers, and other designers, which has helped me improve my communication skills and learn how to integrate various perspectives into my design process.
-
-          These experiences at Smash Technology have allowed me to become a more well-rounded product designer, capable of contributing to projects from multiple angles. I’m grateful for the growth I’ve experienced here, and I continue to strive for excellence in every project I take on. My journey at Smash Technology has not only shaped me as a designer but also as a versatile professional who understands the full scope of what it takes to create successful, user-centered products.`;
+          `Marvellous Kas-Nwogu is an accomplished legal practitioner with extensive experience in corporate law, real estate compliance, and dispute resolution. He currently serves as Company Secretary at FESTRUT Group Ltd, Abuja, where he oversees legal and administrative functions, drafts agreements and legal opinions, ensures regulatory compliance with FCDA, AGIS, and NERC, and represents the Group in court, arbitration, and mediation. He also leads negotiations between subsidiaries, contractors, and third parties, with a strong focus on risk assessment and liability prevention.
+Prior to this role, Marvellous worked as a Senior Associate at Crest and Waterfalls Consulting, specializing in litigation, arbitration, mediation, and energy law. He has also served as Head of Legal and Admin at Colossian Mega Universal Limited, and contributed to legislative drafting during his internship at the National Institute for Legislative and Democratic Studies. His career includes impactful volunteer work with the Triple Justice Foundation (Abuja) and the Legal Aid Council (Kano), where he represented indigent Nigerians and promoted human rights awareness.
+Marvellous holds a Bachelor of Laws (LLB) from Rivers State University and a Barrister-at-Law degree from the Nigerian Law School, both with Second Class Upper honors. He has served as a resource personnel for the Nigerian Airforce (Lagos) and the Army (Abuja) legal studies training. 
+With proven expertise in regulatory compliance, contract negotiation, and client representation, Marvellous brings a wealth of legal and administrative knowledge to the real estate sector, ensuring that corporate transactions and property dealings are conducted with precision, transparency, and strategic foresight.
+`;
 
         return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
       })(),
       image: val,
-      slug: 'product_designer',
+      slug: 'company_secretary',
     },
-       
-    {
-      title: 'Lead Full Stack Engineer',
-      description: (() => {
-        const fullDescription =
-          `I am Uwem Akpabot. I emphasize that software should be created in a way that it is easy to maintain in the long run. 
-        Engineering and proper Architecture should be applied to software to make it easy to use, easy to reuse or modify, and perform flawlessly over 
-        a long period of time and continue to meet users' needs.
-
-        In 2013, I earned a Master's Degree with Merit in Software Engineering in the UK - University of Greenwich, London, I am a Microsoft Certified Professional 
-        with progressive professional experience working with several technologies for over a decade. FHI 360, Luday, Zyzics, and Tasty Foods Belvedere 
-        are just few of the organizations that my productivity was showcased with good leadership quality.
-
-        Joining Smash Technology is a dream come true; a vision that aligns with mine. Vibrant, innovative, and smart place to work in. 
-        A visionary CEO and intelligent teams across brands; they push my drive even further.`;
-
-        return fullDescription.slice(0, 118) + (fullDescription.length > 100 ? '...' : '');
-      })(),
-      image: biz2,
-      slug: 'leadfs',
-    },
+      
   ]; 
 
   const [visibleProfiles, setVisibleProfiles] = useState(14);  // Start with the first 14 profiles visible
