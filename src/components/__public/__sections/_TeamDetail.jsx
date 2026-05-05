@@ -236,79 +236,18 @@ Comely combines technical expertise with strong leadership and organizational ca
     // },
 
 
-
-    grp_head_media_it_communications: {
-      title: 'Group Head, Media & I.T. Communications',
-      description: [
-        `I am Gracious Onyeahialam and I'm passionate about Cybersecurity. I started my career in 2018 after acquiring a B.Sc in Biotechnology, as a Confidential Secretary to the Director of Health in the Federal Ministry of Science, Technology and Innovation, Abuja overseeing a range of parastatals. During this time, I developed strong analytical, communication, and organizational skills that set the foundation for my future endeavors.`,
-
-        `Thereafter, I took on the role of Operations Manager in a computing firm, where my attention to the sensitivity of customer and employee data led me to explore the world of cybersecurity. My transition into the tech landscape opened my eyes to crucial areas such as network security, risk management, ethical hacking, data protection, security compliance, cryptography, cloud security.`,
-
-        `When I joined Smash Technology as a Cybersecurity Analyst, I gained hands-on experience by working on real-time projects and collaborating closely with development teams for web and mobile applications security. I have now been promoted to Head of Media and I.T Communications, where I now lead an 8-man team of talented IT professionals who are very diligent in their roles and always seeking to learn and grow in this ever-evolving tech field.`,
-
-        `I believe in the power of relationships, zero-trust model and kindness, with an understanding that they are key to creating a safer, secured, and more connected digital world.`,
-      ],
-      image: gracious,
-    },
-
-    team_lead_smashwise: {
-      title: 'Team Lead for Smashwise',
-      description: [
-        `My name is Adugba Precious Oluomachukwu - Teamlead for Smashwise`,
-        `I joined Smash Technology on 5th June, 2024 as a Customer Support Executive. I still laugh when I think about how I came straight from my previous job, dressed in a suit, for the interview. The CEO, a compassionate man, saw something in me and offered me the position.`,
-
-        `When I resumed duties on June 6th, 2024, I remember staring at my desktop for two whole days, unsure of what to do next. If you know e-commerce, you understand that setting up a successful platform is no easy feat. I quickly realized that this role was more than just answering customer inquiries – it was about proactively reaching out to vendors and driving results.`,
-
-        `The turning point came when the CEO asked for the leads I had generated. That’s when it truly hit me – I needed to focus on vendor acquisition, not just customer support. So, I took it upon myself to learn. I started researching, attending online seminars and absorbing everything I could to improve my skills. With constant encouragement from the CEO, I quickly found my foot.`,
-
-        `From starting as a customer support executive to becoming the team lead of Smashwise, it has been a journey of hard work, dedication, and growth. Setting up an e-commerce platform from scratch is challenging, and there were moments when I felt like giving up. But with God’s guidance, the support of our CEO, and the amazing colleagues I have in Charity John and Favour Jipson – who are truly angels sent from above – I pushed through. May God bless you both abundantly. Amen!`,
-
-        `I’m proud to share that I single-handedly grew our vendor list from 12 to 200 between June and August, before team members were assigned to me.`,
-
-        `Smash Technology has truly transformed me. It has built my confidence, sharpened my intellect and enhanced my leadership skills. I’m still growing, and I’m excited for the future.`,
-
-        `Thank you, Smash Technology. Thank you, CEO – you are a blessing sent to me by God.`,
-      ],
-      image: precious,
-    },
-
-
     product_designer: {
-      title: 'Lead Designer',
+      title: 'Company Secretary',
       description: [
-        `My name is Mamah Valentine Obumneme, a Lead Designer at Smash Technology, where I have had the privilege of working on a variety of innovative and user-centered products. My passion lies in transforming complex problems into seamless, intuitive designs that enhance user experiences. Over the years, I have honed my skills in areas such as user research, UI/UX design, prototyping, and usability testing, always striving to create solutions that not only look great but also function smoothly.`,
-
-        `At Smash Technology, I have had the opportunity to work on projects that push the boundaries of design, collaborating with talented teams to deliver cutting-edge solutions. My work is deeply rooted in a user-first approach, ensuring that every design decision is made with the user’s needs in mind.`,
-
-        `Working at Smash Technology has been instrumental in shaping my career and expanding my skill set in ways that go beyond design. The company has provided me with invaluable experiences that have allowed me to grow both professionally and personally.`,
-        
-        `Being part of cross-functional teams has given me hands-on experience in managing design projects from start to finish. I’ve learned to balance creative goals with business objectives, ensuring that we meet deadlines while delivering high-quality results. Collaborating with developers, project managers, and stakeholders has taught me how to effectively manage resources and keep projects on track.`,                                                              
-        
-        `At Smash Technology, I have worked closely with the QA team, helping to ensure that the products we design meet rigorous quality standards. This experience has sharpened my ability to identify potential issues early in the process, iterate quickly, and maintain a focus on user experience throughout the testing phase.`,
-
-        `My role has also involved collaborating with the marketing team to ensure that our product designs align with the brand’s messaging and target audience. Working alongside marketers, I’ve gained a deeper understanding of how design connects with broader market strategies and how to create visually compelling products that resonate with users.`,
-
-        `One of the most rewarding aspects of my time at Smash Technology has been the relationships I’ve built with colleagues across different departments. I’ve had the chance to collaborate closely with engineers, product managers, and other designers, which has helped me improve my communication skills and learn how to integrate various perspectives into my design process.`,
-
-        `These experiences at Smash Technology have allowed me to become a more well-rounded product designer, capable of contributing to projects from multiple angles. I’m grateful for the growth I’ve experienced here, and I continue to strive for excellence in every project I take on. My journey at Smash Technology has not only shaped me as a designer but also as a versatile professional who understands the full scope of what it takes to create successful, user-centered products.`,
+        ` Marvellous Kas-Nwogu is an accomplished legal practitioner with extensive experience in corporate law, real estate compliance, and dispute resolution. He currently serves as Company Secretary at FESTRUT Group Ltd, Abuja, where he oversees legal and administrative functions, drafts agreements and legal opinions, ensures regulatory compliance with FCDA, AGIS, and NERC, and represents the Group in court, arbitration, and mediation. He also leads negotiations between subsidiaries, contractors, and third parties, with a strong focus on risk assessment and liability prevention.
+Prior to this role, Marvellous worked as a Senior Associate at Crest and Waterfalls Consulting, specializing in litigation, arbitration, mediation, and energy law. He has also served as Head of Legal and Admin at Colossian Mega Universal Limited, and contributed to legislative drafting during his internship at the National Institute for Legislative and Democratic Studies. His career includes impactful volunteer work with the Triple Justice Foundation (Abuja) and the Legal Aid Council (Kano), where he represented indigent Nigerians and promoted human rights awareness.
+Marvellous holds a Bachelor of Laws (LLB) from Rivers State University and a Barrister-at-Law degree from the Nigerian Law School, both with Second Class Upper honors. He has served as a resource personnel for the Nigerian Airforce (Lagos) and the Army (Abuja) legal studies training. 
+With proven expertise in regulatory compliance, contract negotiation, and client representation, Marvellous brings a wealth of legal and administrative knowledge to the real estate sector, ensuring that corporate transactions and property dealings are conducted with precision, transparency, and strategic foresight.
+`,
       ],
       image: val,
     
     
-    },
-
-    company_secretary: {
-      title: 'Secretary',
-      description: [
-        `Marvellous Kas-Nwogu is an accomplished legal practitioner with extensive experience in corporate law, real estate compliance, and dispute resolution. He currently serves as Company Secretary at FESTRUT Group Ltd, Abuja, where he oversees legal and administrative functions, drafts agreements and legal opinions, ensures regulatory compliance with FCDA, AGIS, and NERC, and represents the Group in court, arbitration, and mediation. He also leads negotiations between subsidiaries, contractors, and third parties, with a strong focus on risk assessment and liability prevention.`,
-
-        `Prior to this role, Marvellous worked as a Senior Associate at Crest and Waterfalls Consulting, specializing in litigation, arbitration, mediation, and energy law. He has also served as Head of Legal and Admin at Colossian Mega Universal Limited, and contributed to legislative drafting during his internship at the National Institute for Legislative and Democratic Studies. His career includes impactful volunteer work with the Triple Justice Foundation (Abuja) and the Legal Aid Council (Kano), where he represented indigent Nigerians and promoted human rights awareness.`,
-
-        `Marvellous holds a Bachelor of Laws (LLB) from Rivers State University and a Barrister-at-Law degree from the Nigerian Law School, both with Second Class Upper honors. He has served as a resource personnel for the Nigerian Airforce (Lagos) and the Army (Abuja) legal studies training.`,
-
-        `With proven expertise in regulatory compliance, contract negotiation, and client representation, Marvellous brings a wealth of legal and administrative knowledge to the real estate sector, ensuring that corporate transactions and property dealings are conducted with precision, transparency, and strategic foresight.`,
-      ],
-      image: val,
     },
 
 

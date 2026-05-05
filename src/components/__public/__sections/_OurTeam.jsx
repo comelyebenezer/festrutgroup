@@ -259,7 +259,7 @@ Comely combines technical expertise with strong leadership and organizational ca
     // },
    
     {
-      title: 'Secretary',
+      title: 'Company Secretary',
       description: (() => {
         const fullDescription =
           `Marvellous Kas-Nwogu is an accomplished legal practitioner with extensive experience in corporate law, real estate compliance, and dispute resolution. He currently serves as Company Secretary at FESTRUT Group Ltd, Abuja, where he oversees legal and administrative functions, drafts agreements and legal opinions, ensures regulatory compliance with FCDA, AGIS, and NERC, and represents the Group in court, arbitration, and mediation. He also leads negotiations between subsidiaries, contractors, and third parties, with a strong focus on risk assessment and liability prevention.
