@@ -50,65 +50,159 @@ const TeamDetail = () => {
     },
     
     exec_asst_to_ceo: {
-      title: 'Executive Assistant to CEO',
+      title: 'Executive Director',
       description: [
-        `As an Executive Assistant to the CEO at Smash Technology, my career journey has been a dynamic and rewarding experience. From managing complex schedules and coordinating high-level meetings to streamlining communication across teams, I’ve gained invaluable insights into organizational operations and strategic decision-making.`,
+        ` Sophie Oluchi Odabe is a dynamic and accomplished professional in the fields of educaon and public
+relaons. Her career trajectory is marked by a deep commitment to leadership, transformaon, and
+humanitarian efforts, posioning her as a key figure in both corporate and non-profit sectors.`,
 
-        `This role has allowed me to develop a diverse skill set, including problem-solving, multitasking, and fostering strong professional relationships. Each challenge has provided an opportunity for growth, enabling me to better anticipate needs and contribute to the company’s success.`,
+        `Sophie began her career at Trinity Private School, inially as an educaonist. She quickly progressed
+through various roles, including a volunteer posion in public schools, ulmately serving as the Public
+Relaons Officer (PRO) during a leveraged buyout. Her journey through mulnaonal companies has seen
+her take on Execuve Director roles, Co-found two successful organizaons, and serve as a School
+Registrar.
+Her experse extends to developing visionary strategies, driving pivotal iniaves, and overseeing
+significant transformaons within organizaons. Notable achievements include:
+ Co-founding two successful organizaons and a university.
+ Leading a turnaround for a failing project.
+ Designing PhD curricula in communicaon and public relaons.
+ Wring instruconal materials for online courses on leadership and corporate communicaon.`,
 
-        `The process has been a continuous learning experience, deepening my understanding of leadership, business processes, and effective collaboration. I’m excited to further expand my knowledge and contribute to impactful initiatives moving forward.`,
+        ` Sophie is passionate about nurturing small businesses and enhancing their profitability. She is acvely
+involved in several humanitarian projects, contribung to organizaons like festunifund.org and the
+Festrut Charity Foundaon. As an Execuve Director and Board member of the Festrut Group of
+Companies, she has played a crucial role in debt recovery and project implementaon. She also serves as
+the Co-founder and Secretary General of the Presgious Elites Organisaon United Kingdom.`,
 
-        `A brief description of how i joined Smash Technology`,
+        `Sophie specializes in public relaons, focusing on digital communicaon, brand management, and event
+planning. Her skills include:
+ Strategic communicaon planning to elevate brand reputaon.
+Effecve crisis management strategies to safeguard organizaonal integrity.
+Building and maintaining media relaonships for posive coverage.
+Craing compelling social media strategies to enhance audience engagement.
+`,
 
-        `I first came across the vacancy for Smash Technology online, and after reading through the job description, I became intrigued. To learn more about the company, I visited their Instagram page and was immediately impressed by the way the team collaborates. The uniformity in their approach and the positive, dynamic energy stood out to me. It seemed like a place where teamwork and innovation thrive. Having never worked with a tech company before, I saw this as an exciting opportunity to grow and gain valuable experience. I was eager to be part of such a forward-thinking company and contribute to its success.`,
+        ` Her interpersonal strengths include:
+ Exceponal relaonship-building capabilies with stakeholders.
+Proven team collaboraon skills across diverse groups.
+ Effecve presentaon skills for conveying complex informaon clearly.
+ High adaptability to evolving media landscapes and organizaonal needs`,
 
-        `Ezugwu Onyinyechukwu`,
+        `Sophie holds a Bachelor of Arts and a Master of Arts in English Language, along with a PhD in Public
+Relaons. She is also a cerfied member of the Nigerian Instute of Management and has addional
+cerficaons in computer applicaons and Space Technology Educaon.
+Sophie Oluchi Odabe exemplifies a blend of strategic insight, educaonal passion, and humanitarian
+commitment. Her extensive experience in public relaons and her dedicaon to elevang others make her
+a significant contributor to both her professional and community endeavours.
+`,
       ],
       image: ea,
     },
 
     gm: {
-      title: 'General Manager',
+      title: 'Managing Director',
       description: [
-        ` I'm Yahaya Shedrack Abdulkadir, the General Manager Smash Technology. My desire for sales and business development for about 2 decades, grew when i found out that i had a deposit of leadership, skills and idea, and what it takes to meet the needs of clients/customer's at every given point in time. Am a graduate of BSc Economics from a reputable Nigerian university, MBA in marketing, Chartered in Project management, Professional Diploma in Operations management from Blessed cosmopolitan college UK and Chartered in Operations management from the American institute of oil and Gas USA.`,
-
-        `I started my career as a young sales officer in kano that was passionate and enthusiastic about getting results at all cost. In my pursuit for career growth and significant development, i was dedicated, rugged and dogged in ensuring i could climb through all odds just to achieve unprecedented success. However, it's been a magnanimous journey thus far.`,
-
-       `I have a vast experience in business and project development with proven track records of successfully implementing strategic initiatives and driving company's growth. Skilled in identifying opportunities, building partnerships and fostering on client relationships, a strong leadership abilities to lead cross functional teams, manage complex projects, and deliver results within budget and timeline. Am a very good effective communicator with exceptional negotiation and problem-solving skills, committed to fostering innovation and driving continuous improvement. An adept at analyzing market trends, developing actionable strategies, and delivering exceptional value for clients and stakeholders.`,
-
-        `I am committed as the GM in taking Smash technology to greater heights and ensuring that the vision, dreams and aspiration of what will be of the company will be achieved through collective efforts of the entire staff and high level display of expertise in making the company a global brand known for excellence.`,
+        `Oluwasola Peters is a disnguished trajectory influencer with extensive experience in the construcon
+and real estate sectors. Her experse spans construcon management, building producon, estate
+management, markeng, and administraon, which she has developed over a career exceeding 15
+years.
+In her role as a business tycoon, Mrs. Peters has significantly contributed to addressing naonal
+demands by providing finished goods directly to customers. She ulizes both local and advanced
+technology to ensure mely and efficient delivery of services, thereby enhancing the overall customer
+experience and supporng economic growth.
+As the Managing Director of Festrut Group, Mrs. Peters oversees the organizaon from its head office
+located at Plot 2311, Festrut Estate, Katampe District, Abuja. She possesses a strong academic
+foundaon, holding a post-graduate diploma in Construcon Management from Tafawa Balewa
+University in Bauchi, a degree in Building Technology from Federal Polytechnic Ado-Eki, and
+specialized training in Internaonal Management from Festrut Internaonal Management Instute
+(FIMILTD/GTE). This educaonal background equips her with the competencies necessary to navigate
+the complexies of the construcon and real estate industries effecvely.
+Mrs. Peters has parcipated in various construcon projects across Nigeria, showcasing her leadership
+and project management abilies. Her contribuons include serving as a team member on the Zion
+Golden City estate construcon project in Akure, Ondo State, and fulfilling the role of Resident Builder at
+Salama Holiday Inn in Bauchi. Furthermore, as Project Manager at Basilica Construcon Ltd, she
+successfully oversaw the construcon of the School of Science and Mines at the Federal University of
+Technology, Akure (FUTA).
+Addionally, Mrs. Peters is an acve member of the board of directors at both Festrut Group of
+Companies and Avemcord Associates Construcon Nigeria Ltd. Her dedicaon to societal advancement
+is evident in her commitment to youth empowerment iniaves, parcularly in providing
+developmental training for young individuals, with an emphasis on the girl child.
+In her personal life, Mrs Peters is married to Esv. Oisa Peter. She is passionate about problem-solving,
+engaging in travel, pursuing shopping opportunies, and dedicang me to prayer.
+Her diverse interests and comprehensive experience reflect her commitment to making a meaningful
+impact in both her professional and personal endeavors.
+`,
       ],
       image: gm,
     },
     grp_biz_operations: {
-      title: 'Group Head of Business Operations',
+      title: 'Chief Operations Officer',
       description: [
-        `Meet Claire Aguolu, Group Business Operations. As the Head of Operations at Smash Technology I’m honored to lead the team that ensures our technology-driven vision is seamlessly brought to life. With a strong passion for operational excellence and a deep understanding of scaling businesses in the tech industry, my role revolves around optimizing processes, fostering innovation, and driving sustainable growth.`,
+        `Joseph Akpezi is a highly qualified communicaon professional who brings a diverse skill set and extensive
+experience in media, public relaons, informaon and communicaon technology (ICT), and logiscs. He
+earned his B.Sc. in Journalism and Mulmedia Communicaons from the University of Cross River in
+Calabar, where he acquired a solid foundaon in effecve communicaon strategies and media pracces.
+`,
 
-        `My journey to Smash Technology has been an exciting blend of challenges and accomplishments. With over 8 years of experience across specific areas, like the operational strategy, Client Relationship, Supply Chain Management, Sales and Process improvement, I’ve had the privilege of working with diverse teams across the Finance and Hospitality industry. My career began at Wema Bank PlC where I had an impactful role working in the operations department as a Branch Service Associate and later transitioned into the Hospitality industry which solidified my expertise in Operational excellence and Optimization What drew me to Smash Technology was not just its innovative technology but also its commitment to always striving for Excellence, Integrity, Commitment, Innovation and Optimal service delivery.`,
-
-        `Joining this dynamic organization has allowed me to combine my operational acumen with a forward-thinking team that thrives on collaboration and creativity. At Smash Technology, I am dedicated to building systems that enable our teams to innovate fearlessly, deliver exceptional value to our clients, and set new industry standards. Together, we’re shaping a future where technology empowers people and businesses to achieve more.`,
-
-        `I’m thrilled to be part of this journey, and I look forward to contributing to Smash Technology's legacy of excellence.`,
+        `Throughout his career, Joseph has honed his networking abilies across both tradional and emerging
+media plaorms, allowing him to build strong relaonships and convey brand missions, visions, and values
+effecvely. His experse in strategic communicaon ensures that the organizaons he represents maintain
+a consistent and impacul presence in the marketplace.
+In addion to his communicaon skills, Joseph is a cerfied project management expert. He excels at
+overseeing projects from incepon to compleon, meculously ensuring that all targets are achieved and
+deadlines are respected. His ability to manage mulple projects simultaneously is a testament to his
+organizaonal skills and commitment to excellence.
+Joseph's professional journey includes notable roles in various organizaons, such as Asaba Film Academy,
+Creave Decors, and Blueprint Newspapers, where he contributed significantly to their communicaons
+and public relaons efforts. His entrepreneurial spirit is evident in his business interests, parcularly in the
+fields of ICT, logiscs, and transportaon, where he connually seeks innovave soluons to enhance
+operaonal efficiency.
+Currently, Joseph serves as the Chief Operaons Officer at Festrut Global Shelter Nigeria Limited, where he
+plays a pivotal role in driving the company's operaonal strategies and overseeing daily acvies to ensure
+opmal performance.
+He is commied to professional development, having aended numerous cerficaons that enhance his
+skill set and knowledge base. These include Peak Performance Management Training, Effecve Workplace
+Communicaon, Designated Non-Financial Business and Professions (DNFBPs), Project Management
+Training, Jobberman So Skills Training, Public Relaons, and Data Analysis, among others.
+Joseph's dedicaon to connuous learning and development posions him as a valuable asset to any
+organizaon.
+`,
       ],
       image: hop,
     },
     biz_operations_mgr_lag: {
-      title: 'Business Operations Manager, Lagos',
+      title: 'Human Resource Manager',
       description: [
-        `My name is Igbinai Tehilah Uche.`,
-        `A dedicated and highly motivated professional with a background in banking, finance, customer service, operations, administrative management ,and a vast knowledge and certification in healthcare.`,
-
-        `I am currently serving as the Lagos State Branch Operations Manager at Smash Technology, where I oversee business processes to ensure goal oriented operations.`,
-
-        `With a strong passion for tech innovation and business transformation, I joined Smash Technology to further my passion for and excellence in the tech industry. This role has enabled me to integrate my diverse skill set with the company’s progressive vision, achieving significant outcomes.
-        I am dedicated to contributing a distinctive combination of skills and experience that strengthens the company’s commitment to delivering satisfying solutions`,
-
-        `In my capacity as Operations Manager, I have contributed to refining internal workflows, strengthening team collaborations, and spearheading initiatives that align with the company’s strategic goals.`,
-
-        `Smash Technology, in turn, has significantly enriched my professional journey by fostering a culture of learning and innovation, empowering me to grow as a leader in the tech industry.`,
-
-        `I look forward to continuing to grow with the Smash Technology and achieving greater success together.`,
+        `Alima Kema Musa is a seasoned HR and Accounng professional with over 12 years of diverse experience in
+accounng, financial management, budgeng, human resource management, legal affairs, and
+administraon. She holds a Bachelor of Science (B.Sc.) degree in Accounng from the University of Abuja
+and is currently pursuing professional cerficaon with the Instute of Chartered Accountants of Nigeria
+(ICAN).
+Throughout her career, Alima has demonstrated a steadfast commitment to excellence and connuous
+learning. Her background reflects a unique blend of accounng experse and human resource
+management, underscored by her strong interpersonal and analycal skills. Her proacve approach to
+problem-solving and her keen ability to navigate complex organizaonal challenges make her an invaluable
+asset in any seng.
+Alima's career journey began in 2005 when she took on the role of a Cashier at Adex Beauty & Cosmecs
+Salon in Lagos State, soon advancing to a receponist posion at Phoenix Hotel Abuja. In 2011, she
+transioned to a more prominent role as the Admin Manager at Musa, Nazifi & Co., a legal and real estate
+firm, where she honed her skills in administraon and management.
+Currently, Alima serves as the HR/Accountant at Festrut Global Shelter Nigeria Ltd., where she is entrusted
+with significant responsibilies in both the human resources and accounng departments. Her role
+includes preparing staff payrolls, onboarding new employees, maintaining accurate records, preparing
+financial statements, and managing monthly expenditures. Addionally, she collaborates with the legal
+officer and managing director, ensuring a streamlined operaonal process while fostering a collaborave
+work environment aligned with the company's vision and mission.
+Alima is dedicated to professional development, having parcipated in various training programs that
+enhance her leadership and financial management skills. Notable among these are her studies at the
+London School of African Entrepreneurship and Leadership Studies, corporate finance training with the
+Corporate Finance Instute in Canada, and crisis management training with Deltaville Research LLC.
+Furthermore, her training with the United Naons in internaonal organizaon management has
+equipped her with a global perspecve, enhancing her ability to navigate mulcultural environments.
+Alima Kema Musa's mulfaceted experience and unwavering dedicaon to her profession posion her as a
+leading figure in the fields of human resources and accounng, commied to driving organizaonal success
+through effecve management and strategic financial oversight.
+`,
       ],
       image: lagos_branch_mgr,
     },

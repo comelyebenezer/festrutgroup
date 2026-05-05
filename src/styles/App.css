@@ -400,9 +400,13 @@ p{
 }
 
 #ourteam img{
-  width: 100%;
-  height: 441.66px;
+  width: 200px;
+  height: 260px;
+  object-fit: cover;
+  object-position: top;
   border-radius: 29.94px 29.94px 0px 0px;
+  display: block;
+  margin: 0 auto;
 }
 #ourteam h3{
   font-size: 2rem;

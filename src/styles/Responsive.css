@@ -1515,9 +1515,10 @@
         gap: 3rem
     }
     .sections.meetourteam .business-container img.team{
-        height: 300px !important;
+        width: 180px !important;
+        height: 240px !important;
         object-fit: cover;
-        object-position: bottom;
+        object-position: top;
     }
 
     /* core values */
@@ -2025,9 +2026,10 @@
         gap: 3rem
     }
     .sections.meetourteam .business-container img.team{
-        height: 300px !important;
+        width: 180px !important;
+        height: 240px !important;
         object-fit: cover;
-        object-position: center;
+        object-position: top;
     }
 
     /* core values */
@@ -2563,11 +2565,12 @@
         margin-top: 2rem;
         gap: 3rem
     }
-    /* .sections.meetourteam .business-container img.team{
-        height: 23.5rem !important;
+    .sections.meetourteam .business-container img.team{
+        width: 180px !important;
+        height: 240px !important;
         object-fit: cover;
-        object-position: center;
-    } */
+        object-position: top;
+    }
 
     /* core values */
     #ourcorevalues{
