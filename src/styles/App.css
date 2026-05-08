@@ -961,7 +961,17 @@ iframe{
 }
 .commitment-quality{
   padding: var(--content-normal);
-  gap: 96px;
+  gap: 24px;
+}
+.commitment-quality > div{
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.sections.commitment-quality + .sections{
+  margin-top: 0;
 }
 .exceptional-customer{
   padding: var(--content-normal);
