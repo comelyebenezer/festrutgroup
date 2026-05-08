@@ -958,6 +958,10 @@ iframe{
 }
 .sections.commitment-quality{
   margin-bottom: 0;
+  padding-bottom: 0;
+}
+.sections.commitment-quality h2{
+  margin-bottom: 24px;
 }
 .commitment-quality{
   padding: var(--content-normal);
