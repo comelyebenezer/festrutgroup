@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import { UilArrowRight }  from '@iconscout/react-unicons';
-import { Link } from 'react-router-dom';
 import ceo from './../../../../assets/images/_about/CEO.png';
 import vivian from './../../../../assets/images/_about/Vivian.png';
 
@@ -42,7 +40,7 @@ const MissionCEO = () => {
 
 Driven by excellence and a passion for sustainable growth, he has expanded Festrut Group into multiple subsidiaries delivering innovative, value-driven solutions across various sectors.</p>
 
-            <p><Link to="/about" className="smashtech-button swipe-button">Read more <UilArrowRight /></Link></p>
+
         </div>
     </div>
 
