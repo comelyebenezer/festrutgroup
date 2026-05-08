@@ -144,7 +144,6 @@ const Navbar = () => {
       <div className={`menu-overlay ${isOpen ? 'is-visible' : ''}`} onClick={closeMenu} />
 
       <ul className={`menu ${isOpen ? 'is-open' : ''}`}>
-        <li className="mobile-menu-close" onClick={closeMenu}><UilTimes /></li>
         <li className="menu-item" title="Click to browse company">
           <button
             onClick={() => toggleDropdown('company')}
