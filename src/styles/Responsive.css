@@ -1021,10 +1021,6 @@
     #ourcorevalues .val p{
         line-height: 150% !important;
     }
-    .menu {
-        max-height: 16rem; 
-        overflow-y: auto;      
-    }
     .corporate_docs h2{
         line-height: 124% !important;
     }

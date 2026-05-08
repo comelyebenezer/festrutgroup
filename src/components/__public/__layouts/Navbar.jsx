@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
-import { UilApps, UilAngleDown } from '@iconscout/react-unicons';
+import { UilBars, UilTimes, UilAngleDown } from '@iconscout/react-unicons';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../../assets/images/logo/festrut-logo.png';
-import { UilPhone } from '@iconscout/react-unicons';
 
 const Navbar = () => {
   const location = useLocation();
@@ -117,6 +116,16 @@ const Navbar = () => {
     setIsOpen((open) => !open);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+    setOpenDropdown(null);
+  };
+
+  useEffect(() => {
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [isOpen]);
+
   return (
     <nav className="navbar">
       <Link to="/" id="logo">
@@ -128,9 +137,14 @@ const Navbar = () => {
       </Link>
 
      
-      <li className="dvs-header__trigger" onClick={toggleMenu}><UilApps /></li>
+      <li className="dvs-header__trigger" onClick={toggleMenu}>
+        {isOpen ? <UilTimes /> : <UilBars />}
+      </li>
+
+      <div className={`menu-overlay ${isOpen ? 'is-visible' : ''}`} onClick={closeMenu} />
 
       <ul className={`menu ${isOpen ? 'is-open' : ''}`}>
+        <li className="mobile-menu-close" onClick={closeMenu}><UilTimes /></li>
         <li className="menu-item" title="Click to browse company">
           <button
             onClick={() => toggleDropdown('company')}
@@ -169,7 +183,7 @@ const Navbar = () => {
                     <li key={index}>
                       <Link 
                         to="/all-businesses" 
-                        onClick={() => { setIsOpen(false); setOpenDropdown(null); }}
+                        onClick={closeMenu}
                       >
                         {categ.title}
                       </Link>
@@ -194,9 +208,9 @@ const Navbar = () => {
             <div className="dropdown">
               <div className="dropdown-content">
                 <ul>
-                  <li><Link to="/footer" onClick={() => { setIsOpen(false); setOpenDropdown(null); }}>Blog</Link></li>
-                  <li><Link to="/faq#faq" onClick={() => { setIsOpen(false); setOpenDropdown(null); }}>FAQ</Link></li>
-                  <li><Link to="/gallery" onClick={() => { setIsOpen(false); setOpenDropdown(null); }}>Gallery</Link></li>
+                  <li><Link to="/footer" onClick={closeMenu}>Blog</Link></li>
+                  <li><Link to="/faq#faq" onClick={closeMenu}>FAQ</Link></li>
+                  <li><Link to="/gallery" onClick={closeMenu}>Gallery</Link></li>
                 </ul>
               </div>
             </div>
