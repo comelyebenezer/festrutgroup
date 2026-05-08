@@ -29,21 +29,16 @@ const TeamDetail = () => {
   // Data for each category
   const teamDetails = {    
     president_grp_ceo: {
-      title: 'President/Group CEO',
+      title: 'President / Group CEO',
       description: [
-        `Festus Uwakhemen Asikhia is the visionary Founder and Chief Executive Officer of Festrut Group, a diversified conglomerate with interests spanning real estate, construction, oil and gas, healthcare, logistics, transport, security, education, consulting, and humanitarian development.`,
+        `  Festus Uwakhemen Asikhia is the visionary Founder and Chief Executive Officer of Festrut Group, a diversified conglomerate with interests spanning real estate, construction, oil and gas, healthcare, logistics, transport, security, education, consulting, and humanitarian development.
 
-        `He hails from Uzebba in Owan West Local Government Area of Edo State, Nigeria, and has built a strong academic and professional foundation across sociology, social work, human resource management, governance, and leadership. His academic journey includes a Bachelor of Science in Sociology, a Master’s in Social Work (Health Care specialization), a Master’s in Business Administration (Human Resource Management), and advanced doctoral studies in management and psychology across institutions in Nigeria, the United Kingdom, the United States, and Central America.`,
+He hails from Uzebba in Owan West Local Government Area of Edo State, Nigeria, and has built a strong academic and professional foundation across sociology, social work, human resource management, psychology, law, engineering, governance, and leadership. His academic journey includes a Diploma in Engineering, a Bachelor of Science in Sociology (Ambrose Alli University AAU), a Master of Social Work and Business Administration MBA in Human Resource Management respectively from LAUTECH), Bachelor and Master of Laws (LPJM UK), PhD in Health Management (UNEM), and a Post Doctorate in Psychology (AIU) across institutions in Nigeria, the United Kingdom, the United States, and Central America. He serves as Professor of Governance and Leadership at Atlantic International University, Honolulu, Hawaii, United States.
 
-        `Dr. Asikhia began his professional career in education and public service, where he developed a deep commitment to knowledge transfer, governance, and institutional development. His career progressed into academia, consultancy, and leadership roles across multiple sectors, strengthening his expertise in organizational management and strategic development.`,
+Uwakhemen began his professional career in education and public service, where he developed a deep commitment to knowledge transfer, governance, and institutional development. His career progressed into academia, consultancy, and leadership roles across multiple sectors, strengthening his expertise in organizational management and strategic development.
 
-        `In 2010, he founded Festrut Group, with a vision to build a globally recognized conglomerate delivering sustainable solutions and high-impact developments. Under his leadership, the Group has expanded into multiple subsidiaries, including real estate development, construction services, transport solutions, healthcare services, logistics, security, and social impact initiatives.`,
-
-        `He is also actively involved in academic leadership and institutional development, contributing to research, entrepreneurship education, and leadership training across various platforms. His work reflects a strong commitment to innovation, capacity building, and sustainable development across Africa and beyond.`,
-
-        `Dr. Asikhia is a recipient of multiple national and international recognitions for leadership, peacebuilding, humanitarian service, entrepreneurship, and community development. These honors reflect his contributions across governance, education, business development, and social impact initiatives.`,
-
-        `As a transformational leader, he is driven by integrity, excellence, and service. His vision for Festrut Group is to build a legacy of trust, innovation, and sustainable development that impacts lives globally.`,
+In 2010, he founded the Festrut brand, with a vision to build a globally recognized conglomerate delivering sustainable solutions and high-impact developments. Under his leadership, the Group has expanded into multiple subsidiaries, including real estate development, construction services, transport solutions, healthcare services, logistics, security, and social impact initiatives. He is also actively involved in academic leadership and institutional development. He is the owner and promoter of Festrut Estate Katampe, Abuja, Founder and promoter of Festrut Kingdom Estate Badna Orozo, Abuja.
+`,
       ],
       image: ceo,
     },
@@ -51,48 +46,42 @@ const TeamDetail = () => {
     exec_asst_to_ceo: {
       title: 'Executive Director',
       description: [
-        ` Sophie Oluchi Odabe is a dynamic and accomplished professional in the fields of educaon and public
-relaons. Her career trajectory is marked by a deep commitment to leadership, transformaon, and
-humanitarian efforts, posioning her as a key figure in both corporate and non-profit sectors.`,
+        ` Sophie Oluchi Odabe is a dynamic and accomplished professional in education and public relations. Her career trajectory reflects a deep commitment to leadership, transformation, and humanitarian efforts, positioning her as a key figure in both corporate and non-profit sectors.
 
-        `Sophie began her career at Trinity Private School, inially as an educaonist. She quickly progressed
-through various roles, including a volunteer posion in public schools, ulmately serving as the Public
-Relaons Officer (PRO) during a leveraged buyout. Her journey through mulnaonal companies has seen
-her take on Execuve Director roles, Co-found two successful organizaons, and serve as a School
-Registrar.
-Her experse extends to developing visionary strategies, driving pivotal iniaves, and overseeing
-significant transformaons within organizaons. Notable achievements include:
- Co-founding two successful organizaons and a university.
- Leading a turnaround for a failing project.
- Designing PhD curricula in communicaon and public relaons.
- Wring instruconal materials for online courses on leadership and corporate communicaon.`,
+Early career and progression
+Sophie began her career at Trinity Private School, initially as an educator. She quickly progressed through various roles, including a volunteer position in public schools, ultimately serving as the Public Relations Officer (PRO) during a leveraged buyout. Her journey through multinational companies has seen her take on Executive Director roles, co-found two successful organizations, and serve as a School Registrar. Her expertise extends to developing visionary strategies, driving pivotal initiatives, and overseeing significant transformations within organizations.
 
-        ` Sophie is passionate about nurturing small businesses and enhancing their profitability. She is acvely
-involved in several humanitarian projects, contribung to organizaons like festunifund.org and the
-Festrut Charity Foundaon. As an Execuve Director and Board member of the Festrut Group of
-Companies, she has played a crucial role in debt recovery and project implementaon. She also serves as
-the Co-founder and Secretary General of the Presgious Elites Organisaon United Kingdom.`,
+Notable achievements include:
+  Co-founding two successful organizations and a university
+  Leading a turnaround for a failing project
+  Designing PhD curricula in communication and public relations
+  Writing instructional materials for online courses on leadership and corporate communication
 
-        `Sophie specializes in public relaons, focusing on digital communicaon, brand management, and event
-planning. Her skills include:
- Strategic communicaon planning to elevate brand reputaon.
-Effecve crisis management strategies to safeguard organizaonal integrity.
-Building and maintaining media relaonships for posive coverage.
-Craing compelling social media strategies to enhance audience engagement.
-`,
+Entrepreneurship and humanitarian work
+Sophie is passionate about nurturing small businesses and enhancing their profitability.
+She is actively involved in several humanitarian projects, contributing to organizations such as festunifund.org and the Festrut Charity Foundation. As an Executive Director and Board member of the Festrut Group of Companies, she has played a crucial role in debt recovery and project implementation. She also serves as the Co-founder and Secretary General of the Prestigious Elites Organization United Kingdom.
 
-        ` Her interpersonal strengths include:
- Exceponal relaonship-building capabilies with stakeholders.
-Proven team collaboraon skills across diverse groups.
- Effecve presentaon skills for conveying complex informaon clearly.
- High adaptability to evolving media landscapes and organizaonal needs`,
+Specializations and skills
+Sophie specializes in public relations, focusing on digital communication, brand management, and event planning. Skills include:
+•	Strategic communication planning to elevate brand reputation
+•	Effective crisis management strategies to safeguard organizational integrity
+•	Building and maintaining media relationships for positive coverage
+•	Crafting compelling social media strategies to enhance audience engagement
 
-        `Sophie holds a Bachelor of Arts and a Master of Arts in English Language, along with a PhD in Public
-Relaons. She is also a cerfied member of the Nigerian Instute of Management and has addional
-cerficaons in computer applicaons and Space Technology Educaon.
-Sophie Oluchi Odabe exemplifies a blend of strategic insight, educaonal passion, and humanitarian
-commitment. Her extensive experience in public relaons and her dedicaon to elevang others make her
-a significant contributor to both her professional and community endeavours.
+Interpersonal strengths
+•	Exceptional relationship-building capabilities with stakeholders
+•	Proven team collaboration skills across diverse groups
+•	Effective presentation skills for conveying complex information clearly
+•	High adaptability to evolving media landscapes and organizational needs
+
+Education and professional credentials
+Bachelor and Master of Arts in English Language
+PhD in Public Relations
+Certified member of the Nigerian Institute of Management
+Additional certifications in computer applications and Space Technology Education
+
+Sophie Oluchi Odabe exemplifies a blend of strategic insight, educational passion, and humanitarian commitment. Her extensive experience in public relations and dedication to elevating others make her a significant contributor to both her profession and the broader community endeavours.
+
 `,
       ],
       image: ea,
@@ -101,35 +90,21 @@ a significant contributor to both her professional and community endeavours.
     gm: {
       title: 'Managing Director',
       description: [
-        `Oluwasola Peters is a disnguished trajectory influencer with extensive experience in the construcon
-and real estate sectors. Her experse spans construcon management, building producon, estate
-management, markeng, and administraon, which she has developed over a career exceeding 15
-years.
-In her role as a business tycoon, Mrs. Peters has significantly contributed to addressing naonal
-demands by providing finished goods directly to customers. She ulizes both local and advanced
-technology to ensure mely and efficient delivery of services, thereby enhancing the overall customer
-experience and supporng economic growth.
-As the Managing Director of Festrut Group, Mrs. Peters oversees the organizaon from its head office
-located at Plot 2311, Festrut Estate, Katampe District, Abuja. She possesses a strong academic
-foundaon, holding a post-graduate diploma in Construcon Management from Tafawa Balewa
-University in Bauchi, a degree in Building Technology from Federal Polytechnic Ado-Eki, and
-specialized training in Internaonal Management from Festrut Internaonal Management Instute
-(FIMILTD/GTE). This educaonal background equips her with the competencies necessary to navigate
-the complexies of the construcon and real estate industries effecvely.
-Mrs. Peters has parcipated in various construcon projects across Nigeria, showcasing her leadership
-and project management abilies. Her contribuons include serving as a team member on the Zion
-Golden City estate construcon project in Akure, Ondo State, and fulfilling the role of Resident Builder at
-Salama Holiday Inn in Bauchi. Furthermore, as Project Manager at Basilica Construcon Ltd, she
-successfully oversaw the construcon of the School of Science and Mines at the Federal University of
-Technology, Akure (FUTA).
-Addionally, Mrs. Peters is an acve member of the board of directors at both Festrut Group of
-Companies and Avemcord Associates Construcon Nigeria Ltd. Her dedicaon to societal advancement
-is evident in her commitment to youth empowerment iniaves, parcularly in providing
-developmental training for young individuals, with an emphasis on the girl child.
-In her personal life, Mrs Peters is married to Esv. Oisa Peter. She is passionate about problem-solving,
-engaging in travel, pursuing shopping opportunies, and dedicang me to prayer.
-Her diverse interests and comprehensive experience reflect her commitment to making a meaningful
-impact in both her professional and personal endeavors.
+        `Oluwasola Peters is a distinguished trajectory influencer with extensive experience in the construction and real estate sectors. Her expertise spans construction management, building production, estate management, marketing, and administration, which she has developed over a career exceeding 15 years.
+
+In her role as a business tycoon, Mrs. Peters has significantly contributed to addressing national demands by providing finished goods directly to customers. She utilizes both local and advanced technology to ensure timely and efficient delivery of services, thereby enhancing the overall customer experience and supporting economic growth.
+
+As the Managing Director of Festrut Group, Mrs. Peters oversees the organization from its head office located at Plot 2311, Festrut Estate, Katampe District, Abuja. She possesses a strong academic foundation, holding a post-graduate diploma in Construction Management from Tafawa Balewa University in Bauchi, a degree in Building Technology from Federal Polytechnic Ado-Ekiti, and specialized training in International Management from Festrut International Management Institute (FIMILTD/GTE). This educational background equips her with the competencies necessary to navigate the complexities of the construction and real estate industries effectively.
+
+Mrs. Peters has participated in various construction projects across Nigeria, showcasing her leadership and project management abilities. Her contributions include serving as a team member on the Zion Golden City estate construction project in Akure, Ondo State, and fulfilling the role of Resident Builder at Salama Holiday Inn in Bauchi. Furthermore, as Project Manager at Basilica Construction Ltd, she successfully oversaw the construction of the School of Science and Mines at the Federal University of Technology, Akure (FUTA).
+
+Additionally, Mrs. Peters is an active member of the boards of directors at both Festrut Group of Companies and Avemcord Associates Construction Nigeria Ltd. Her dedication to societal advancement is evident in her commitment to youth empowerment initiatives, particularly in providing developmental training for young individuals, with an emphasis on the girl child.
+
+In her personal life, Mrs. Peters is married to Esv. Oisa Peters.
+She is passionate about problem-solving, travel, shopping opportunities, and dedicating time to prayer. Her diverse interests and comprehensive experience reflect her commitment to making a meaningful impact in both her professional and personal endeavours.
+
+
+
 `,
       ],
       image: gm,
@@ -137,34 +112,14 @@ impact in both her professional and personal endeavors.
     grp_biz_operations: {
       title: 'Chief Operations Officer',
       description: [
-        `Joseph Akpezi is a highly qualified communicaon professional who brings a diverse skill set and extensive
-experience in media, public relaons, informaon and communicaon technology (ICT), and logiscs. He
-earned his B.Sc. in Journalism and Mulmedia Communicaons from the University of Cross River in
-Calabar, where he acquired a solid foundaon in effecve communicaon strategies and media pracces.
-`,
+        `Joseph Akpezi is a highly qualified communications professional who brings a diverse skill set and extensive experience in media, public relations, information and communications technology (ICT), and logistics. He earned his B.Sc. in Journalism and Multimedia Communications from the University of Cross River in Calabar, where he built a solid foundation in effective communication strategies and media practices.
 
-        `Throughout his career, Joseph has honed his networking abilies across both tradional and emerging
-media plaorms, allowing him to build strong relaonships and convey brand missions, visions, and values
-effecvely. His experse in strategic communicaon ensures that the organizaons he represents maintain
-a consistent and impacul presence in the marketplace.
-In addion to his communicaon skills, Joseph is a cerfied project management expert. He excels at
-overseeing projects from incepon to compleon, meculously ensuring that all targets are achieved and
-deadlines are respected. His ability to manage mulple projects simultaneously is a testament to his
-organizaonal skills and commitment to excellence.
-Joseph's professional journey includes notable roles in various organizaons, such as Asaba Film Academy,
-Creave Decors, and Blueprint Newspapers, where he contributed significantly to their communicaons
-and public relaons efforts. His entrepreneurial spirit is evident in his business interests, parcularly in the
-fields of ICT, logiscs, and transportaon, where he connually seeks innovave soluons to enhance
-operaonal efficiency.
-Currently, Joseph serves as the Chief Operaons Officer at Festrut Global Shelter Nigeria Limited, where he
-plays a pivotal role in driving the company's operaonal strategies and overseeing daily acvies to ensure
-opmal performance.
-He is commied to professional development, having aended numerous cerficaons that enhance his
-skill set and knowledge base. These include Peak Performance Management Training, Effecve Workplace
-Communicaon, Designated Non-Financial Business and Professions (DNFBPs), Project Management
-Training, Jobberman So Skills Training, Public Relaons, and Data Analysis, among others.
-Joseph's dedicaon to connuous learning and development posions him as a valuable asset to any
-organizaon.
+Throughout his career, Joseph has honed his networking abilities across both traditional and emerging media platforms, enabling him to build strong relationships and convey brand missions, visions, and values effectively. His expertise in strategic communication ensures that the organizations he represents maintain a consistent and impactful presence in the marketplace. In addition to his communication skills, Joseph is a certified project management expert. He excels at overseeing projects from inception to completion, meticulously ensuring that all targets are achieved and deadlines are met. His ability to manage multiple projects simultaneously is a testament to his organizational skills and commitment to excellence.
+
+Joseph's professional journey includes notable roles in various organizations, such as Asaba Film Academy, Creative Decors, and Blueprint Newspapers, where he contributed significantly to their communications and public relations efforts. His entrepreneurial spirit is evident in his business interests, particularly in the fields of ICT, logistics, and transportation, where he continually seeks innovative solutions to enhance operational efficiency.
+
+Currently, Joseph serves as the Chief Operations Officer at Festrut Global Shelter Nigeria Limited, where he plays a pivotal role in driving the company's operational strategies and overseeing daily activities to ensure optimal performance. He is committed to professional development, having attended numerous certifications that enhance his skill set and knowledge base. These include Peak Performance Management Training, Effective Workplace Communication, Designated Non-Financial Business and Professions (DNFBPs), Project Management Training, Jobberman So Skills Training, Public Relations, and Data Analysis, among others. Joseph's dedication to continuous learning and development positions him as a valuable asset to any organization.
+
 `,
       ],
       image: hop,
