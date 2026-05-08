@@ -269,7 +269,6 @@ With proven expertise in regulatory compliance, contract negotiation, and client
       )}
 
       <Link to='/about' className="smashtech-button swipe-button"><UilArrowLeft /> Back to Team</Link>
-      <Link to='/' className="smashtech-button swipe-button" style={{ marginLeft: '1rem' }}><UilArrowLeft /> Home</Link>
     </div>
 
     </>
