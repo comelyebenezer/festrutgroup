@@ -307,7 +307,6 @@ ul.menu{
     border: 0;
     max-height: none;
     overflow-y: visible;
-    background: #fff;
   }
 
   .dropdown-content {
@@ -318,12 +317,6 @@ ul.menu{
     display: block;
     padding: 0.5rem 0;
     font-size: 15px !important;
-    color: #333 !important;
-  }
-
-  .dropdown-content ul {
-    flex: none;
-    width: 100%;
   }
 
   .menu-button#careers{
