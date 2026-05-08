@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { UilArrowDown, UilArrowRight } from '@iconscout/react-unicons';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import ceo from './../../../assets/images/ourteam/CEO.jpg';
 import ea from './../../../assets/images/ourteam/_EA.jpg';
 import gm from './../../../assets/images/ourteam/_GM.jpg';
@@ -21,6 +21,7 @@ import segun from './../../../assets/images/ourteam/Segun.jpg';
 import biz2 from './../../../assets/images/ourbusiness/Food.jpg';
 
 const OurTeam = () => {
+  const navigate = useNavigate();
   const team = [
     {
       title: 'President / Group CEO',
@@ -283,11 +284,11 @@ With proven expertise in regulatory compliance, contract negotiation, and client
 
         {/* {team.map((categ, index) => ( */}
         {team.slice(0, visibleProfiles).map((categ, index) => (
-          <div key={index} className="business-container">
+          <div key={index} className="business-container" onClick={() => navigate(`/team/${categ.slug}`)}>
             <img src={categ.image} className="team" title="" alt="" />
             <h3 className="team">{categ.title}</h3>
             <p>{categ.description}</p>
-            <Link to={`/team/${categ.slug}`}>Read More <UilArrowRight /></Link>
+            <span className="read-more-trigger">Read More <UilArrowRight /></span>
           </div>
         ))}
       </div>

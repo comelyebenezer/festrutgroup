@@ -205,6 +205,7 @@ p{
   display: inline-block;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
 }
 .business-container img {
   width: 100%;
@@ -223,7 +224,8 @@ p{
   margin-block: 0 .75rem !important;
   padding-top: .2rem;
 }
-#ourbusiness div div a{
+.read-more-trigger{
+  display: inline-block;
   margin-top: 1rem !important;
   font-size: var(--text-font-size);
   border: none !important;
