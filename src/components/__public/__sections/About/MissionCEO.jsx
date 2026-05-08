@@ -35,16 +35,12 @@ const MissionCEO = () => {
             <hr />
             
             <p>Dr. Festus Uwakhemen Asikhia is the visionary CEO of Festrut Group, 
-                a dynamic and diversified conglomerate with interests spanning real estate, 
-                construction, oil and gas, healthcare, logistics, security, and investment 
-                services. With a strong foundation in academia and leadership, he brings a 
-                unique blend of intellectual depth and strategic insight to business development.
+                a diversified conglomerate spanning real estate, construction, oil and gas, 
+                healthcare, logistics, security, and investment services. With a strong 
+                foundation in academia and leadership, he brings strategic insight and 
+                intellectual depth to every venture.
 
-Driven by excellence and a passion for sustainable growth, Dr. Asikhia has led the expansion of Festrut Group into multiple subsidiaries, delivering innovative, value-driven solutions across various sectors. His commitment to development, quality service, and societal impact continues to position Festrut Group as a trusted name in Nigeria and beyond. </p>
-            
-            <p>Under his leadership, 
-            Festrut group has grown into a dynamic force in the tech industry, driven by a commitment to sustainability, innovation, and empowering 
-            individuals and businesses worldwide.</p>
+Driven by excellence and a passion for sustainable growth, he has expanded Festrut Group into multiple subsidiaries delivering innovative, value-driven solutions across various sectors.</p>
 
             <p><Link to="/about" className="smashtech-button swipe-button">Read more <UilArrowRight /></Link></p>
         </div>
