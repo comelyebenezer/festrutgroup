@@ -65,6 +65,10 @@ ul.menu{
   padding: 0;
 }
 
+.mobile-menu-close {
+  display: none;
+}
+
 .menu-button{
   background: #fff;
   cursor: pointer;
