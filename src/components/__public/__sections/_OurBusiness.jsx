@@ -1,10 +1,11 @@
 import { UilArrowRight } from '@iconscout/react-unicons';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import biz1 from './../../../assets/images/ourbusiness/Ride.jpg';
 import biz2 from './../../../assets/images/ourbusiness/Food.jpg';
 import biz3 from './../../../assets/images/ourbusiness/Travels.jpg';
 
 const OurBusiness = () => {
+  const navigate = useNavigate();
   const categories = [
     {
   title: 'Festrut Global Shelter Nig Ltd',
@@ -37,11 +38,11 @@ const OurBusiness = () => {
       <div className="c3 c2-sm c1-xs" id="cover">
       
         {categories.map((categ, index) => (
-          <div key={index} className="business-container">
+          <div key={index} className="business-container" onClick={() => navigate(`/business/${categ.slug}`)}>
             <img src={categ.image} title="" alt="" />
             <h3 style={{ textAlign: 'left' }}>{categ.title}</h3>
             <p>{categ.description}</p>
-            <Link to={`/business/${categ.slug}`}>Learn more <UilArrowRight /></Link>
+            <span className="read-more-trigger">Learn more <UilArrowRight /></span>
           </div>
         ))}
       </div>
