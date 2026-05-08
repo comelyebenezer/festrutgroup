@@ -256,8 +256,10 @@ With proven expertise in regulatory compliance, contract negotiation, and client
 
     <div className="sections business-detail" id="whoweare">
       <h2 className="title-height">{category.title}</h2>
-      {category.description.map((paragraph, index) => (
-        <p key={index}>{paragraph}</p>
+      {category.description.map((paragraph, idx) => (
+        paragraph.split(/\n\s*\n/).filter(p => p.trim()).map((p, i) => (
+          <p key={`${idx}-${i}`}>{p.trim()}</p>
+        ))
       ))}
       {category.details && <p>{category.details}</p>}
       {category.website && (

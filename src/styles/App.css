@@ -170,6 +170,11 @@ p{
 #whoweare h2.mobile{
   display: none;
 }
+.business-detail p{
+  text-align: justify;
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
 
 /* OUR BUSINESS */
 #ourbusiness div div{
