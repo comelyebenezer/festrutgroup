@@ -167,36 +167,32 @@ He is commied to professional development, having aended numerous cerficaons tha
  Training, Jobberman So Skills Training, Public Relaons, and Data Analysis, among others.
 
 Joseph's dedicaon to connuous learning and development posions him as a valuable asset to any
- organizaon.`;return i.slice(0,118)+(i.length>100?"...":"")})(),image:Um,slug:"grp_biz_operations"},{title:"Human Resource Manager",description:(()=>{const i=`Alima Kema Musa is a seasoned HR and Accounng professional with over 12 years of diverse experience in
-accounng, financial management, budgeng, human resource management, legal affairs, and
-administraon. She holds a Bachelor of Science (B.Sc.) degree in Accounng from the University of Abuja
-and is currently pursuing professional cerficaon with the Instute of Chartered Accountants of Nigeria
-(ICAN).
-
-Throughout her career, Alima has demonstrated a steadfast commitment to excellence and connuous
-learning. Her background reflects a unique blend of accounng experse and human resource
-management, underscored by her strong interpersonal and analycal skills. Her proacve approach to
-problem-solving and her keen ability to navigate complex organizaonal challenges make her an invaluable
-asset in any seng.
-Alima's career journey began in 2005 when she took on the role of a Cashier at Adex Beauty & Cosmecs
-Salon in Lagos State, soon advancing to a receponist posion at Phoenix Hotel Abuja. In 2011, she
-transioned to a more prominent role as the Admin Manager at Musa, Nazifi & Co., a legal and real estate
-firm, where she honed her skills in administraon and management.
-Currently, Alima serves as the HR/Accountant at Festrut Global Shelter Nigeria Ltd., where she is entrusted
-with significant responsibilies in both the human resources and accounng departments. Her role
-includes preparing staff payrolls, onboarding new employees, maintaining accurate records, preparing
-financial statements, and managing monthly expenditures. Addionally, she collaborates with the legal
-officer and managing director, ensuring a streamlined operaonal process while fostering a collaborave
-work environment aligned with the company's vision and mission.
-Alima is dedicated to professional development, having parcipated in various training programs that
-enhance her leadership and financial management skills. Notable among these are her studies at the
-London School of African Entrepreneurship and Leadership Studies, corporate finance training with the
-Corporate Finance Instute in Canada, and crisis management training with Deltaville Research LLC.
-Furthermore, her training with the United Naons in internaonal organizaon management has
-equipped her with a global perspecve, enhancing her ability to navigate mulcultural environments.
-Alima Kema Musa's mulfaceted experience and unwavering dedicaon to her profession posion her as a
-leading figure in the fields of human resources and accounng, commied to driving organizaonal success
-through effecve management and strategic financial oversight.`;return i.slice(0,118)+(i.length>100?"...":"")})(),image:Wm,slug:"biz_operations_mgr_lag"},{title:"PA / Media Team Lead",description:(()=>{const i=` 
+ organizaon.`;return i.slice(0,118)+(i.length>100?"...":"")})(),image:Um,slug:"grp_biz_operations"},{title:"Human Resource Manager",description:(()=>{const i=`Alima Kema Musa is a seasoned HR and Accounting professional with over 12 years of diverse experience in 
+          accounting, financial management, budgeting, human resource management, legal affairs, and administration.
+           She holds a Bachelor of Science (B.Sc.) degree in Accounting from the University of Abuja and is 
+           currently pursuing professional certification with the Institute of Chartered Accountants of Nigeria 
+           (ICAN). Throughout her career, Alima has demonstrated a steadfast commitment to excellence and continuous
+            learning. Her background reflects a unique blend of accounting expertise and human resource management, 
+            underscored by her strong interpersonal and analytical skills. Her proactive approach to problem-solving
+             and her keen ability to navigate complex organizational challenges make her an invaluable asset in any 
+             setting. Alima's career journey began in 2005 when she took on the role of a Cashier at Adex Beauty & 
+             Cosmetics Salon in Lagos State, soon advancing to a receptionist position at Phoenix Hotel Abuja. In 
+             2011, she transitioned to a more prominent role as the Admin Manager at Musa, Nazifi & Co., a legal 
+             and real estate firm, where she honed her skills in administration and management. Currently, Alima 
+             serves as the HR/Accountant at Festrut Global Shelter Nigeria Ltd., where she is entrusted with 
+             significant responsibilities in both the human resources and accounting departments. Her role includes 
+             preparing staff payrolls, onboarding new employees, maintaining accurate records, preparing financial 
+             statements, and managing monthly expenditures. Additionally, she collaborates with the legal officer 
+             and managing director, ensuring a streamlined operational process while fostering a collaborative work 
+             environment aligned with the company's vision and mission. Alima is dedicated to professional 
+             development, having participated in various training programs that enhance her leadership and financial
+              management skills. Notable among these are her studies at the London School of African Entrepreneurship 
+              and Leadership Studies, corporate finance training with the Corporate Finance Institute in Canada, and 
+              crisis management training with Deltaville Research LLC. Furthermore, her training with the United Nations 
+              in international organization management has equipped her with a global perspective, enhancing her ability 
+              to navigate multicultural environments. Alima Kema Musa's multifaceted experience and unwavering dedication 
+              to her profession position her as a leading figure in the fields of human resources and accounting, committed 
+              to driving organizational success through effective management and strategic financial oversight.`;return i.slice(0,118)+(i.length>100?"...":"")})(),image:Wm,slug:"biz_operations_mgr_lag"},{title:"PA / Media Team Lead",description:(()=>{const i=` 
       Comely Ebenezer is a highly skilled technology professional and strategic operations specialist with a Bachelor of Science (B.Sc.) degree in Computer Science from Nasarawa State University. He possesses advanced certifications in Software Engineering, Full Stack Development, and Artificial Intelligence, reflecting a strong foundation in modern software technologies and emerging digital solutions.
 
 With a solid background in web and application development, Comely has expertise in building scalable, user-centric systems, integrating intelligent solutions, and leveraging technology to solve complex business challenges. His proficiency spans front-end and back-end development, system optimization, and digital innovation, positioning him as a forward-thinking contributor in today’s tech-driven landscape.
