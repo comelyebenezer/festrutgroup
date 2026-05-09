@@ -31,13 +31,19 @@ const TeamDetail = () => {
     president_grp_ceo: {
       title: 'President / Group CEO',
       description: [
-        `  Festus Uwakhemen Asikhia is the visionary Founder and Chief Executive Officer of Festrut Group, a diversified conglomerate with interests spanning real estate, construction, oil and gas, healthcare, logistics, transport, security, education, consulting, and humanitarian development.
+        `  Festus Uwakhemen Asikhia is an author, the visionary Founder and Chief Executive Officer of Festrut Group, a diversified conglomerate with interests spanning real estate, construction, oil and gas, healthcare, logistics, transport, security, education, consulting, and humanitarian development.
 
-He hails from Uzebba in Owan West Local Government Area of Edo State, Nigeria, and has built a strong academic and professional foundation across sociology, social work, human resource management, psychology, law, engineering, governance, and leadership. His academic journey includes a Diploma in Engineering, a Bachelor of Science in Sociology (Ambrose Alli University AAU), a Master of Social Work and Business Administration MBA in Human Resource Management respectively from LAUTECH), Bachelor and Master of Laws (LPJM UK), PhD in Health Management (UNEM), and a Post Doctorate in Psychology (AIU) across institutions in Nigeria, the United Kingdom, the United States, and Central America. He serves as Professor of Governance and Leadership at Atlantic International University, Honolulu, Hawaii, United States.
+He hails from Uzebba in Owan West Local Government Area of Edo State, Nigeria, and has built a strong academic and professional foundation across sociology, social work, human resource management, psychology, law, engineering, governance, and leadership. His academic journey includes a Diploma in Engineering, a Bachelor of Science in Sociology (Ambrose Alli University AAU), a Master of Social Work and Business Administration MBA in Human Resource Management respectively from LAUTECH), Bachelor and Master of Laws (LPJM UK), PhD in Health Management (UNEM), and a Post Doctorate in Psychology (AIU) across institutions in Nigeria, the United Kingdom, the United States, and Central America. Prof. Uwakhemen serves as Professor of Governance and Leadership at Atlantic International University, Honolulu, Hawaii, United States and Honorary Director at the Pebble Hills University, Belama, Belize.
 
-Uwakhemen began his professional career in education and public service, where he developed a deep commitment to knowledge transfer, governance, and institutional development. His career progressed into academia, consultancy, and leadership roles across multiple sectors, strengthening his expertise in organizational management and strategic development.
+Prof. Uwakhemen began his professional career in education and public service, where he developed a deep commitment to knowledge transfer, governance, and institutional development. His career progressed into academia, consultancy, and leadership roles across multiple sectors, strengthening his expertise in organizational management and strategic development. He has a track record of published journals, books and academic papers on academia.edu and Amazon. He is the author Nigeria: The Anatomy of Her existence, Mastering the Art of	 Mental Stability for Business Success and lots more.  
 
-In 2010, he founded the Festrut brand, with a vision to build a globally recognized conglomerate delivering sustainable solutions and high-impact developments. Under his leadership, the Group has expanded into multiple subsidiaries, including real estate development, construction services, transport solutions, healthcare services, logistics, security, and social impact initiatives. He is also actively involved in academic leadership and institutional development. He is the owner and promoter of Festrut Estate Katampe, Abuja, Founder and promoter of Festrut Kingdom Estate Badna Orozo, Abuja.
+In 2010, he founded the Festrut brand, with a vision to build a globally recognized conglomerate delivering 
+sustainable solutions and high-impact developments. Under his leadership, the Group has expanded into multiple 
+subsidiaries, including real estate development, construction services, transport solutions, healthcare services, 
+logistics, security, and social impact initiatives. He is also actively involved in academic leadership and 
+institutional development. He is the owner and promoter of Festrut Estate Katampe, Abuja, Founder and promoter 
+of Festrut Kingdom Estate Badna Orozo, Nasarawa State.
+
 `,
       ],
       image: ceo,
