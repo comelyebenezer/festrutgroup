@@ -207,6 +207,9 @@ ul.menu{
   .menu{
     display: none;
   }
+  .contacts{
+    display: flex !important;
+  }
   .navbar{
     margin: 0 !important;
     width: 100% !important;
