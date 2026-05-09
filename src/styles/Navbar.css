@@ -195,7 +195,6 @@ ul.menu{
 
 /* == 1. SMALLEST, 2. SMALL TABLETS, AND 3. MEDIUM SCREENS LIKE IPAD PRO */
 @media screen and (max-width: 1024px){
-  /* work on this later! Place the sections properly on mobile */
   .contacts, .categories, .courses{
     display: none !important;
   }
@@ -203,7 +202,6 @@ ul.menu{
     gap: .4rem;
   }
 
-  /* On mobile, hide the horizontal menu */
   .menu{
     display: none;
   }
@@ -212,10 +210,8 @@ ul.menu{
     width: 100% !important;
     display: flex;
     padding: 1.1rem 1.5rem;
-    /* background-color: green; */
   }
 
-  /* Now, display the trigger on smaller screens */
   .dvs-header__trigger{
     display: flex !important;
     align-items: center;
@@ -232,7 +228,6 @@ ul.menu{
     background: #f0f0f0;
   }
 
-    /* Overlay behind mobile menu */
   .menu-overlay {
     display: none;
     position: fixed;
@@ -247,7 +242,6 @@ ul.menu{
     display: block;
   }
 
-  /* Mobile menu slides in from the right */
   .menu {
     position: fixed;
     top: 0;
@@ -258,21 +252,19 @@ ul.menu{
     background: #fff;
     flex-direction: column;
     gap: 0;
-    padding: 0;
+    padding: 5rem 0 0;
     margin: 0;
     overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
     z-index: 999;
     transition: right 0.3s ease;
     display: flex !important;
+    box-sizing: border-box;
   }
   .menu.is-open {
     right: 0;
   }
 
-.dropdown-content{
-    display: flex;
-    flex-direction: column;
-  }
   .menu-item {
     width: 100% !important;
     padding: 0;
@@ -287,6 +279,10 @@ ul.menu{
     background: none;
     text-align: left;
     justify-content: space-between;
+    color: #333;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
   }
 
   .menu-item > a.menu-button {
@@ -295,33 +291,40 @@ ul.menu{
     font-size: 16px !important;
     display: block;
     text-decoration: none;
-    color: #393838;
+    color: #333;
+    font-weight: 600;
   }
 
   .dropdown {
     position: relative;
     width: 100% !important;
     margin: 0 !important;
-    padding: 0.5rem 1.25rem;
+    padding: 0.25rem 0;
     box-shadow: none !important;
     border: 0;
-    max-height: none;
-    overflow-y: visible;
-  }
-
-  .dropdown-content {
-    position: relative;
-    width: 100%;
-  }
-  .dropdown-content ul > li > a{
-    display: block;
-    padding: 0.5rem 0;
-    font-size: 15px !important;
+    max-height: 55vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: #fafafa;
+    border-top: 1px solid #eee;
   }
 
   .dropdown-content ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .dropdown-content ul > li > a {
     display: block;
-    width: 100%;
+    padding: 0.65rem 1.25rem 0.65rem 1.75rem;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+    color: #555 !important;
+    font-weight: 400 !important;
+    text-decoration: none;
+  }
+  .dropdown-content ul > li > a:active {
+    background: #e8f0fe;
   }
 
   .menu-button#careers{

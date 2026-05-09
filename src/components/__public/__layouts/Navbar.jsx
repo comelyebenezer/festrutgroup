@@ -7,77 +7,77 @@ const Navbar = () => {
   const location = useLocation();
 
   const categories = [
-     {
+    {
       title: 'Festrut Oil and Gas',
-      slug: 'festrut-oil-and-gas',
+      slug: 'festrut-oil-gas',
     },
     {
       title: 'Festrut Communication Limited',
-      slug: 'festrutcommunicationLimited',
+      slug: 'festrut-communication',
     },
     {
       title: 'Festrut Transport Nig Ltd',
-      slug: 'festruttransportnigltd',
+      slug: 'festrut-transport',
     },
     {
       title: 'Festrut African Talent Hunt',
-      slug: 'festrut-african-talent-hunt',
+      slug: 'festrut-talent-hunt',
     },
     {
       title: 'Festrut Shopping Mall',
-      slug: 'festrutshoppingmall',
+      slug: 'festrut-shopping-mall',
     },
     {
       title: 'Festrut Apartments',
-      slug: 'festrutapartments',
+      slug: '',
     },
     {
-      title: ' Festrut Security Guards Limited',
-      slug: 'festrutsecurityguardslimited',
+      title: 'Festrut Security Guards Limited',
+      slug: 'festrut-security',
     },
     {
       title: 'Festrut Construction Ltd',
-      slug: 'festrutconstructionltd',
+      slug: 'festrut-construction',
     },
     {
       title: 'Festrut Facility and Development Firm Ltd',
-      slug: 'festrutfacilityanddevelopmentfirmltd',
+      slug: 'festrut-facility-development',
     },
     {
       title: 'Festrut Consultant Ltd',
-      slug: 'festrutconsultantltd',
+      slug: 'festrut-consultant',
     },
     {
       title: 'Festrut Klass Hospital and Laboratory Services',
-      slug: 'festrutklasshospitalandlaboratoryservices',
+      slug: 'first-klass-hospital',
     },
     {
       title: 'Festrut Charity Foundation',
-      slug: 'festrutcharityfoundation',
+      slug: 'festrut-charity',
     },
     {
       title: 'Festrut Courier Services Limited',
-      slug: 'festrutcourierserviceslimited',
+      slug: 'festrut-courier',
     },
     {
       title: 'Festrut Hospital and Laboratory Service',
-      slug: 'festruthospitalandlaboratoryservice',
+      slug: 'festrut-hospital',
     },
     {
       title: 'Festrut Lead University Foundation',
-      slug: 'festrutleaduniversityfoundation',
+      slug: 'festrut-lead-foundation',
     },
     {
-      title: 'Festrut International Manager Institute',
-      slug: 'festrutinternationalmanagerinstitute',
+      title: 'Festrut International Management Institute',
+      slug: 'festrut-management-institute',
     },
     {
       title: 'Prestigious Elites Organization',
-      slug: 'prestigiouselitesorganization',
+      slug: 'pelites',
     },
     {
       title: 'Festrut Food and Drink International Ltd',
-      slug: 'festrutfoodanddrinkinternationalltd',
+      slug: 'festrut-food-drink',
     }, 
   ];
 
@@ -155,13 +155,11 @@ const Navbar = () => {
             <div className="dropdown">
               <div className="dropdown-content">
                 <ul>
-                  <li><Link to="/about">About Us</Link></li>
-                  <li><Link to="/about#core_values">Services</Link></li>
-                  <li><Link to="/about#commitment_to_sustainability">Achievements</Link></li>
-                  <li><Link to="/footer">Contact</Link></li>
-                  <li><Link to="/footer">Book Inspection</Link></li>
-                 
-                  
+                  <li><Link to="/about" onClick={closeMenu}>About Us</Link></li>
+                  <li><Link to="/about#core_values" onClick={closeMenu}>Services</Link></li>
+                  <li><Link to="/about#commitment_to_sustainability" onClick={closeMenu}>Achievements</Link></li>
+                  <li><Link to="/footer" onClick={closeMenu}>Contact</Link></li>
+                  <li><Link to="/footer" onClick={closeMenu}>Book Inspection</Link></li>
                 </ul>
               </div>
             </div>
@@ -169,7 +167,7 @@ const Navbar = () => {
         </li>
 
         <li className="menu-item" title="Browse our businesses">
-          <button onClick={() => toggleDropdown('ourBusiness')} className="menu-button">
+          <button onClick={() => toggleDropdown('ourBusiness')} className={`menu-button ${openDropdown === 'ourBusiness' ? 'active' : ''}`}>
             Our Business<span className={`caret ${openDropdown === 'ourBusiness' ? 'rotate' : ''}`}><UilAngleDown /></span>
           </button>
           {openDropdown === 'ourBusiness' && (
@@ -181,7 +179,7 @@ const Navbar = () => {
                   categ && (
                     <li key={index}>
                       <Link 
-                        to="/all-businesses" 
+                        to={categ.slug ? `/business/${categ.slug}` : '/all-businesses'} 
                         onClick={closeMenu}
                       >
                         {categ.title}
@@ -200,7 +198,7 @@ const Navbar = () => {
           <Link to="/careers" className="menu-button" id="careers">Careers</Link>
         </li>
         <li className="menu-item" title="Media">
-          <button onClick={() => toggleDropdown('media')} className="menu-button">
+          <button onClick={() => toggleDropdown('media')} className={`menu-button ${openDropdown === 'media' ? 'active' : ''}`}>
             Media<span className={`caret ${openDropdown === 'media' ? 'rotate' : ''}`}><UilAngleDown /></span>
           </button>
           {openDropdown === 'media' && (
@@ -216,43 +214,32 @@ const Navbar = () => {
           )}
         </li>
 
- {/* <li> Login </li> */}
-
-         <li className="menu-item" title="Browse Login  opportunities">
-          <button onClick={() => toggleDropdown('Login ')} className="menu-button">
-            Login <span className={`caret ${openDropdown === 'Login ' ? 'rotate' : ''}`}><UilAngleDown /></span>
+          <li className="menu-item" title="Browse Login opportunities">
+          <button onClick={() => toggleDropdown('Login')} className={`menu-button ${openDropdown === 'Login' ? 'active' : ''}`}>
+            Login <span className={`caret ${openDropdown === 'Login' ? 'rotate' : ''}`}><UilAngleDown /></span>
           </button>
-          {openDropdown === 'Login ' && (
+          {openDropdown === 'Login' && (
             <div className="dropdown">
               <div className="dropdown-content">
                 <ul>
-                  <li><Link to="/buy-shares">Client</Link></li>
-                  <li><Link to="/invest-with-us">Staff</Link></li>
-      
-            
+                  <li><Link to="/buy-shares" onClick={closeMenu}>Client</Link></li>
+                  <li><Link to="/invest-with-us" onClick={closeMenu}>Staff</Link></li>
                 </ul>
               </div>
             </div>
           )}
-        </li>
+          </li>
 
-        
-
-{/* <li> Register </li> */}
-
-         <li className="menu-item" title="Browse Register  opportunities">
-          <button onClick={() => toggleDropdown('Register ')} className="menu-button">
-            Register <span className={`caret ${openDropdown === 'Register ' ? 'rotate' : ''}`}><UilAngleDown /></span>
+          <li className="menu-item" title="Browse Register opportunities">
+          <button onClick={() => toggleDropdown('Register')} className={`menu-button ${openDropdown === 'Register' ? 'active' : ''}`}>
+            Register <span className={`caret ${openDropdown === 'Register' ? 'rotate' : ''}`}><UilAngleDown /></span>
           </button>
-          {openDropdown === 'Register ' && (
+          {openDropdown === 'Register' && (
             <div className="dropdown">
               <div className="dropdown-content">
                 <ul>
-                  <li><Link to="/buy-shares">Client</Link></li>
-                  <li><Link to="/invest-with-us">Earn with us</Link></li>
-                  {/* <li><Link to="/investor-signup">Investor Signup</Link></li> */}
-
-            
+                  <li><Link to="/buy-shares" onClick={closeMenu}>Client</Link></li>
+                  <li><Link to="/invest-with-us" onClick={closeMenu}>Earn with us</Link></li>
                 </ul>
               </div>
             </div>
