@@ -1,4 +1,5 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
+import { UilArrowLeft } from '@iconscout/react-unicons';
 import biz1 from './../../../assets/images/ourbusiness/Ride.jpg';
 import biz2 from './../../../assets/images/ourbusiness/Food.jpg';
 import biz3 from './../../../assets/images/ourbusiness/Travels.jpg';
@@ -6,10 +7,10 @@ import biz4 from './../../../assets/images/ourbusiness/biz4.jpg';
 import placeholder from './../../../assets/images/otherpages/investor.jpg';
 import Header from '../__layouts/Header';
 import Banner_otherpages from './_Banner_otherpages';
-import {Link} from 'react-router-dom';
     
 const BusinessDetail = () => {
   const { slug } = useParams();
+  const navigate = useNavigate();
 
   // Data for each category
   const categoryDetails = {
@@ -369,7 +370,10 @@ Festrut Lead University Foundation is committed to advancing knowledge and empow
       <h2>{category.title}</h2>
       <h3>{category.description}</h3>
       <p>{category.details}</p>
-      <Link to={category.website} className="smashtech-button swipe-button">Visit {category.title} Website</Link>
+      <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+        <button onClick={() => navigate(-1)} className="smashtech-button swipe-button" style={{ cursor: 'pointer' }}><UilArrowLeft /> Back</button>
+        <Link to={category.website} className="smashtech-button swipe-button">Visit {category.title} Website</Link>
+      </div>
     </div>
     </>
   );
