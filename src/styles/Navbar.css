@@ -319,6 +319,11 @@ ul.menu{
     font-size: 15px !important;
   }
 
+  .dropdown-content ul {
+    display: block;
+    width: 100%;
+  }
+
   .menu-button#careers{
     background-color: white;
     padding: 0.85rem 1.25rem !important;
