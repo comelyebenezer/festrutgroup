@@ -4,14 +4,17 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import Header from "../../__public/__layouts/Header";
-// import Nav from "../../__public/__layouts/Nav";
 import Swal from "sweetalert2";
+import logo from '../../../assets/images/logo/festrut-logo.png';
+import { UilEnvelope, UilLock, UilEye, UilEyeSlash } from '@iconscout/react-unicons';
 
 const Login = (props) => {
   const [data, setData] = useState({
     email: "",
     password: "",
   });
+  const [showPassword, setShowPassword] = useState(false);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     document.title = `${props.project} | Member Login`;
@@ -34,9 +37,17 @@ const Login = (props) => {
     e.preventDefault();
 
     if (!data.email || !data.password) {
-      alert("Please fill in all required fields.");
+      Swal.fire({
+        position: "center",
+        icon: "warning",
+        title: "Please fill in all required fields.",
+        showConfirmButton: false,
+        timer: 1500,
+      });
       return;
     }
+
+    setLoading(true);
 
     const formData = new FormData();
     formData.append("email", data.email);
@@ -46,14 +57,12 @@ const Login = (props) => {
       const response = await axios.post(`${baseUrl}/login/`, formData);
 
       if (response.data.bool === true) {
-        // Save user details in localStorage
         localStorage.setItem("loggedInStatus", true);
         localStorage.setItem("memberId", response.data.member_id);
         localStorage.setItem("fname", response.data.fname);
         localStorage.setItem("sname", response.data.sname);
         localStorage.setItem("isAdmin", response.data.is_admin);
 
-        // Redirect to dashboard
         Swal.fire({
           position: "center",
           icon: "success",
@@ -64,6 +73,7 @@ const Login = (props) => {
           window.location.href = `${window.location.origin}/dashboard`;
         });
       } else {
+        setLoading(false);
         Swal.fire({
           position: "center",
           icon: "error",
@@ -74,6 +84,7 @@ const Login = (props) => {
         });
       }
     } catch (error) {
+      setLoading(false);
       console.error("There was an error!", error);
       Swal.fire({
         position: "center",
@@ -94,97 +105,84 @@ const Login = (props) => {
   return (
     <>
       <Header />
-      {/* <Nav /> */}
-
       <Helmet>
         <link href="/reg/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/reg/css/style.css" rel="stylesheet" />
       </Helmet>
 
-      <div
-        className="video wow fadeInUp bg-primary2"
-        data-wow-delay="0.1s"
-        style={{ height: "75vh" }}
-      >
-        <br />
-        <p className="text-center small mb-2 text-white">
-          Click a link of your choice below to register or login.
-        </p>
-        <h1 className="mb-2 text-warning text-center reglogin">
-          <Link to="/conference-registration" className="reglogin_headerlinks">
-            Conference Registration (GOTE 2024)
-          </Link>
-        </h1>
-        <h1 className="mb-2 text-center reglogin">
-          <Link to="/registration" className="reglogin_headerlinks">
-            Membership Registration
-          </Link>
-        </h1>
-        <h3 className="text-white mb-1 reglogin text-center">
-          <Link to="/login" className="reglogin_headerlinks active">
-            Member Login
-          </Link>
-        </h3>
-      </div>
+      <div className="login-page">
+        <div className="login-container">
+          <div className="login-left">
+            <div className="login-left-content">
+              <div className="login-brand">
+                <img src={logo} alt="Festrut Group" />
+                <h2>Festrut <span>Group</span></h2>
+              </div>
+              <h1>Welcome Back</h1>
+              <p>Sign in to your member dashboard to manage your investments, track returns, and access exclusive resources.</p>
+              <div className="login-features">
+                <div className="login-feature">
+                  <span className="login-feature-dot"></span>
+                  <span>Schedule site inspections</span>
+                </div>
+                <div className="login-feature">
+                  <span className="login-feature-dot"></span>
+                  <span>Manage your profile</span>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <div
-        className="container position-relative wow fadeInUp"
-        data-wow-delay="0.1s"
-        style={{ marginTop: "-6rem" }}
-      >
-        <div className="row justify-content-center">
-          <div className="col-lg-8">
-            <div className="bg-light p-5">
-              <h1 className="text-center m-0">Login as Member</h1>
-              <p className="text-center small mb-4">
-                Required fields are marked with Asterisk *
-              </p>
+          <div className="login-right">
+            <div className="login-form-wrap">
+              <h3>Member Login</h3>
+              <p className="login-form-sub">Enter your credentials to access your account.</p>
 
-              <form onSubmit={submitForm}>
-                <div className="row g-3 text-left">
-                  <div className="col-12">
-                    <h4 className="small font-weight-bold">
-                      Your Email Address <span className="asterisk">*</span>
-                    </h4>
+              <form onSubmit={submitForm} className="login-form">
+                <div className="login-input-group">
+                  <label htmlFor="email">Email Address</label>
+                  <div className="login-input-icon">
+                    <UilEnvelope className="login-icon" />
                     <input
                       type="email"
+                      id="email"
                       name="email"
                       onChange={handleChange}
                       value={data.email}
                       maxLength="50"
-                      className="form-control border-0"
-                      placeholder="E.g. myname@mail.com"
-                      style={{ height: "55px" }}
+                      placeholder="myname@mail.com"
                       required
                     />
                   </div>
-                  <div className="col-12">
-                    <h4 className="small font-weight-bold">
-                      Your Password <span className="asterisk">*</span>
-                    </h4>
+                </div>
+
+                <div className="login-input-group">
+                  <label htmlFor="password">Password</label>
+                  <div className="login-input-icon">
+                    <UilLock className="login-icon" />
                     <input
-                      type="password"
+                      type={showPassword ? "text" : "password"}
+                      id="password"
                       name="password"
                       onChange={handleChange}
                       value={data.password}
                       maxLength="100"
-                      className="form-control border-0"
-                      placeholder="A secret code you can remember ..."
-                      style={{ height: "55px" }}
+                      placeholder="Enter your password"
                       required
                     />
-                  </div>
-
-                  <div className="col-12">
-                    <button
-                      type="submit"
-                      className="btn btn-success w-100 py-3"
-                    >
-                      Log into User Dashboard
+                    <button type="button" className="login-password-toggle" onClick={() => setShowPassword(!showPassword)}>
+                      {showPassword ? <UilEyeSlash /> : <UilEye />}
                     </button>
                   </div>
                 </div>
+
+                <button type="submit" className="login-submit" disabled={loading}>
+                  {loading ? <span className="login-spinner"></span> : "Log into Dashboard"}
+                </button>
               </form>
+
+              <div className="login-links">
+                <Link to="/signup" className="login-link">Create an account</Link>
+              </div>
             </div>
           </div>
         </div>
@@ -192,4 +190,5 @@ const Login = (props) => {
     </>
   );
 };
+
 export default Login;

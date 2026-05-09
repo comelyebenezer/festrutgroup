@@ -22,6 +22,7 @@ import BusinessDetail from './__public/__sections/_BusinessDetail';
 import AllBusinesses from './__public/__sections/AllBusinesses';
 import TeamDetail from './__public/__sections/_TeamDetail';
 import Login from './pages/Investment/Login';
+import Signup from './pages/Investment/Signup';
 import Dashboard from './pages/Investment/Dashboard';
 import Logout from './pages/Investment/Logout';
 import LiveChatWidget from './__public/__sections/_misc/LiveChatWidget';
@@ -56,6 +57,7 @@ const Main = () => {
       <Route path="/buy-shares-form" element={<BuySharesForm company={company} />} />
       <Route path="/invest-with-us" element={<InvestmentsWithROI company={company} />} />
       <Route path="/login" element={<Login company={company} />} />
+      <Route path="/signup" element={<Signup company={company} />} />
       <Route path="/logout" element={<Logout />} />
       <Route path="/dashboard" element={<Dashboard company={company} />} />
       <Route path="/careers" element={<Careers company={company} />} />

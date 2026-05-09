@@ -372,7 +372,6 @@ Festrut Lead University Foundation is committed to advancing knowledge and empow
       <p>{category.details}</p>
       <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
         <button onClick={() => navigate(-1)} className="smashtech-button swipe-button" style={{ cursor: 'pointer' }}><UilArrowLeft /> Back</button>
-        <Link to={category.website} className="smashtech-button swipe-button">Visit {category.title} Website</Link>
       </div>
     </div>
     </>

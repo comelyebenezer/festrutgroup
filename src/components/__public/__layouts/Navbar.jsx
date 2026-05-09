@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react';
-import { UilBars, UilTimes, UilAngleDown } from '@iconscout/react-unicons';
+import { UilApps, UilAngleDown, UilTimes } from '@iconscout/react-unicons';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../../assets/images/logo/festrut-logo.png';
+import { UilPhone } from '@iconscout/react-unicons';
 
 const Navbar = () => {
   const location = useLocation();
+  const [showLaunchModal, setShowLaunchModal] = useState(false);
 
   const categories = [
     {
@@ -121,11 +123,6 @@ const Navbar = () => {
     setOpenDropdown(null);
   };
 
-  useEffect(() => {
-    document.body.style.overflow = isOpen ? 'hidden' : '';
-    return () => { document.body.style.overflow = ''; };
-  }, [isOpen]);
-
   return (
     <nav className="navbar">
       <Link to="/" id="logo">
@@ -137,11 +134,7 @@ const Navbar = () => {
       </Link>
 
      
-      <li className="dvs-header__trigger" onClick={toggleMenu}>
-        {isOpen ? <UilTimes /> : <UilBars />}
-      </li>
-
-      <div className={`menu-overlay ${isOpen ? 'is-visible' : ''}`} onClick={closeMenu} />
+      <li className="dvs-header__trigger" onClick={toggleMenu}><UilApps /></li>
 
       <ul className={`menu ${isOpen ? 'is-open' : ''}`}>
         <li className="menu-item" title="Click to browse company">
@@ -216,7 +209,7 @@ const Navbar = () => {
 
  {/* <li> Login </li> */}
 
-        <li className="menu-item" title="Browse Login opportunities">
+         <li className="menu-item" title="Browse Login opportunities">
           <button onClick={() => toggleDropdown('Login')} className="menu-button">
             Login <span className={`caret ${openDropdown === 'Login' ? 'rotate' : ''}`}><UilAngleDown /></span>
           </button>
@@ -224,8 +217,8 @@ const Navbar = () => {
             <div className="dropdown">
               <div className="dropdown-content">
                 <ul>
-                  <li><Link to="/buy-shares" onClick={closeMenu}>Client</Link></li>
-                  <li><Link to="/invest-with-us" onClick={closeMenu}>Staff</Link></li>
+                  <li><Link to="/login" onClick={closeMenu}>Client</Link></li>
+                  <li><Link to="/login" onClick={closeMenu}>Staff</Link></li>
                 </ul>
               </div>
             </div>
@@ -244,8 +237,8 @@ const Navbar = () => {
             <div className="dropdown">
               <div className="dropdown-content">
                 <ul>
-                  <li><Link to="/buy-shares" onClick={closeMenu}>Client</Link></li>
-                  <li><Link to="/invest-with-us" onClick={closeMenu}>Earn with us</Link></li>
+                  <li><Link to="/signup" onClick={closeMenu}>Client</Link></li>
+                  <li><Link to="/signup" onClick={closeMenu}>Earn with us</Link></li>
                 </ul>
               </div>
             </div>
@@ -258,12 +251,29 @@ const Navbar = () => {
           <p style={{ lineHeight: '40px'}}><a href="tel:+23409169740288" title="Call our Hotline" className="_070Festrut mb-0"><span><UilPhone /> 0916-974-0288</span></a></p>
         </div> */}
         <div style={{ fontSize: '16px' }}>
-          <a href="#footer" title="Contact us" className="Festruttech-button swipe-button">Earn with us</a>
+          <button onClick={() => setShowLaunchModal(true)} title="Earn with us" className="smashtech-button swipe-button">Earn with us</button>
         </div>
         
       </div>
 
-    
+      {showLaunchModal && (
+        <div className="launch-modal-overlay" onClick={() => setShowLaunchModal(false)}>
+          <div className="launch-modal" onClick={e => e.stopPropagation()}>
+            <button className="launch-modal-close" onClick={() => setShowLaunchModal(false)}><UilTimes /></button>
+            <div className="launch-modal-icon">🚀</div>
+            <h2>Launching Soon</h2>
+            <p className="launch-modal-sub">We're working on something exciting!</p>
+            <p className="launch-modal-body">
+              Our "Earn with Us" program is currently under development. We're crafting a seamless experience that will let you partner with Festrut Group and earn rewarding returns. Stay tuned — we'll be launching very soon!
+            </p>
+            <div className="launch-modal-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <button className="launch-modal-btn" onClick={() => setShowLaunchModal(false)}>Got it!</button>
+          </div>
+        </div>
+      )}
+
     </nav>
   );
 };
