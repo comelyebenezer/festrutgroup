@@ -4,78 +4,16 @@ import logo from '../../../assets/images/logo/footer-logo.png';
 
 const Footer = () => {
   const categories = [
-    {
-      title: 'Festrut Oil and Gas',
-      slug: 'festrut Oil and Gas',
-    },                  ,
-    {
-      title: 'Festrut Communication Limited',
-      slug: 'festrut Communication Limited',
-    },                  ,
-    {
-      title: 'Festrut Transport Nig Ltd',
-      slug: 'Festrut travel',
-    },                  ,
-    {
-      title: 'Festrut African Talent Hunt',
-      slug: 'festrut african talent hunt',
-    },                  ,
-    {
-      title: 'Festrut Shopping Mall',
-      slug: 'Festrut Shopping Mall',
-    },                  ,
-    {
-      title: 'Festrut Apartments',
-      slug: 'festrutapartments',
-    },                  ,
-    {
-      title: ' Festrut Security Guards Limited',
-      slug: 'festrutsecurityguardslimited',
-    },                  ,
-    {
-      title: 'Festrut Construction Ltd',
-      slug: 'festrutconstructionltd',
-    },                  ,
-    {
-      title: 'Festrut Facility and Development Firm Ltd',
-      slug: 'festrutfacilityanddevelopmentfirmltd',
-    },                  ,
-    {
-      title: 'Festrut Consultant Ltd',
-      slug: 'festrutconsultantltd',
-    },                  ,
-    {
-      title: 'Festrut Klass Hospital and Laboratory Services',
-      slug: 'festrutklasshospitalandlaboratoryservices',
-    },                  ,
+   
     {
       title: 'Festrut Charity Foundation',
       slug: 'festrutcharityfoundation',
     },
-    {
-      title: 'Festrut Courier Services Limited',
-      slug: 'festrutcourierserviceslimited',
-    },                  ,
-    {
-      title: 'Festrut Hospital and Laboratory Service',
-      slug: 'festruthospitalandlaboratoryservice',
-    },                  ,
-    {
-      title: 'Festrut Lead University Foundation',
-      slug: 'festrutleaduniversityfoundation',
-    },                  ,
+                    ,
     {
       title: 'Festrut International Manager Institute',
       slug: 'festrutinternationalmanagerinstitute',
-    },                  ,
-    {
-      title: 'Prestigious Elites Organization',
-      slug: 'prestigiouselitesorganization',
-    },
-    {
-      title: 'Festrut Food and Drink International Ltd',
-      slug: 'festrutfoodanddrinkinternationalltd',
-    },                  ,
+    },                  ,                ,
   ];
 
   return (

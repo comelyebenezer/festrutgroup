@@ -9,78 +9,20 @@ const Navbar = () => {
   const [showLaunchModal, setShowLaunchModal] = useState(false);
 
   const categories = [
-    {
-      title: 'Festrut Oil and Gas',
-      slug: 'festrut-oil-gas',
-    },
-    {
-      title: 'Festrut Communication Limited',
-      slug: 'festrut-communication',
-    },
-    {
-      title: 'Festrut Transport Nig Ltd',
-      slug: 'festrut-transport',
-    },
-    {
-      title: 'Festrut African Talent Hunt',
-      slug: 'festrut-talent-hunt',
-    },
-    {
-      title: 'Festrut Shopping Mall',
-      slug: 'festrut-shopping-mall',
-    },
-    {
-      title: 'Festrut Apartments',
-      slug: '',
-    },
-    {
-      title: 'Festrut Security Guards Limited',
-      slug: 'festrut-security',
-    },
-    {
-      title: 'Festrut Construction Ltd',
-      slug: 'festrut-construction',
-    },
-    {
-      title: 'Festrut Facility and Development Firm Ltd',
-      slug: 'festrut-facility-development',
-    },
-    {
-      title: 'Festrut Consultant Ltd',
-      slug: 'festrut-consultant',
-    },
-    {
-      title: 'Festrut Klass Hospital and Laboratory Services',
-      slug: 'first-klass-hospital',
-    },
+   
     {
       title: 'Festrut Charity Foundation',
       slug: 'festrut-charity',
     },
-    {
-      title: 'Festrut Courier Services Limited',
-      slug: 'festrut-courier',
-    },
-    {
-      title: 'Festrut Hospital and Laboratory Service',
-      slug: 'festrut-hospital',
-    },
-    {
-      title: 'Festrut Lead University Foundation',
-      slug: 'festrut-lead-foundation',
-    },
+    
     {
       title: 'Festrut International Management Institute',
       slug: 'festrut-management-institute',
     },
-    {
-      title: 'Prestigious Elites Organization',
-      slug: 'pelites',
-    },
-    {
-      title: 'Festrut Food and Drink International Ltd',
-      slug: 'festrut-food-drink',
-    }, 
+     {
+      title: 'Festrut Global Shelter Nigeria Ltd',
+      slug: 'festrutglobalshelternigerialtd',
+    },    
   ];
 
   useEffect(() => {
