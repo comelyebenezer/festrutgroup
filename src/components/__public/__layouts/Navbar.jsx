@@ -167,7 +167,7 @@ const Navbar = () => {
         </li>
 
         <li className="menu-item" title="Browse our businesses">
-          <button onClick={() => toggleDropdown('ourBusiness')} className={`menu-button ${openDropdown === 'ourBusiness' ? 'active' : ''}`}>
+          <button onClick={() => toggleDropdown('ourBusiness')} className="menu-button">
             Our Business<span className={`caret ${openDropdown === 'ourBusiness' ? 'rotate' : ''}`}><UilAngleDown /></span>
           </button>
           {openDropdown === 'ourBusiness' && (
@@ -198,7 +198,7 @@ const Navbar = () => {
           <Link to="/careers" className="menu-button" id="careers">Careers</Link>
         </li>
         <li className="menu-item" title="Media">
-          <button onClick={() => toggleDropdown('media')} className={`menu-button ${openDropdown === 'media' ? 'active' : ''}`}>
+          <button onClick={() => toggleDropdown('media')} className="menu-button">
             Media<span className={`caret ${openDropdown === 'media' ? 'rotate' : ''}`}><UilAngleDown /></span>
           </button>
           {openDropdown === 'media' && (
@@ -214,8 +214,10 @@ const Navbar = () => {
           )}
         </li>
 
-          <li className="menu-item" title="Browse Login opportunities">
-          <button onClick={() => toggleDropdown('Login')} className={`menu-button ${openDropdown === 'Login' ? 'active' : ''}`}>
+ {/* <li> Login </li> */}
+
+        <li className="menu-item" title="Browse Login opportunities">
+          <button onClick={() => toggleDropdown('Login')} className="menu-button">
             Login <span className={`caret ${openDropdown === 'Login' ? 'rotate' : ''}`}><UilAngleDown /></span>
           </button>
           {openDropdown === 'Login' && (
@@ -228,10 +230,14 @@ const Navbar = () => {
               </div>
             </div>
           )}
-          </li>
+        </li>
 
-          <li className="menu-item" title="Browse Register opportunities">
-          <button onClick={() => toggleDropdown('Register')} className={`menu-button ${openDropdown === 'Register' ? 'active' : ''}`}>
+        
+
+{/* <li> Register </li> */}
+
+         <li className="menu-item" title="Browse Register opportunities">
+          <button onClick={() => toggleDropdown('Register')} className="menu-button">
             Register <span className={`caret ${openDropdown === 'Register' ? 'rotate' : ''}`}><UilAngleDown /></span>
           </button>
           {openDropdown === 'Register' && (
