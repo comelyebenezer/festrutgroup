@@ -207,8 +207,8 @@ ul.menu{
   .menu{
     display: none;
   }
-  .contacts{
-    display: flex !important;
+  .mobile-earn-btn{
+    display: block !important;
   }
   .navbar{
     margin: 0 !important;
@@ -276,11 +276,13 @@ ul.menu{
   .dropdown-content ul > li > a{
   }
 
-  .menu-button#careers{
-    background-color: white;
-    padding: 0 !important;
-
-  }
+.menu-button#careers{
+  background-color: white;
+  padding: 0;
+}
+.mobile-earn-btn{
+  display: none;
+}
 }
 
 

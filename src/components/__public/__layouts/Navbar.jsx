@@ -244,6 +244,9 @@ const Navbar = () => {
             </div>
           )}
         </li>
+        <li className="menu-item mobile-earn-btn" title="Earn with us">
+          <button onClick={() => { setShowLaunchModal(true); closeMenu(); }} className="smashtech-button swipe-button" style={{background:'#9d0105', color:'#fff', border:'none', padding:'12px 24px', borderRadius:'50px', fontSize:'16px', cursor:'pointer'}}>Earn with us</button>
+        </li>
       </ul>
 
       <div className="contacts">
