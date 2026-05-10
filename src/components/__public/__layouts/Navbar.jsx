@@ -9,20 +9,18 @@ const Navbar = () => {
   const [showLaunchModal, setShowLaunchModal] = useState(false);
 
   const categories = [
-   
+    {
+      title: 'Festrut Global Shelter Nig Ltd',
+      slug: 'festrut-global-shelter',
+    },
     {
       title: 'Festrut Charity Foundation',
       slug: 'festrut-charity',
     },
-    
     {
       title: 'Festrut International Management Institute',
       slug: 'festrut-management-institute',
     },
-     {
-      title: 'Festrut Global Shelter Nigeria Ltd',
-      slug: 'festrutglobalshelternigerialtd',
-    },    
   ];
 
   useEffect(() => {

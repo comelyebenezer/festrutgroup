@@ -1,31 +1,29 @@
 import { UilArrowRight } from '@iconscout/react-unicons';
 import { Link, useNavigate } from 'react-router-dom';
 import biz1 from './../../../assets/images/ourbusiness/Ride.jpg';
-import biz2 from './../../../assets/images/ourbusiness/Food.jpg';
-import biz3 from './../../../assets/images/ourbusiness/Travels.jpg';
+import placeholder from './../../../assets/images/otherpages/investor.jpg';
 
 const OurBusiness = () => {
   const navigate = useNavigate();
   const categories = [
     {
-  title: 'Festrut Global Shelter Nig Ltd',
-  description: 'Providing safe, affordable, and premium housing solutions designed for modern living and long-term investment.',
-  image: biz1,
-  slug: 'festrut-global-shelter',
-},
-{
-  title: 'Festrut Communication Ltd',
-  description: 'Delivering reliable communication and media solutions that connect businesses and communities effectively.',
-  image: biz2,
-  slug: 'festrut-communication',
-},
-{
-  title: 'Festrut Oil & Gas Ltd',
-  description: 'Driving sustainable energy solutions through efficient exploration, supply, and distribution services.',
-  image: biz3,
-  slug: 'festrut-oil-gas',
-},
-    
+      title: 'Festrut Global Shelter Nig Ltd',
+      description: 'Providing safe, affordable, and premium housing solutions designed for modern living and long-term investment.',
+      image: biz1,
+      slug: 'festrut-global-shelter',
+    },
+    {
+      title: 'Festrut Charity Foundation',
+      description: 'Driving humanitarian initiatives and community development through impactful programs.',
+      image: placeholder,
+      slug: 'festrut-charity',
+    },
+    {
+      title: 'Festrut International Management Institute',
+      description: 'Providing professional training and leadership development for individuals and organizations.',
+      image: placeholder,
+      slug: 'festrut-management-institute',
+    },
   ];
 
   return (

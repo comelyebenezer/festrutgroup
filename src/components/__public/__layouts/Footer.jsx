@@ -4,16 +4,18 @@ import logo from '../../../assets/images/logo/footer-logo.png';
 
 const Footer = () => {
   const categories = [
-   
+    {
+      title: 'Festrut Global Shelter Nig Ltd',
+      slug: 'festrut-global-shelter',
+    },
     {
       title: 'Festrut Charity Foundation',
-      slug: 'festrutcharityfoundation',
+      slug: 'festrut-charity',
     },
-                    ,
     {
-      title: 'Festrut International Manager Institute',
-      slug: 'festrutinternationalmanagerinstitute',
-    },                  ,                ,
+      title: 'Festrut International Management Institute',
+      slug: 'festrut-management-institute',
+    },
   ];
 
   return (
