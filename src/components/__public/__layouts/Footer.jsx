@@ -1,21 +1,26 @@
+import { useState } from 'react';
 import { UilFacebook, UilInstagram, UilWhatsapp, UilEnvelope, UilPhone, UilYoutube } from '@iconscout/react-unicons';
+import { UilTimes } from '@iconscout/react-unicons';
 import { Link } from 'react-router-dom';
 import logo from '../../../assets/images/logo/footer-logo.png';
 
 const Footer = () => {
+  const [showLaunchModal, setShowLaunchModal] = useState(false);
   const categories = [
-    {
-      title: 'Festrut Global Shelter Nig Ltd',
-      slug: 'festrut-global-shelter',
-    },
+   
     {
       title: 'Festrut Charity Foundation',
-      slug: 'festrut-charity',
+      slug: 'festrutcharityfoundation',
     },
+                    ,
     {
-      title: 'Festrut International Management Institute',
-      slug: 'festrut-management-institute',
-    },
+      title: 'Festrut International Manager Institute',
+      slug: 'festrutinternationalmanagerinstitute',
+    },  
+     {
+      title: 'Festrut Global Shelter Nigeria Ltd',
+      slug: 'festrutglobalshelternigerialtd',
+    },                  ,                ,
   ];
 
   return (
@@ -40,9 +45,9 @@ const Footer = () => {
                           <Link to="/">Home</Link>
                           <Link to="/about">About Us</Link>
                           <a href="/all-businesses">Our Businesses</a>
-                          <Link to="/buy-shares">Career</Link>
+                          <Link to="/careers">Career</Link>
                           <Link to="/gallery">Media</Link>
-                          <Link to="/press-release">Earn with us</Link>
+                          <a href="#!" onClick={(e) => { e.preventDefault(); setShowLaunchModal(true); }} className="earn-footer-link">Earn with us</a>
                           <Link to="/blog">Blog</Link>
                           <Link to="/#faq">FAQ</Link>
                           
@@ -121,6 +126,24 @@ const Footer = () => {
         </div>
       </div>
     </div>
+
+      {showLaunchModal && (
+        <div className="launch-modal-overlay" onClick={() => setShowLaunchModal(false)}>
+          <div className="launch-modal" onClick={e => e.stopPropagation()}>
+            <button className="launch-modal-close" onClick={() => setShowLaunchModal(false)}><UilTimes /></button>
+            <div className="launch-modal-icon">🚀</div>
+            <h2>Launching Soon</h2>
+            <p className="launch-modal-sub">We're working on something exciting!</p>
+            <p className="launch-modal-body">
+              Our "Earn with Us" program is currently under development. We're crafting a seamless experience that will let you partner with Festrut Group and earn rewarding returns. Stay tuned — we'll be launching very soon!
+            </p>
+            <div className="launch-modal-dots">
+              <span></span><span></span><span></span>
+            </div>
+            <button className="launch-modal-btn" onClick={() => setShowLaunchModal(false)}>Got it!</button>
+          </div>
+        </div>
+      )}
   </>
   )
 }

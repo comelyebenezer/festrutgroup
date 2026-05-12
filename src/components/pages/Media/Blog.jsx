@@ -1,137 +1,118 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { UilSearch, UilCalendarAlt, UilEye, UilArrowRight } from '@iconscout/react-unicons';
+import Header from '../../__public/__layouts/Header';
 import Banner_otherpages from '../../__public/__sections/_Banner_otherpages';
 import image from '../../../assets/images/otherpages/blog.jpg';
-import cocacola from '../../../assets/images/careers_and_blog/cocacola.jpg';
-import { Link } from 'react-router-dom';
-import Header from '../../__public/__layouts/Header';
-import { UilBriefcase, UilComment, UilEye, UilSearch } from '@iconscout/react-unicons';
-import Map from '../../__public/__sections/_Map';
+import blogs, { categories } from '../../../data/blogs';
 
 const Blog = (props) => {
-    useEffect(() => {
-        document.title = `${props.company} — Blog`;
-    }, []);
+  const [activeCategory, setActiveCategory] = useState('All');
+  const [searchTerm, setSearchTerm] = useState('');
 
-    return (
-    <>      
-    <Header />    
-    <Banner_otherpages title="Blog" image={image} />
+  useEffect(() => {
+    document.title = `${props.company} — Blog`;
+  }, [props.company]);
 
-    <div className="sections pt-0" id="blog">
+  const filtered = blogs.filter((post) => {
+    const matchCategory = activeCategory === 'All' || post.category === activeCategory;
+    const matchSearch = post.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      post.excerpt.toLowerCase().includes(searchTerm.toLowerCase());
+    return matchCategory && matchSearch;
+  });
+
+  const recentPosts = blogs.slice(0, 4);
+
+  return (
+    <>
+      <Header />
+      <Banner_otherpages title="Blog" image={image} />
+
+      <div className="sections pt-0" id="blog">
         <div className="search-div">
-            <input type="text" placeholder="Search blog for updates" /> 
-            <Link to="/" className="smashtech-button swipe-button"><UilSearch /> Search</Link>
+          <input
+            type="text"
+            placeholder="Search blog for updates..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+          <button className="smashtech-button swipe-button"><UilSearch /> Search</button>
         </div>
 
         <div className="flex tabs">
-            <Link to="/" className="smashtech-button swipe-button">All</Link>
-            <Link to="/" className="smashtech-button swipe-button transparent noborder">Business</Link>
-            <Link to="/" className="smashtech-button swipe-button transparent noborder">News Updates</Link>
-            <Link to="/" className="smashtech-button swipe-button transparent noborder">Smash New Releases</Link>
-            <Link to="/" className="smashtech-button swipe-button transparent noborder">Smash #Project10Billion</Link>
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              className={`smashtech-button swipe-button ${activeCategory !== cat ? 'transparent noborder' : ''}`}
+              onClick={() => setActiveCategory(cat)}
+            >
+              {cat}
+            </button>
+          ))}
         </div>
-    </div>
-    
-    <div className="sections section2" id="blog">
-        
+      </div>
+
+      <div className="sections section2" id="blog">
         <div className="c2_1 c1-sm c1-xs blog-wrap">
-            <div className="c1">
-                <h2>All Blogs</h2>
-                
-                <div className="careers-cards">
-                    <div className="flex">
-                        <h3>Smash Technology Hits The Streets of Abuja</h3>
-                    </div>
-                    <div>
-                        <span><UilBriefcase /> November 6, 2024</span> &nbsp; &nbsp; 
-                        <span><UilComment /> 520 Comments</span> &nbsp; &nbsp; 
-                        <span><UilEye /> 1,282 Views</span> 
-                    </div>
-                    <div>
-                        <p>As a dynamic and growing company looking for talented individuals to join our team,
-                            we offer a unique opportunity to work on cutting-edge technologies and shape the future of 
-                            app-based services we offer a unique opportunity to work on cutting-edge technologies and shape the future of 
-                            app-based services. <Link to="/" className="">Read more </Link> 
-                        </p>
-                        <Link to="/" className="smashtech-button swipe-button">Comment</Link> &nbsp; &nbsp; 
-                        <Link to="/" className="smashtech-button swipe-button transparent">View Comments</Link>
-                    </div>
-                </div>
+          <div className="c1">
+            <h2>{activeCategory === 'All' ? 'All Blogs' : activeCategory}</h2>
 
-                <div className="careers-cards">
-                    <div className="flex">
-                        <h3>Ridesmash- The Way To Make Big Bucks</h3>
-                    </div>
-                    <div>
-                        <span><UilBriefcase /> November 6, 2024</span> &nbsp; &nbsp; 
-                        <span><UilComment /> 520 Comments</span> &nbsp; &nbsp; 
-                        <span><UilEye /> 1,282 Views</span> 
-                    </div>
-                    <div>
-                        <p>As a dynamic and growing company looking for talented individuals to join our team,
-                            we offer a unique opportunity to work on cutting-edge technologies and shape the future of 
-                            app-based services we offer a unique opportunity to work on cutting-edge technologies and shape the future of 
-                            app-based services. <Link to="/" className="">Read more </Link> 
-                        </p>
-                        <Link to="/" className="smashtech-button swipe-button">Comment</Link> &nbsp; &nbsp; 
-                        <Link to="/" className="smashtech-button swipe-button transparent">View Comments</Link>
-                    </div>
-                </div>
+            {filtered.length === 0 && (
+              <p style={{ marginTop: '2rem' }}>No blog posts found. Try a different search or category.</p>
+            )}
 
-                <div className="careers-cards">
-                    <div className="flex">
-                        <h3>Technology, The Fast Route to Business Growth</h3>
+            <div className="blog-grid">
+              {filtered.map((post) => (
+                <article key={post.id} className="blog-card">
+                  <Link to={`/blog/${post.slug}`} className="blog-card-image-link">
+                    <div className="blog-card-image">
+                      <img src={post.image} alt={post.title} />
+                      <span className="blog-card-category">{post.category}</span>
                     </div>
-                    <div>
-                        <span><UilBriefcase /> November 6, 2024</span> &nbsp; &nbsp; 
-                        <span><UilComment /> 520 Comments</span> &nbsp; &nbsp; 
-                        <span><UilEye /> 1,282 Views</span> 
+                  </Link>
+                  <div className="blog-card-body">
+                    <div className="blog-card-meta">
+                      <span><UilCalendarAlt /> {post.date}</span>
+                      <span><UilEye /> {post.views.toLocaleString()} views</span>
                     </div>
-                    <div>
-                        <p>As a dynamic and growing company looking for talented individuals to join our team,
-                            we offer a unique opportunity to work on cutting-edge technologies and shape the future of 
-                            app-based services we offer a unique opportunity to work on cutting-edge technologies and shape the future of 
-                            app-based services. <Link to="/" className="">Read more </Link> 
-                        </p>
-                        <Link to="/" className="smashtech-button swipe-button">Comment</Link> &nbsp; &nbsp; 
-                        <Link to="/" className="smashtech-button swipe-button transparent">View Comments</Link>
-                    </div>
-                </div>
+                    <h3>{post.title}</h3>
+                    <p>{post.excerpt}</p>
+                    <Link to={`/blog/${post.slug}`} className="blog-read-more">
+                      Read More <UilArrowRight />
+                    </Link>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+
+          <div className="blog-sidebar">
+            <h2>Recent Posts</h2>
+            <div className="blog-recent-posts">
+              {recentPosts.map((post) => (
+                <Link key={post.id} to={`/blog/${post.slug}`} className="blog-recent-item">
+                  <div className="blog-recent-img">
+                    <img src={post.image} alt={post.title} />
+                  </div>
+                  <div className="blog-recent-info">
+                    <h4>{post.title}</h4>
+                    <span><UilCalendarAlt /> {post.date}</span>
+                  </div>
+                </Link>
+              ))}
             </div>
 
-            <div>
-                <h2>Recent Posts</h2><br />
-
-                <div>
-                    <div className="careers-cards">                       
-                        <p>Smash Technology Hits The Streets of Abuja</p>
-                        <p>Ridesmash- The Way To Make Big Bucks</p>
-                        <p>Technology, The Fast Route to Business Growth</p>                        
-                    </div>
-
-                    <img src={cocacola} title="" alt="" />
-                </div>
+            <div className="blog-sidebar-card">
+              <img src={blogs[0].image} alt="Festrut Group" />
+              <h3>Festrut Group</h3>
+              <p>Your trusted partner in real estate, investment, and community development.</p>
+              <Link to="/about" className="smashtech-button swipe-button">Learn More</Link>
             </div>
-                
-        </div>        
-    </div>
-
-    <div className="sections pt-0" id="blog">
-        <h2>Archives</h2><br /><br />
-
-        <div className="flex archives">
-            <Link to="/" className="smashtech-button swipe-button transparent">2024</Link>
-            <Link to="/" className="smashtech-button swipe-button transparent">2023</Link>
-            <Link to="/" className="smashtech-button swipe-button transparent">2022</Link>
-            <Link to="/" className="smashtech-button swipe-button transparent">2021</Link>
-            <Link to="/" className="smashtech-button swipe-button transparent">2020</Link>
-            <Link to="/" className="smashtech-button swipe-button transparent">2019</Link>
-            <Link to="/" className="smashtech-button swipe-button transparent">2018</Link>
+          </div>
         </div>
-    </div>
-
-    <Map />
+      </div>
     </>
-  )
-}
+  );
+};
+
 export default Blog;

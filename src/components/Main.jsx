@@ -14,6 +14,8 @@ import BuyShares from './pages/Investment/BuyShares';
 import InvestmentsWithROI from './pages/Investment/InvestmentsWithROI';
 import Careers from './pages/Careers/Careers';
 import Blog from './pages/Media/Blog';
+import BlogPost from './pages/Media/BlogPost';
+import Gallery from './pages/Media/Gallery';
 import Faq from './pages/Media/Faq';
 import InvestmentForm from './pages/Investment/InvestmentForm';
 import SendEmail from './pages/Investment/SendEmail';
@@ -34,7 +36,7 @@ import CorporateDocs from './pages/About/Corporate_Docs';
 import Newsletter from './__public/__sections/_Newsletter';
 
 const Main = () => {
-  const company =  'Smash Technology';
+  const company =  'Festrutgroup';
 
   return (
     <>  
@@ -65,8 +67,10 @@ const Main = () => {
       
       {/* Media */}
       <Route path="/blog" element={<Blog company={company} />} />
+      <Route path="/blog/:slug" element={<BlogPost />} />
       <Route path="/faq" element={<Faq company={company} />} />
       <Route path="/press-release" element={<PressRelease company={company} />} />
+      <Route path="/gallery" element={<Gallery company={company} />} />
 
       <Route path="/job-application" element={<JobApplicationForm company={company} />} />
       <Route path="/investor-signup" element={<InvestmentForm company={company} />} />

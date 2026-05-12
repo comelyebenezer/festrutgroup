@@ -3,7 +3,6 @@ import { UilApps, UilAngleDown, UilTimes } from '@iconscout/react-unicons';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../../../assets/images/logo/festrut-logo.png';
 import { UilPhone } from '@iconscout/react-unicons';
-
 const Navbar = () => {
   const location = useLocation();
   const [showLaunchModal, setShowLaunchModal] = useState(false);
@@ -138,7 +137,7 @@ const Navbar = () => {
             <div className="dropdown">
               <div className="dropdown-content">
                 <ul>
-                  <li><Link to="/footer" onClick={closeMenu}>Blog</Link></li>
+                  <li><Link to="/blog" onClick={closeMenu}>Blog</Link></li>
                   <li><Link to="/faq#faq" onClick={closeMenu}>FAQ</Link></li>
                   <li><Link to="/gallery" onClick={closeMenu}>Gallery</Link></li>
                 </ul>

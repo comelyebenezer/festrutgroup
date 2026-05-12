@@ -1,5 +1,7 @@
 node_modules/
 build/
+dist.zip
+festrut-build.zip
 .env
 .env.local
 .env.development.local

@@ -11,7 +11,7 @@ const MissionCEO = () => {
     Trust: "We build lasting relationships through reliability and consistency. By keeping our word and delivering on our promises, we earn the confidence of our clients, partners, and communities.",
     Innovation: "We embrace innovation by continuously seeking smarter, more efficient ways to develop and deliver real estate solutions. Our forward-thinking approach allows us to create modern, sustainable properties that meet the needs of today and tomorrow.",
     Excellence: "We are driven by a passion for excellence in every project we undertake. From planning to delivery, we maintain superior standards, ensuring quality, durability, and satisfaction that consistently exceed expectations.",
-    Integrity: "At the heart of Festrut Group Limited is an unwavering commitment to integrity. We uphold the highest standards of honesty, transparency, and accountability in every transaction, ensuring that our clients and partners can trust us to deliver on our promis",
+    Integrity: "At the heart of Festrut Group Limited is an unwavering commitment to integrity. We uphold the highest standards of honesty, transparency, and accountability in every transaction, ensuring that our clients and partners can trust us to deliver on our promise",
   };
   
   return (
