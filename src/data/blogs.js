@@ -56,9 +56,9 @@ With a career defined by cross-sector impact and academic depth, Festus Uwakheme
     author: 'Festrut Media Team',
     date: 'May 13, 2026',
     category: 'News Updates',
-    image: ceoImg,
-    views: 3521,
-    comments: 124,
+    image: img5,
+    views: 2876,
+    comments: 67,
   },
   {
     id: 1,
