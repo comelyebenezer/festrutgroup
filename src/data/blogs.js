@@ -96,103 +96,11 @@ The visit concluded with a tour of the Festrut Group office, group photographs, 
 
 Festrut Group continues to demonstrate its commitment to youth empowerment and community development, one mentorship session at a time.`,
     author: 'Festrut Media Team',
-    date: 'May 14, 2026',
+    date: 'February 17, 2026',
     category: 'News Updates',
     image: img5,
     views: 2876,
     comments: 67,
-  },
-  {
-    id: 1,
-    slug: 'festrut-group-hits-the-streets-of-abuja',
-    title: 'Festrut Group Hits The Streets of Abuja',
-    excerpt: 'Festrut Group took to the streets of Abuja to connect with communities, showcase our innovative housing solutions, and engage with potential homeowners in the capital city.',
-    content: `Festrut Group, a leading real estate and investment conglomerate, recently embarked on an exciting outreach initiative in the heart of Abuja. The team took to the streets to engage directly with the community, sharing the vision of affordable, quality housing that Festrut Group has become known for.
-
-    The Abuja outreach was part of a broader strategy to increase awareness of Festrut Group's diverse portfolio, which includes Festrut Global Shelter Nig Ltd, Festrut Charity Foundation, and Festrut International Management Institute.
-
-    "We wanted to meet people where they are and have real conversations about their housing needs," said a company representative. "The response we received was overwhelming. Abuja residents are ready for innovative housing solutions, and we are here to deliver."
-
-    During the outreach, the Festrut team showcased various housing projects, discussed flexible payment plans, and shared information about investment opportunities within the group. The initiative also highlighted Festrut Group's commitment to community development and its mission to simplify access to quality shelter.
-
-    The success of the Abuja outreach has paved the way for similar initiatives in other major cities across Nigeria, as Festrut Group continues to expand its reach and impact.`,
-    author: 'Festrut Media Team',
-    date: 'April 15, 2025',
-    category: 'News Updates',
-    image: img1,
-    views: 2847,
-    comments: 86,
-  },
-  {
-    id: 2,
-    slug: 'festrut-global-shelter-the-way-to-smart-investment',
-    title: 'Festrut Global Shelter – The Way to Smart Investment',
-    excerpt: 'Discover why investing in real estate with Festrut Global Shelter Nig Ltd is the smartest financial decision you can make in today\'s market.',
-    content: `Real estate remains one of the most reliable and profitable investment vehicles in Nigeria, and Festrut Global Shelter Nig Ltd is at the forefront of making this accessible to everyone.
-
-    As the economy evolves, smart investors are turning to real estate as a hedge against inflation and a pathway to long-term wealth. Festrut Global Shelter offers a range of investment options designed to suit different budgets and financial goals.
-
-    Why Invest with Festrut Global Shelter?
-
-    First, our properties are strategically located in high-growth areas, ensuring strong appreciation over time. Second, we offer flexible payment plans that make homeownership achievable for middle-income earners. Third, we handle all the complexities of property development, from land documentation to construction, so our clients can invest with confidence.
-
-    Our portfolio includes residential estates, commercial properties, and land banking opportunities. Each investment is backed by thorough due diligence, proper documentation, and a commitment to transparency.
-
-    "We believe everyone deserves access to quality housing and smart investment opportunities," says the CEO of Festrut Group. "Festrut Global Shelter is our vehicle to deliver on that promise."
-
-    Whether you are a first-time homebuyer or a seasoned investor looking to diversify your portfolio, Festrut Global Shelter Nig Ltd has something for you.`,
-    author: 'Festrut Media Team',
-    date: 'March 28, 2025',
-    category: 'Business',
-    image: img2,
-    views: 1932,
-    comments: 54,
-  },
-  {
-    id: 3,
-    slug: 'technology-the-fast-route-to-business-growth',
-    title: 'Technology, The Fast Route to Business Growth',
-    excerpt: 'How Festrut Group leverages cutting-edge technology to streamline real estate operations and deliver exceptional value to clients.',
-    content: `In today's fast-paced digital world, technology is no longer a luxury — it is a necessity for business growth. Festrut Group has embraced this reality wholeheartedly, integrating modern technology across all its operations.
-
-    From property listing and virtual tours to automated payment systems and customer relationship management, technology powers every aspect of the Festrut experience.
-
-    "We recognized early that technology would be a key differentiator in the real estate industry," explains the Festrut Group leadership. "By leveraging digital tools, we can offer our clients a seamless experience from property search to final purchase."
-
-    The company's website and mobile platform allow potential buyers to browse properties, schedule inspections, make payments, and track their investment portfolios — all from the comfort of their homes. This digital-first approach has significantly improved customer satisfaction and operational efficiency.
-
-    For real estate professionals looking to stay competitive, the message is clear: embrace technology or risk being left behind. Festrut Group is leading by example, showing how traditional industries can be transformed through innovation and digital adoption.`,
-    author: 'Festrut Media Team',
-    date: 'February 14, 2025',
-    category: 'Business',
-    image: img3,
-    views: 1567,
-    comments: 42,
-  },
-  {
-    id: 4,
-    slug: 'festrut-charity-foundation-making-a-difference',
-    title: 'Festrut Charity Foundation – Making a Difference in Communities',
-    excerpt: 'Learn about the impactful community development initiatives driven by Festrut Charity Foundation and how we are changing lives.',
-    content: `Festrut Charity Foundation, the philanthropic arm of Festrut Group, continues to make significant strides in community development across Nigeria. The foundation focuses on education, healthcare, and poverty alleviation.
-
-    Education Initiatives
-
-    The foundation has partnered with local schools to provide scholarships, learning materials, and infrastructure improvements. Our goal is to ensure that every child has access to quality education regardless of their economic background.
-
-    Healthcare Outreach
-
-    Through regular medical outreaches, the foundation brings essential healthcare services to underserved communities. These outreaches include free health screenings, distribution of medicines, and health education programs.
-
-    "We believe that true success is measured not just by profits, but by the positive impact we make in the lives of others," says the foundation's leadership. "Festrut Charity Foundation is our way of giving back to the communities that have supported us."
-
-    The foundation also provides emergency relief during natural disasters and times of crisis, demonstrating Festrut Group's commitment to being a responsible corporate citizen.`,
-    author: 'Festrut Media Team',
-    date: 'January 20, 2025',
-    category: 'News Updates',
-    image: img4,
-    views: 2105,
-    comments: 73,
   },
   {
     id: 6,
