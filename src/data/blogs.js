@@ -61,6 +61,48 @@ With a career defined by cross-sector impact and academic depth, Festus Uwakheme
     comments: 67,
   },
   {
+    id: 5,
+    slug: 'nysc-corps-members-visit-ceo-festrut-group-for-mentorship',
+    title: 'NYSC Corps Members Visit CEO of Festrut Group for Mentorship After Leadership Lecture',
+    excerpt: 'NYSC corps members who attended a leadership lecture by Festus Uwakhemen Asikhia visited the Festrut Group office for mentorship and career guidance.',
+    content: `A group of National Youth Service Corps (NYSC) members recently visited the corporate headquarters of Festrut Group for a mentorship session with the Founder and Chief Executive Officer, Festus Uwakhemen Asikhia. The visit came shortly after the CEO delivered an inspiring leadership lecture to the corps members at their orientation camp.
+
+The lecture, which focused on leadership, entrepreneurship, and personal development, left a lasting impression on the young graduates. Motivated by the insights shared, the corps members sought an opportunity to engage further with the CEO in a more intimate setting.
+
+**A Warm Reception at Festrut Group**
+
+Upon their arrival at the Festrut Group office, the corps members were warmly received by the CEO and his team. The atmosphere was filled with enthusiasm as the young graduates expressed their admiration for the CEO's achievements and his commitment to youth development.
+
+During the mentorship session, Asikhia shared practical advice on career growth, the importance of discipline, and the value of continuous learning. He encouraged the corps members to remain focused on their goals and to leverage every opportunity for personal and professional development.
+
+**Key Takeaways from the Session**
+
+The mentorship session covered a range of topics including:
+
+- Building a strong personal brand early in one's career
+- The role of integrity and hard work in achieving success
+- How to identify and seize opportunities in the real estate and business sectors
+- Navigating the transition from service year to full-time employment
+
+The CEO also answered questions from the corps members, providing clarity on various career paths and offering guidance on how to make the most of their post-NYSC years.
+
+**Inspiring the Next Generation**
+
+"This is what drives us at Festrut Group — not just building structures, but building lives," said Asikhia during the session. "These young minds are the future leaders of our nation, and it is our responsibility to mentor and guide them."
+
+The corps members expressed their gratitude for the opportunity, describing the experience as transformative and highly motivating. Many noted that the mentorship session gave them a clearer vision of their career paths and a renewed sense of purpose.
+
+The visit concluded with a tour of the Festrut Group office, group photographs, and a commitment from the CEO to maintain an open-door policy for young Nigerians seeking guidance and mentorship.
+
+Festrut Group continues to demonstrate its commitment to youth empowerment and community development, one mentorship session at a time.`,
+    author: 'Festrut Media Team',
+    date: 'May 14, 2026',
+    category: 'News Updates',
+    image: img5,
+    views: 2876,
+    comments: 67,
+  },
+  {
     id: 1,
     slug: 'festrut-group-hits-the-streets-of-abuja',
     title: 'Festrut Group Hits The Streets of Abuja',
@@ -151,48 +193,6 @@ With a career defined by cross-sector impact and academic depth, Festus Uwakheme
     image: img4,
     views: 2105,
     comments: 73,
-  },
-  {
-    id: 5,
-    slug: 'nysc-corps-members-visit-ceo-festrut-group-for-mentorship',
-    title: 'NYSC Corps Members Visit CEO of Festrut Group for Mentorship After Leadership Lecture',
-    excerpt: 'NYSC corps members who attended a leadership lecture by Festus Uwakhemen Asikhia visited the Festrut Group office for mentorship and career guidance.',
-    content: `A group of National Youth Service Corps (NYSC) members recently visited the corporate headquarters of Festrut Group for a mentorship session with the Founder and Chief Executive Officer, Festus Uwakhemen Asikhia. The visit came shortly after the CEO delivered an inspiring leadership lecture to the corps members at their orientation camp.
-
-The lecture, which focused on leadership, entrepreneurship, and personal development, left a lasting impression on the young graduates. Motivated by the insights shared, the corps members sought an opportunity to engage further with the CEO in a more intimate setting.
-
-**A Warm Reception at Festrut Group**
-
-Upon their arrival at the Festrut Group office, the corps members were warmly received by the CEO and his team. The atmosphere was filled with enthusiasm as the young graduates expressed their admiration for the CEO's achievements and his commitment to youth development.
-
-During the mentorship session, Asikhia shared practical advice on career growth, the importance of discipline, and the value of continuous learning. He encouraged the corps members to remain focused on their goals and to leverage every opportunity for personal and professional development.
-
-**Key Takeaways from the Session**
-
-The mentorship session covered a range of topics including:
-
-- Building a strong personal brand early in one's career
-- The role of integrity and hard work in achieving success
-- How to identify and seize opportunities in the real estate and business sectors
-- Navigating the transition from service year to full-time employment
-
-The CEO also answered questions from the corps members, providing clarity on various career paths and offering guidance on how to make the most of their post-NYSC years.
-
-**Inspiring the Next Generation**
-
-"This is what drives us at Festrut Group — not just building structures, but building lives," said Asikhia during the session. "These young minds are the future leaders of our nation, and it is our responsibility to mentor and guide them."
-
-The corps members expressed their gratitude for the opportunity, describing the experience as transformative and highly motivating. Many noted that the mentorship session gave them a clearer vision of their career paths and a renewed sense of purpose.
-
-The visit concluded with a tour of the Festrut Group office, group photographs, and a commitment from the CEO to maintain an open-door policy for young Nigerians seeking guidance and mentorship.
-
-Festrut Group continues to demonstrate its commitment to youth empowerment and community development, one mentorship session at a time.`,
-    author: 'Festrut Media Team',
-    date: 'May 14, 2026',
-    category: 'News Updates',
-    image: img5,
-    views: 2876,
-    comments: 67,
   },
   {
     id: 6,
