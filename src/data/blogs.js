@@ -4,8 +4,64 @@ import img3 from '../assets/images/ourbusiness/Travels.jpg';
 import img4 from '../assets/images/otherpages/investor.jpg';
 import img5 from '../assets/images/corevalues/Leadership.jpg';
 import ceoImg from '../assets/images/gallery/festus uwakhemen.jpeg';
+import unveilingImg from '../assets/images/gallery/Unveiling with pastor.jpeg';
 
 const blogs = [
+  {
+    id: 8,
+    slug: 'prof-festus-uwakhemen-asikhia-unveils-650-units-estate-project-orozo-nasarawa',
+    title: 'Prof Festus Uwakhemen Asikhia Unveils 650-Unit Estate Project at Orozo, Nasarawa State',
+    excerpt: 'Renowned real estate developer Prof Festus Uwakhemen Asikhia officially unveiled a remarkable 650-unit estate project in Orozo, Nasarawa State, setting a new benchmark for affordable housing.',
+    content: `The city of Orozo stood still for a moment of vision, ambition, and hope as renowned real estate developer and entrepreneur Prof Festus Uwakhemen Asikhia officially unveiled a remarkable 650-unit estate project in Nasarawa State, Nigeria. The unveiling ceremony was more than a groundbreaking event. It was the announcement of a future many families have long desired — a future where comfort, accessibility, dignity, and affordable living can coexist within a modern housing community.
+
+Against the backdrop of growing urban expansion around the Federal Capital Territory, the project arrives at a time when the demand for quality housing continues to rise rapidly. Orozo, strategically positioned between Abuja and Nasarawa State, has increasingly become one of the most attractive development corridors in the region. With this new estate project, Prof Asikhia has once again demonstrated not only his understanding of the Nigerian real estate landscape but also his unwavering commitment to creating sustainable communities that answer real societal needs.
+
+**A Visionary Unveiling Ceremony**
+
+From the atmosphere at the unveiling ceremony, it was evident that the project carries a deep sense of purpose. Guests, stakeholders, industry professionals, association executives, and members of the Festrut team gathered with excitement as the vision behind the estate was introduced to the public. There was a feeling that everyone present was witnessing the beginning of something transformational.
+
+The 650-unit estate project is designed with four carefully structured segments intended to accommodate different categories of homeowners and investors. One of the most remarkable aspects of the project is its inclusion of affordable housing options. In a country where many citizens continue to struggle with access to decent accommodation, this initiative stands as a practical response to one of Nigeria's pressing social and economic challenges.
+
+Rather than building houses alone, the project seeks to create an environment where families can thrive, businesses can grow, and communities can flourish. The vision extends beyond walls and rooftops. It embraces infrastructure, accessibility, comfort, and a sense of belonging. This is the kind of development that speaks to both present realities and future possibilities.
+
+**A Legacy of Excellence**
+
+For many who have followed the career of Prof Festus Uwakhemen Asikhia, the unveiling did not come as a surprise. Over the years, he has built a reputation as a visionary promoter within Nigeria's real estate sector. As the founder of Festrut Estate Katampe, he has consistently championed excellence, innovation, and long-term value in property development. His projects reflect not only business intelligence but also a people-centered philosophy that prioritizes human comfort and social impact.
+
+During the ceremony, Prof Asikhia was visibly engaged and deeply involved in every aspect of the presentation. His hands-on approach reflected his personal commitment to the success of the estate. For him, this project is clearly more than a commercial venture. It is a statement of belief in the future of Nigerian housing and the power of strategic development to uplift communities.
+
+**Distinguished Guests and Collaborators**
+
+The presence of notable personalities further added prestige and significance to the event. Among the distinguished attendees was Rev Michael Akindapo, whose support and friendship with the developer underscored the strong relationships and trust surrounding the project. Also present was Dr Sophie Odabe, whose role in the project reflects the collaborative leadership driving the development forward.
+
+The event also welcomed Oluwasola Peters, alongside Joshua Omololu Adesoye and Joseph Apezi. Their participation highlighted the strength of the professional and administrative structure supporting the initiative. Members of the Festrut staff and association executives equally played visible roles throughout the occasion, reinforcing the sense of unity and shared purpose surrounding the development.
+
+**Strategic Location and Timing**
+
+What makes this estate particularly significant is its timing and location. Orozo has steadily evolved into one of the fastest-growing suburban regions around Abuja. As population growth places increasing pressure on housing within the city center, surrounding communities have become attractive alternatives for both residential and investment purposes. The decision to situate a project of this magnitude in Orozo reflects strategic foresight and confidence in the area's developmental future.
+
+Observers at the event described the unveiling as both symbolic and practical — symbolic because it represents a new chapter in community-based real estate expansion within Nasarawa State, and practical because the project directly addresses the urgent need for organized housing solutions capable of serving different income groups.
+
+**Looking Ahead**
+
+Beyond the excitement of the launch, expectations are already rising regarding the next phases of development. Many attendees expressed anticipation concerning construction timelines, infrastructure plans, road networks, utility systems, and community amenities that will accompany the estate. Investors are equally watching closely, recognizing the economic potential embedded within such a large-scale housing initiative.
+
+There is also growing optimism that the project could stimulate broader economic activity within the Orozo axis. Developments of this scale often attract commercial growth, increase land value, create employment opportunities, and encourage infrastructural expansion. In many ways, the estate has the potential to become a catalyst for regional transformation.
+
+For young families searching for stability, professionals seeking proximity to Abuja, and investors looking toward long-term returns, the project represents opportunity. It speaks to the aspirations of ordinary Nigerians who desire secure, structured, and modern living environments without losing affordability.
+
+**A Bold Declaration**
+
+As the sun gradually settled over the unveiling venue, one thing became increasingly clear. The 650-unit estate project is not merely another construction initiative. It is a bold declaration of confidence in the future of Nigerian urban development. Through vision, leadership, and strategic planning, Prof Festus Uwakhemen Asikhia has once again positioned himself at the forefront of meaningful real estate transformation.
+
+In the years ahead, the story of this project may well become one of the defining narratives of modern housing development within the Abuja and Nasarawa corridor. For now, however, the unveiling itself has already achieved something powerful. It has inspired hope, sparked conversation, and reminded many Nigerians that visionary development still has the capacity to shape lives, strengthen communities, and build lasting legacies.`,
+    author: 'Festrut Media Team',
+    date: 'May 13, 2026',
+    category: 'News Updates',
+    image: unveilingImg,
+    views: 4120,
+    comments: 89,
+  },
   {
     id: 7,
     slug: 'festus-uwakhemen-asikhia-appointed-honorary-director-pebble-hills-university',
