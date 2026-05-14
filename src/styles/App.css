@@ -2923,3 +2923,205 @@ p.partner{
     font-size: 0.9rem;
   }
 }
+
+.book-inspection-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.book-inspection-intro h2 {
+  font-size: 2rem;
+  color: #020066;
+  margin-bottom: 0.8rem;
+}
+
+.book-inspection-intro p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.book-inspection-form {
+  max-width: 750px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.book-section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+.book-section:last-of-type {
+  border-bottom: none;
+}
+
+.book-section h3 {
+  font-size: 1.3rem;
+  color: #020066;
+  margin-bottom: 1.2rem;
+}
+
+.book-section h4 {
+  font-size: 1.05rem;
+  color: #333;
+  margin: 1.2rem 0 0.8rem;
+}
+
+.book-hint {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.book-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.book-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.book-field label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.book-field label span {
+  color: #9d0105;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.book-field input[type="text"],
+.book-field input[type="email"],
+.book-field input[type="tel"] {
+  padding: 0.75rem 1rem;
+  border: 1.5px solid #ddd;
+  border-radius: 0.6rem;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.book-field input[type="text"]:focus,
+.book-field input[type="email"]:focus,
+.book-field input[type="tel"]:focus {
+  border-color: #020066;
+}
+
+.book-field input[type="file"] {
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.book-receipt-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-receipt-row input[type="file"] {
+  flex: 1;
+}
+
+.book-remove-btn {
+  background: #fee;
+  border: none;
+  color: #9d0105;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+  flex-shrink: 0;
+}
+
+.book-remove-btn:hover {
+  background: #fcc;
+}
+
+.book-add-btn {
+  background: none;
+  border: 1.5px dashed #020066;
+  color: #020066;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: all 0.2s;
+  margin-top: 0.3rem;
+}
+
+.book-add-btn:hover {
+  background: #f0f0ff;
+  border-color: #9d0105;
+  color: #9d0105;
+}
+
+.book-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+}
+
+.book-checkbox input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #020066;
+  cursor: pointer;
+}
+
+.book-someone {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  background: #f9f9ff;
+  border-radius: 1rem;
+}
+
+.book-success {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.book-success h2 {
+  color: #28a745;
+  margin: 1rem 0 0.5rem;
+}
+
+.book-success p {
+  color: #666;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .book-row {
+    grid-template-columns: 1fr;
+  }
+
+  .book-inspection-form {
+    padding: 1.5rem;
+  }
+}

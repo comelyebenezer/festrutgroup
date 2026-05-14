@@ -91,7 +91,7 @@ const Navbar = () => {
                   <li><Link to="/about#core_values" onClick={closeMenu}>Services</Link></li>
                   <li><Link to="/about#commitment_to_sustainability" onClick={closeMenu}>Achievements</Link></li>
                   <li><Link to="/footer" onClick={closeMenu}>Contact</Link></li>
-                  <li><Link to="/footer" onClick={closeMenu}>Book Inspection</Link></li>
+                  <li><Link to="/book-inspection" onClick={closeMenu}>Book Inspection</Link></li>
                 </ul>
               </div>
             </div>

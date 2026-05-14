@@ -33,6 +33,7 @@ import PrivacyPolicy from './pages/Other/PrivacyPolicy';
 import TermsAndConditions from './pages/Other/TermsAndConditions';
 import PasswordPolicy from './pages/Other/PasswordPolicy';
 import CorporateDocs from './pages/About/Corporate_Docs';
+import BookInspection from './pages/BookInspection';
 import Newsletter from './__public/__sections/_Newsletter';
 
 const Main = () => {
@@ -80,6 +81,7 @@ const Main = () => {
       <Route path="/termsandconditions" element={<TermsAndConditions company={company} />} />
       <Route path="/passwordpolicy" element={<PasswordPolicy company={company} />} />
       <Route path="/corporate-documents" element={<CorporateDocs company={company} />} />
+      <Route path="/book-inspection" element={<BookInspection company={company} />} />
     </Routes>
 
     <Newsletter />

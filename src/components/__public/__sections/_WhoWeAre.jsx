@@ -30,7 +30,7 @@ const WhoWeAre = () => {
 
           <p><b>Festrut Group</b> Driven by strong leadership and a passion for excellence, Festrut Group focuses on transforming ideas into thriving developments while empowering individuals and families to own a future built on solid ground.</p>
 
-            <Link to="/about" className="smashtech-button swipe-button">Book Inspection</Link>
+            <Link to="/book-inspection" className="smashtech-button swipe-button">Book Inspection</Link>
         </div>
       </div>
 
