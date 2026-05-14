@@ -4,7 +4,7 @@ import img3 from '../assets/images/ourbusiness/Travels.jpg';
 import img4 from '../assets/images/otherpages/investor.jpg';
 import img5 from '../assets/images/corevalues/Leadership.jpg';
 import img6 from '../assets/images/corevalues/Entrepreneurship.jpg';
-import ceoImg from '../assets/images/gallery/ceo of festrut group.jpeg';
+import ceoImg from '../assets/images/gallery/festus uwakhemen.jpeg';
 
 const blogs = [
   {
