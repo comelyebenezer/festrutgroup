@@ -5,6 +5,7 @@ import Header from '../../__public/__layouts/Header';
 import Banner_otherpages from '../../__public/__sections/_Banner_otherpages';
 import image from '../../../assets/images/otherpages/blog.jpg';
 import blogs, { categories } from '../../../data/blogs';
+import festrutLogo from '../../../assets/images/logo/festrut-logo.png';
 
 const Blog = (props) => {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -103,7 +104,7 @@ const Blog = (props) => {
             </div>
 
             <div className="blog-sidebar-card">
-              <img src={blogs[0].image} alt="Festrut Group" />
+              <img src={festrutLogo} alt="Festrut Group" />
               <h3>Festrut Group</h3>
               <p>Your trusted partner in real estate, investment, and community development.</p>
               <Link to="/about" className="smashtech-button swipe-button">Learn More</Link>
