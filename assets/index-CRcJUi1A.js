@@ -188,7 +188,36 @@ He is also an accomplished author with several publications across academic jour
 
 His appointment as Honorary Director at Pebble Hills University is expected to strengthen the institution's global outlook, particularly in governance, leadership development, and interdisciplinary research.
 
-With a career defined by cross-sector impact and academic depth, Festus Uwakhemen Asikhia continues to position himself as a key figure in shaping conversations around leadership, development, and institutional excellence on the global stage.`,author:"Festrut Media Team",date:"May 13, 2026",category:"News Updates",image:Z2,views:2876,comments:67},{id:1,slug:"festrut-group-hits-the-streets-of-abuja",title:"Festrut Group Hits The Streets of Abuja",excerpt:"Festrut Group took to the streets of Abuja to connect with communities, showcase our innovative housing solutions, and engage with potential homeowners in the capital city.",content:`Festrut Group, a leading real estate and investment conglomerate, recently embarked on an exciting outreach initiative in the heart of Abuja. The team took to the streets to engage directly with the community, sharing the vision of affordable, quality housing that Festrut Group has become known for.
+With a career defined by cross-sector impact and academic depth, Festus Uwakhemen Asikhia continues to position himself as a key figure in shaping conversations around leadership, development, and institutional excellence on the global stage.`,author:"Festrut Media Team",date:"May 13, 2026",category:"News Updates",image:Z2,views:2876,comments:67},{id:5,slug:"nysc-corps-members-visit-ceo-festrut-group-for-mentorship",title:"NYSC Corps Members Visit CEO of Festrut Group for Mentorship After Leadership Lecture",excerpt:"NYSC corps members who attended a leadership lecture by Festus Uwakhemen Asikhia visited the Festrut Group office for mentorship and career guidance.",content:`A group of National Youth Service Corps (NYSC) members recently visited the corporate headquarters of Festrut Group for a mentorship session with the Founder and Chief Executive Officer, Festus Uwakhemen Asikhia. The visit came shortly after the CEO delivered an inspiring leadership lecture to the corps members at their orientation camp.
+
+The lecture, which focused on leadership, entrepreneurship, and personal development, left a lasting impression on the young graduates. Motivated by the insights shared, the corps members sought an opportunity to engage further with the CEO in a more intimate setting.
+
+**A Warm Reception at Festrut Group**
+
+Upon their arrival at the Festrut Group office, the corps members were warmly received by the CEO and his team. The atmosphere was filled with enthusiasm as the young graduates expressed their admiration for the CEO's achievements and his commitment to youth development.
+
+During the mentorship session, Asikhia shared practical advice on career growth, the importance of discipline, and the value of continuous learning. He encouraged the corps members to remain focused on their goals and to leverage every opportunity for personal and professional development.
+
+**Key Takeaways from the Session**
+
+The mentorship session covered a range of topics including:
+
+- Building a strong personal brand early in one's career
+- The role of integrity and hard work in achieving success
+- How to identify and seize opportunities in the real estate and business sectors
+- Navigating the transition from service year to full-time employment
+
+The CEO also answered questions from the corps members, providing clarity on various career paths and offering guidance on how to make the most of their post-NYSC years.
+
+**Inspiring the Next Generation**
+
+"This is what drives us at Festrut Group — not just building structures, but building lives," said Asikhia during the session. "These young minds are the future leaders of our nation, and it is our responsibility to mentor and guide them."
+
+The corps members expressed their gratitude for the opportunity, describing the experience as transformative and highly motivating. Many noted that the mentorship session gave them a clearer vision of their career paths and a renewed sense of purpose.
+
+The visit concluded with a tour of the Festrut Group office, group photographs, and a commitment from the CEO to maintain an open-door policy for young Nigerians seeking guidance and mentorship.
+
+Festrut Group continues to demonstrate its commitment to youth empowerment and community development, one mentorship session at a time.`,author:"Festrut Media Team",date:"May 14, 2026",category:"News Updates",image:zm,views:2876,comments:67},{id:1,slug:"festrut-group-hits-the-streets-of-abuja",title:"Festrut Group Hits The Streets of Abuja",excerpt:"Festrut Group took to the streets of Abuja to connect with communities, showcase our innovative housing solutions, and engage with potential homeowners in the capital city.",content:`Festrut Group, a leading real estate and investment conglomerate, recently embarked on an exciting outreach initiative in the heart of Abuja. The team took to the streets to engage directly with the community, sharing the vision of affordable, quality housing that Festrut Group has become known for.
 
     The Abuja outreach was part of a broader strategy to increase awareness of Festrut Group's diverse portfolio, which includes Festrut Global Shelter Nig Ltd, Festrut Charity Foundation, and Festrut International Management Institute.
 
@@ -228,36 +257,7 @@ With a career defined by cross-sector impact and academic depth, Festus Uwakheme
 
     "We believe that true success is measured not just by profits, but by the positive impact we make in the lives of others," says the foundation's leadership. "Festrut Charity Foundation is our way of giving back to the communities that have supported us."
 
-    The foundation also provides emergency relief during natural disasters and times of crisis, demonstrating Festrut Group's commitment to being a responsible corporate citizen.`,author:"Festrut Media Team",date:"January 20, 2025",category:"News Updates",image:Tt,views:2105,comments:73},{id:5,slug:"nysc-corps-members-visit-ceo-festrut-group-for-mentorship",title:"NYSC Corps Members Visit CEO of Festrut Group for Mentorship After Leadership Lecture",excerpt:"NYSC corps members who attended a leadership lecture by Festus Uwakhemen Asikhia visited the Festrut Group office for mentorship and career guidance.",content:`A group of National Youth Service Corps (NYSC) members recently visited the corporate headquarters of Festrut Group for a mentorship session with the Founder and Chief Executive Officer, Festus Uwakhemen Asikhia. The visit came shortly after the CEO delivered an inspiring leadership lecture to the corps members at their orientation camp.
-
-The lecture, which focused on leadership, entrepreneurship, and personal development, left a lasting impression on the young graduates. Motivated by the insights shared, the corps members sought an opportunity to engage further with the CEO in a more intimate setting.
-
-**A Warm Reception at Festrut Group**
-
-Upon their arrival at the Festrut Group office, the corps members were warmly received by the CEO and his team. The atmosphere was filled with enthusiasm as the young graduates expressed their admiration for the CEO's achievements and his commitment to youth development.
-
-During the mentorship session, Asikhia shared practical advice on career growth, the importance of discipline, and the value of continuous learning. He encouraged the corps members to remain focused on their goals and to leverage every opportunity for personal and professional development.
-
-**Key Takeaways from the Session**
-
-The mentorship session covered a range of topics including:
-
-- Building a strong personal brand early in one's career
-- The role of integrity and hard work in achieving success
-- How to identify and seize opportunities in the real estate and business sectors
-- Navigating the transition from service year to full-time employment
-
-The CEO also answered questions from the corps members, providing clarity on various career paths and offering guidance on how to make the most of their post-NYSC years.
-
-**Inspiring the Next Generation**
-
-"This is what drives us at Festrut Group — not just building structures, but building lives," said Asikhia during the session. "These young minds are the future leaders of our nation, and it is our responsibility to mentor and guide them."
-
-The corps members expressed their gratitude for the opportunity, describing the experience as transformative and highly motivating. Many noted that the mentorship session gave them a clearer vision of their career paths and a renewed sense of purpose.
-
-The visit concluded with a tour of the Festrut Group office, group photographs, and a commitment from the CEO to maintain an open-door policy for young Nigerians seeking guidance and mentorship.
-
-Festrut Group continues to demonstrate its commitment to youth empowerment and community development, one mentorship session at a time.`,author:"Festrut Media Team",date:"May 14, 2026",category:"News Updates",image:zm,views:2876,comments:67},{id:6,slug:"festrut-group-year-in-review-2024",title:"Festrut Group Year in Review 2024",excerpt:"A look back at the milestones, achievements, and growth of Festrut Group throughout 2024.",content:`As 2024 came to a close, Festrut Group reflected on a year of remarkable growth, innovation, and community impact. Here are some of the highlights.
+    The foundation also provides emergency relief during natural disasters and times of crisis, demonstrating Festrut Group's commitment to being a responsible corporate citizen.`,author:"Festrut Media Team",date:"January 20, 2025",category:"News Updates",image:Tt,views:2105,comments:73},{id:6,slug:"festrut-group-year-in-review-2024",title:"Festrut Group Year in Review 2024",excerpt:"A look back at the milestones, achievements, and growth of Festrut Group throughout 2024.",content:`As 2024 came to a close, Festrut Group reflected on a year of remarkable growth, innovation, and community impact. Here are some of the highlights.
 
     Expansion of Housing Projects
 
