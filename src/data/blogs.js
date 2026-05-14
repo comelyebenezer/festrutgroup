@@ -3,7 +3,6 @@ import img2 from '../assets/images/ourbusiness/Food.jpg';
 import img3 from '../assets/images/ourbusiness/Travels.jpg';
 import img4 from '../assets/images/otherpages/investor.jpg';
 import img5 from '../assets/images/corevalues/Leadership.jpg';
-import img6 from '../assets/images/corevalues/Entrepreneurship.jpg';
 import ceoImg from '../assets/images/gallery/festus uwakhemen.jpeg';
 
 const blogs = [
@@ -101,35 +100,6 @@ Festrut Group continues to demonstrate its commitment to youth empowerment and c
     image: img5,
     views: 2876,
     comments: 67,
-  },
-  {
-    id: 6,
-    slug: 'festrut-group-year-in-review-2024',
-    title: 'Festrut Group Year in Review 2024',
-    excerpt: 'A look back at the milestones, achievements, and growth of Festrut Group throughout 2024.',
-    content: `As 2024 came to a close, Festrut Group reflected on a year of remarkable growth, innovation, and community impact. Here are some of the highlights.
-
-    Expansion of Housing Projects
-
-    Festrut Global Shelter Nig Ltd launched several new housing projects in key locations, delivering affordable and premium housing options to meet growing demand. The company also broke ground on new developments that will continue into 2025.
-
-    Community Impact
-
-    Festrut Charity Foundation expanded its reach, touching more lives through educational scholarships, healthcare outreaches, and community development programs.
-
-    Institutional Growth
-
-    Festrut International Management Institute saw increased enrollment and introduced new programs designed to equip students with practical skills for the modern workforce.
-
-    "2024 was a defining year for us," said the CEO of Festrut Group. "We grew, we innovated, and we made a real difference in people's lives. We are excited about what 2025 holds."
-
-    The company also strengthened its digital infrastructure, making it easier for clients to access services online and stay connected with the Festrut community.`,
-    author: 'Festrut Media Team',
-    date: 'December 30, 2024',
-    category: 'News Updates',
-    image: img6,
-    views: 1820,
-    comments: 45,
   },
 ];
 
