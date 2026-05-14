@@ -154,36 +154,45 @@ With a career defined by cross-sector impact and academic depth, Festus Uwakheme
   },
   {
     id: 5,
-    slug: 'tips-for-first-time-homebuyers',
-    title: 'Essential Tips for First-Time Homebuyers',
-    excerpt: 'Buying your first home? Here are expert tips from Festrut Global Shelter to help you navigate the process with confidence.',
-    content: `Buying your first home is an exciting milestone, but it can also be overwhelming without the right guidance. At Festrut Global Shelter, we have helped hundreds of first-time buyers achieve their dream of homeownership. Here are our top tips.
+    slug: 'nysc-corps-members-visit-ceo-festrut-group-for-mentorship',
+    title: 'NYSC Corps Members Visit CEO of Festrut Group for Mentorship After Leadership Lecture',
+    excerpt: 'NYSC corps members who attended a leadership lecture by Festus Uwakhemen Asikhia visited the Festrut Group office for mentorship and career guidance.',
+    content: `A group of National Youth Service Corps (NYSC) members recently visited the corporate headquarters of Festrut Group for a mentorship session with the Founder and Chief Executive Officer, Festus Uwakhemen Asikhia. The visit came shortly after the CEO delivered an inspiring leadership lecture to the corps members at their orientation camp.
 
-    1. Set a Realistic Budget
+The lecture, which focused on leadership, entrepreneurship, and personal development, left a lasting impression on the young graduates. Motivated by the insights shared, the corps members sought an opportunity to engage further with the CEO in a more intimate setting.
 
-    Before you start house hunting, know exactly what you can afford. Consider not just the purchase price but also additional costs like legal fees, documentation, and maintenance. Festrut Global Shelter offers flexible payment plans to make homeownership more accessible.
+**A Warm Reception at Festrut Group**
 
-    2. Location Matters
+Upon their arrival at the Festrut Group office, the corps members were warmly received by the CEO and his team. The atmosphere was filled with enthusiasm as the young graduates expressed their admiration for the CEO's achievements and his commitment to youth development.
 
-    The location of your property affects its value and your quality of life. Consider proximity to work, schools, hospitals, and markets. Festrut's properties are strategically located in high-growth areas.
+During the mentorship session, Asikhia shared practical advice on career growth, the importance of discipline, and the value of continuous learning. He encouraged the corps members to remain focused on their goals and to leverage every opportunity for personal and professional development.
 
-    3. Get Proper Documentation
+**Key Takeaways from the Session**
 
-    Ensure all land documents are verified. At Festrut Global Shelter, we handle all documentation to give our clients peace of mind.
+The mentorship session covered a range of topics including:
 
-    4. Think Long-Term
+- Building a strong personal brand early in one's career
+- The role of integrity and hard work in achieving success
+- How to identify and seize opportunities in the real estate and business sectors
+- Navigating the transition from service year to full-time employment
 
-    Your first home is an investment. Choose a property that will appreciate in value and meet your needs for years to come.
+The CEO also answered questions from the corps members, providing clarity on various career paths and offering guidance on how to make the most of their post-NYSC years.
 
-    5. Work with Trusted Developers
+**Inspiring the Next Generation**
 
-    Partner with reputable real estate companies like Festrut Global Shelter that have a track record of delivering quality properties.`,
+"This is what drives us at Festrut Group — not just building structures, but building lives," said Asikhia during the session. "These young minds are the future leaders of our nation, and it is our responsibility to mentor and guide them."
+
+The corps members expressed their gratitude for the opportunity, describing the experience as transformative and highly motivating. Many noted that the mentorship session gave them a clearer vision of their career paths and a renewed sense of purpose.
+
+The visit concluded with a tour of the Festrut Group office, group photographs, and a commitment from the CEO to maintain an open-door policy for young Nigerians seeking guidance and mentorship.
+
+Festrut Group continues to demonstrate its commitment to youth empowerment and community development, one mentorship session at a time.`,
     author: 'Festrut Media Team',
-    date: 'December 10, 2024',
-    category: 'Business',
-    image: img5,
-    views: 3241,
-    comments: 98,
+    date: 'May 14, 2026',
+    category: 'News Updates',
+    image: ceoImg,
+    views: 2876,
+    comments: 67,
   },
   {
     id: 6,
