@@ -56,7 +56,7 @@ As the sun gradually settled over the unveiling venue, one thing became increasi
 
 In the years ahead, the story of this project may well become one of the defining narratives of modern housing development within the Abuja and Nasarawa corridor. For now, however, the unveiling itself has already achieved something powerful. It has inspired hope, sparked conversation, and reminded many Nigerians that visionary development still has the capacity to shape lives, strengthen communities, and build lasting legacies.`,
     author: 'Festrut Media Team',
-    date: 'May 13, 2026',
+    date: 'May 14, 2026',
     category: 'News Updates',
     image: unveilingImg,
     views: 4120,
